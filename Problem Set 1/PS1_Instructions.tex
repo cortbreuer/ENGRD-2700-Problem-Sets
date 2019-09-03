@@ -1,0 +1,114 @@
+\documentclass{article}    % Specifies the document style.
+\renewcommand{\baselinestretch}{1}      % Spacing
+\setlength{\oddsidemargin}{0in} \setlength{\evensidemargin}{0in} \setlength{\textwidth}{6.5in}
+\setlength{\topmargin}{-.2in} \setlength{\headsep}{0in} \setlength{\textheight}{9.5in}
+\pagestyle{empty}
+%
+\usepackage{color}
+\usepackage{amsmath,amsthm}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{url}
+
+\newcommand{\answer}[1]{{\color{blue}#1}}
+\newcommand{\grade}[1]{\textcolor{red}{#1}}
+\renewcommand{\grade}[1]{ }	%to remove grading scheme, just make this link active
+%\renewcommand{\answer}[1]{ } %%to remove answer , just make this link active
+
+\begin{document}           % End of preamble and beginning of text.
+\begin{center}
+
+\textbf{\large{ENGRD 2700: Basic Engineering Probability and
+    Statistics\medskip \\ Fall 2019}}\bigskip
+
+\vskip 0.25em
+
+\textbf{\large{Homework 1}}
+\end{center}
+
+\vskip 1em
+
+\noindent Due Friday, September 13 by 11:59 pm. Submit to Gradescope by clicking the name of the assignment. See \url{https://people.orie.cornell.edu/yudong.chen/engrd2700_2019fa.html#homework} for detailed submission instructions. 
+
+\vskip 1em
+
+\noindent When completing this assignment (and all subsequent ones), keep in mind the following:
+\begin{itemize}	
+	\itemsep0em
+	\item You must complete the homework individually and independently.
+	%\item Clearly write your name, NetID, and section number/time on the first page of your submission.
+    \item Provide evidence for each of your answers. If a calculation involves only very minor computation then explain the computation you performed and give the results. If a calculation involves more complicated steps on many many records then hand in the calculations and formulas for the first few records only.
+	\item Write clearly and legibly. You are encouraged to \emph{type} your work although you do not have to. We may deduct points if your answers are difficult to read or disorganized.
+	\item For questions that you answer using R, attach any code that you write, along with the relevant plots. You may use other software, but the same condition applies.
+	\item Submit your homework a single pdf file on Gradescope.
+\end{itemize}
+
+\vskip 1em
+\begin{enumerate}
+\item The file \texttt{Quartet.csv} contains four datasets of $x$ and
+  $y$ values, side by side.
+
+	  \begin{enumerate}
+	  	\item Compute the sample mean, sample median, and
+                  sample standard deviation for each column of the dataset.
+	    \item Based solely upon the summary statistics you computed in part (a), how do the four datasets compare? 
+	    \item Construct scatterplots for each of the four
+              datasets. (Hint: In R, you can use the command \texttt{par(mfrow=c(2,2))} to combine multiple plots into a single 2-by-2 graph in R. If you do, this command should precede any code that you use to generate plots.)
+	    \item Based solely upon the plots you generated in part (c), how do the four datasets compare? 
+	    \item What's the moral of the story? (That is, what does this example suggest about what should be done when analyzing data?)
+	  \end{enumerate}
+
+\vskip 1em
+
+\item Answer the questions below about the dataset \texttt{CountyData.csv} from the
+U.S. Census Bureau, performing any data analysis you deem
+appropriate. The dataset consists of 3143 observations on 53 variables, which are
+described in the file \texttt{CountyData\_Info.pdf}.
+
+\begin{enumerate}
+\item Provide a histogram of the per-county percentage of residents who speak a foreign language at home during 2006-2010.
+
+\item What was the median per-county amount of federal spending in 2009?
+
+\item Create a scatter plot of the percentage of residents below the
+  poverty level ($y$-axis) versus the percentage of the population
+  with a bachelors degree. Comment on what you see.
+
+\item What fraction of counties have a population whose percentage
+  under the age of 18 is above 30\%?
+\end{enumerate}
+
+\vskip 1em
+
+\item A subdivision of 24 houses has a mean price of \$500,000, a
+  median of \$440,000, and a standard deviation of \$30,000. A new
+  house is then built in the subdivision that has a price of
+  \$700,000.
+  \begin{enumerate}
+  \item What is the new mean house price?
+  \item What is the new standard deviation?
+  \item Does the median increase, decrease, or stay the same after the new house is built? Or can no conclusion be made? Explain.
+  \end{enumerate}
+
+\vskip 1em
+
+\item Consider a data sample $x_1, \, x_2, \, \ldots, \, x_n$. Let $\bar x$ and $s_x^2$ denote its sample mean and sample variance.
+	
+		\begin{enumerate}
+			\item Suppose that you modify these data by adding a constant $c$ to each observation in the sample, and then multiplying by another constant $ k $, to obtain a modified sample $y_1, \, \ldots, \, y_n$. (That is, $y_i = (x_i + c) \times k$ for each $i$.)
+		
+			\vskip 0.5em
+		
+			What are $\bar y$ and $s_y^2$, the sample mean and variance of the modified data? Justify your answer mathematically, using the definition of the sample mean and variance. (We saw a similar question in lecture; here you need to write down the proof yourself.)
+		
+			\item Finally, suppose we built another modified data sample $z_1, \, \ldots, \, z_n$, where
+			$$
+				z_i = \frac{x_i - \bar x}{s_x},
+			$$
+			where $s_x$ is the sample standard deviation of the $x$--data. This procedure
+            \textit{standardizes} the original data. What are $\bar z$ and $s_z^2$?	Justify your answer.
+\end{enumerate}
+
+\end{enumerate}
+
+\end{document}
