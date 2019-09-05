@@ -1,8 +1,10 @@
 ---
-title: "Problem Set 1"
+title: "Problem-Set-1"
 author: "Cort Breuer"
-date: "9/12/2019"
-output: pdf_document
+date: "9/5/2019"
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
