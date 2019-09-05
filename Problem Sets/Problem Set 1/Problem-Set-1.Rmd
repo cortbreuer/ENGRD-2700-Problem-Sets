@@ -1,23 +1,42 @@
 ---
-title: "Problem-Set-1"
+title: "Problem Set 1"
+subtitle: "ENGRD 2700"
 author: "Cort Breuer"
-date: "9/5/2019"
-output:
-  pdf_document: default
-  html_document: default
+date: "09/08/19"
+output: html_document
 ---
-
+  
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+
+```{r, packages, include=FALSE}
+library(tidyverse)
+
+
+```
+
 ## Question 1
+
+```{r, question 1 setup}
+quartet <- read.csv("Data/Quartet.csv")
+```
 
 ### Part A
 
 ### Part B
 
 ### Part C
+
+```{r, quartet scatter plots}
+par(mfrow=c(2,2))
+
+plot(quartet$x1, quartet$y1)
+plot(quartet$x2, quartet$y2)
+plot(quartet$x3, quartet$y3)
+plot(quartet$x4, quartet$y4)
+```
 
 ### Part D
 
@@ -25,11 +44,25 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Question 2
 
+```{r, question 2 setup}
+countyData <- read.csv("Data/CountyData.csv")
+countyData <- as_tibble(countyData)
+```
+
 ### Part A
+
+```{r, foreign language histogram}
+ggplot(data = countyData) + geom_histogram(mapping = aes(foreign_spoken_at_home), binwidth = 5) + labs(x = "Percent of Residents Who Speak a Foreign Language at Home", y = "Number of Counties")
+```
 
 ### Part B
 
 ### Part C
+
+```{r, poverty and education plot}
+ggplot(data = countyData) + geom_point(mapping = aes(x = bachelors, y = poverty)) + xlim(0, 80) + ylim(0, 80) + coord_fixed()
+
+```
 
 ### Part D
 
@@ -46,3 +79,5 @@ knitr::opts_chunk$set(echo = TRUE)
 ### Part A
 
 ### Part B
+
+$$z_{i} = \frac{x_{i}-\overline{x}}{s_{x}}$$
