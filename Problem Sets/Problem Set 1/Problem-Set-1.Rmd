@@ -1,9 +1,26 @@
 ---
 title: "Problem Set 1"
-subtitle: "ENGRD 2700"
 author: "Cort Breuer"
 date: "09/08/19"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
+subtitle: ENGRD 2700
+header-includes:
+- \usepackage{booktabs}
+- \usepackage{longtable}
+- \usepackage{array}
+- \usepackage{multirow}
+- \usepackage{wrapfig}
+- \usepackage{float}
+- \usepackage{colortbl}
+- \usepackage{pdflscape}
+- \usepackage{tabu}
+- \usepackage{threeparttable}
+- \usepackage{threeparttablex}
+- \usepackage[normalem]{ulem}
+- \usepackage{makecell}
+- \usepackage{xcolor}
 ---
   
 ```{r setup, include=FALSE}
@@ -13,8 +30,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r, packages, include=FALSE}
 library(tidyverse)
-
-
+library(knitr)
+library(kableExtra)
 ```
 
 ## Question 1
@@ -24,6 +41,25 @@ quartet <- read.csv("Data/Quartet.csv")
 ```
 
 ### Part A
+
+$\text{X1 Sample Mean} = \frac{10+8+13+9+11+14+6+4+12+7+5}{11}=9$
+
+$\text{X1 Sample Median} = 4,5,6,7,8,\textbf{9},10,11,12,13,14 = 9$
+
+$\text{X1 Sample Standard Deviation} = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}{{(x_{i}-\bar{x}}})^2} = \sqrt{\frac{1}{10}[(4-9)^2+(5-9)^2+...(13-9)^2+(14-9)^2]} = \sqrt{11} = 3.32$
+
+```{R, summary statistics}
+colNames <- c("X1", "X2", "X3", "X4", "Y1", "Y2", "Y3", "Y4")
+
+quartetMean <- apply(quartet, 2, mean)
+quartetMedian <- apply(quartet, 2, median)
+quartetSD <- apply(quartet, 2, sd)
+
+d <- tibble(colNames, quartetMean, quartetMedian, quartetSD)
+
+kable(d) %>% kable_styling(bootstrap_options = c("striped", "hover"))
+     
+```
 
 ### Part B
 
@@ -57,11 +93,18 @@ ggplot(data = countyData) + geom_histogram(mapping = aes(foreign_spoken_at_home)
 
 ### Part B
 
+```{r, median federal spennding}
+median(countyData$fed_spending, na.rm = TRUE)
+```
+
 ### Part C
 
 ```{r, poverty and education plot}
-ggplot(data = countyData) + geom_point(mapping = aes(x = bachelors, y = poverty)) + xlim(0, 80) + ylim(0, 80) + coord_fixed()
+ggplot(data = countyData) + geom_point(mapping = aes(x = bachelors, y = poverty)) + xlim(0, 80) + ylim(0, 80) + coord_fixed() + ggtitle("Poverty vs. Bachelors")
 
+par(pty = "s")
+
+plot(countyData$bachelors, countyData$poverty, xlim = c(0, 80), ylim = c(0, 80), main = "Poverty vs. Bachelors", xlab = "Percent of County with Bachelors Degrees", ylab = "Percent of County Below Poverty Line")
 ```
 
 ### Part D
