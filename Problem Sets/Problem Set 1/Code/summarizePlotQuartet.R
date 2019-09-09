@@ -13,9 +13,7 @@ quartetMean <- apply(quartet, 2, mean)
 quartetMedian <- apply(quartet, 2, median)
 quartetSD <- apply(quartet, 2, sd)
 
-summaryTable <- tibble(colNames, quartetMean, quartetMedian, quartetSD)
-
-summaryTable <- summaryTable %>% rename(Column = colNames, "Sample Mean" = quartetMean, "Sample Median" = quartetMedian, "Sample Standard Deviation" = quartetSD)
+summaryTable <- tibble(colNames, quartetMean, quartetMedian, quartetSD) %>% rename(Column = colNames, "Sample Mean" = quartetMean, "Sample Median" = quartetMedian, "Sample Standard Deviation" = quartetSD) %>% mutate_if(is.numeric, round, digits = 2)
 
 kable(summaryTable) %>% kable_styling(bootstrap_options = c("striped", "hover"))
 

@@ -3,24 +3,9 @@ title: "Problem Set 1"
 author: "Cort Breuer"
 date: "09/08/19"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 subtitle: ENGRD 2700
-header-includes:
-- \usepackage{booktabs}
-- \usepackage{longtable}
-- \usepackage{array}
-- \usepackage{multirow}
-- \usepackage{wrapfig}
-- \usepackage{float}
-- \usepackage{colortbl}
-- \usepackage{pdflscape}
-- \usepackage{tabu}
-- \usepackage{threeparttable}
-- \usepackage{threeparttablex}
-- \usepackage[normalem]{ulem}
-- \usepackage{makecell}
-- \usepackage{xcolor}
 ---
   
 ```{r setup, include=FALSE}
@@ -32,6 +17,8 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(knitr)
 library(kableExtra)
+library(gridExtra)
+theme_set(theme_bw())
 ```
 
 ## Question 1
@@ -46,7 +33,7 @@ $\text{X1 Sample Mean} = \frac{10+8+13+9+11+14+6+4+12+7+5}{11}=9$
 
 $\text{X1 Sample Median} = 4,5,6,7,8,\textbf{9},10,11,12,13,14 = 9$
 
-$\text{X1 Sample Standard Deviation} = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}{{(x_{i}-\bar{x}}})^2} = \sqrt{\frac{1}{10}[(4-9)^2+(5-9)^2+...(13-9)^2+(14-9)^2]} = \sqrt{11} = 3.32$
+$\text{X1 Sample Standard Deviation} = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}{{(x_{i}-\bar{x}}})^2} = \sqrt{\frac{1}{10}[(4-9)^2+...(14-9)^2]} = \sqrt{11} = 3.32$
 
 ```{R, summary statistics}
 colNames <- c("X1", "X2", "X3", "X4", "Y1", "Y2", "Y3", "Y4")
@@ -55,10 +42,9 @@ quartetMean <- apply(quartet, 2, mean)
 quartetMedian <- apply(quartet, 2, median)
 quartetSD <- apply(quartet, 2, sd)
 
-d <- tibble(colNames, quartetMean, quartetMedian, quartetSD)
+summaryTable <- tibble(colNames, quartetMean, quartetMedian, quartetSD) %>% rename(Column = colNames, "Sample Mean" = quartetMean, "Sample Median" = quartetMedian, "Sample Standard Deviation" = quartetSD) %>% mutate_if(is.numeric, round, digits = 2)
 
-kable(d) %>% kable_styling(bootstrap_options = c("striped", "hover"))
-     
+kable(summaryTable) %>% kable_styling(bootstrap_options = c("striped", "hover"))
 ```
 
 ### Part B
@@ -66,12 +52,12 @@ kable(d) %>% kable_styling(bootstrap_options = c("striped", "hover"))
 ### Part C
 
 ```{r, quartet scatter plots}
-par(mfrow=c(2,2))
+p1 <- ggplot(data = quartet, aes(x = x1, y = y1)) + geom_point(size = 3) + xlim(0, 19) + ylim(0, 15)
+p2 <- ggplot(data = quartet, aes(x = x2, y = y2)) + geom_point(size = 3) + xlim(0, 19) + ylim(0, 15)
+p3 <- ggplot(data = quartet, aes(x = x3, y = y3)) + geom_point(size = 3) + xlim(0, 19) + ylim(0, 15)
+p4 <- ggplot(data = quartet, aes(x = x4, y = y4)) + geom_point(size = 3) + xlim(0, 19) + ylim(0, 15)
 
-plot(quartet$x1, quartet$y1)
-plot(quartet$x2, quartet$y2)
-plot(quartet$x3, quartet$y3)
-plot(quartet$x4, quartet$y4)
+grid.arrange(p1, p2, p3, p4)
 ```
 
 ### Part D
@@ -88,7 +74,7 @@ countyData <- as_tibble(countyData)
 ### Part A
 
 ```{r, foreign language histogram}
-ggplot(data = countyData) + geom_histogram(mapping = aes(foreign_spoken_at_home), binwidth = 5) + labs(x = "Percent of Residents Who Speak a Foreign Language at Home", y = "Number of Counties")
+ggplot(data = countyData) + geom_histogram(mapping = aes(foreign_spoken_at_home), binwidth = 5) + labs(x = "Percent of Residents Who Speak a Foreign Language at Home", y = "Number of Counties") + theme(panel.border = element_rect(colour = "black", fill=NA, size=1))
 ```
 
 ### Part B
