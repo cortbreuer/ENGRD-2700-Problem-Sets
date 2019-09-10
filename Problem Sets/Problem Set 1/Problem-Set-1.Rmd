@@ -3,8 +3,8 @@ title: "Problem Set 1"
 author: "Cort Breuer"
 date: "09/08/19"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 subtitle: ENGRD 2700
 ---
   
@@ -29,14 +29,14 @@ quartet <- read.csv("Data/Quartet.csv")
 
 ### Part A
 
-$\text{X1 Sample Mean} = \frac{10+8+13+9+11+14+6+4+12+7+5}{11}=9$
+$x_1 \text{ Sample Mean} = \frac{10+8+13+9+11+14+6+4+12+7+5}{11}=9$
 
-$\text{X1 Sample Median} = 4,5,6,7,8,\textbf{9},10,11,12,13,14 = 9$
+$x_1 \text{ Sample Median} = 4,5,6,7,8,\textbf{9},10,11,12,13,14 = 9$
 
-$\text{X1 Sample Standard Deviation} = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}{{(x_{i}-\bar{x}}})^2} = \sqrt{\frac{1}{10}[(4-9)^2+...(14-9)^2]} = \sqrt{11} = 3.32$
+$x_1 \text{ Sample Standard Deviation} = \sqrt{\frac{1}{n-1}\sum_{i=1}^{n}{{(x_{i}-\bar{x}}})^2} = \sqrt{\frac{1}{10}[(4-9)^2+...(14-9)^2]} = \sqrt{11} = 3.32$
 
 ```{R, summary statistics}
-colNames <- c("X1", "X2", "X3", "X4", "Y1", "Y2", "Y3", "Y4")
+colNames <- c("X1", "Y1", "X2", "Y2", "X3", "Y3", "X4", "Y4")
 
 quartetMean <- apply(quartet, 2, mean)
 quartetMedian <- apply(quartet, 2, median)
@@ -48,6 +48,8 @@ kable(summaryTable) %>% kable_styling(bootstrap_options = c("striped", "hover"))
 ```
 
 ### Part B
+
+Based on the summary statistics the four data sets appear to be quite similar. The X's are all identical in mean, median, and standard deviation except for a small difference in the median for X4. The Y's are all quite similar too, with identical means and standard deviations, with small differences in their medians. It appears as though the X/Y data sets could be nearly identical to each other.
 
 ### Part C
 
@@ -62,7 +64,11 @@ grid.arrange(p1, p2, p3, p4)
 
 ### Part D
 
+Based on the four plots generated, all 4 X/Y pairings are quite different. Each of the four plots indicates a different relationship, from a smooth curve to a set of similar points with a single outlier. 
+
 ### Part E
+
+The stark difference between the nearly identical summary statistics and the very different plots demonstrates that trusting a set of summary statistics for the complete analysis of a data set could result in missing key information. More generally though, it is likely best to use a combination of analysis methods combining both summary statistics and plotting to get a well rounded picture of the data. 
 
 ## Question 2
 
@@ -80,33 +86,106 @@ ggplot(data = countyData) + geom_histogram(mapping = aes(foreign_spoken_at_home)
 ### Part B
 
 ```{r, median federal spennding}
-median(countyData$fed_spending, na.rm = TRUE)
+fedSpendingMedian <- median(countyData$fed_spending, na.rm = TRUE)
 ```
+
+The median annual federal spending per county is $214,994.
 
 ### Part C
 
 ```{r, poverty and education plot}
-ggplot(data = countyData) + geom_point(mapping = aes(x = bachelors, y = poverty)) + xlim(0, 80) + ylim(0, 80) + coord_fixed() + ggtitle("Poverty vs. Bachelors")
-
-par(pty = "s")
-
-plot(countyData$bachelors, countyData$poverty, xlim = c(0, 80), ylim = c(0, 80), main = "Poverty vs. Bachelors", xlab = "Percent of County with Bachelors Degrees", ylab = "Percent of County Below Poverty Line")
+ggplot(data = countyData) + geom_point(mapping = aes(x = bachelors, y = poverty)) + xlim(0, 80) + ylim(0, 80) + coord_fixed() + ggtitle("Poverty Rate vs. Bachelors Degrees Per County") + ylab("Percent of County Below Poverty Line") + xlab("Percent of County with Bachelors Degrees")
 ```
 
+The above plot shows that in general, counties where a larger portion of residents have bachelor degrees have lower poverty rates and counties with high poverty rates have a smaller portion of  residents with bachelor degrees. Though it shows that poverty rates and bachelor degree rates are correlated, it isn't possible to tell whether they have any direct effect on each other (though it might be suspected). 
+
 ### Part D
+
+```{r, percent under 18}
+over30 <- countyData %>% filter(age_under_18 > 30)
+over30 <- nrow(over30)
+percOver30 <- 100  * (over30 / nrow(countyData))
+```
+
+3.62% of counties in the US have a population with over 30% of people under the age of 18.
 
 ## Question 3
 
 ### Part A
 
+$\text{New Mean House Price }(\bar{x})= \frac{(24 \cdot 500000)+700000}{25} = \$ 508,000$
+
 ### Part B
 
+$\text{New Standard Deviation }(\sigma)$
+
+$(n-1)\sigma^2 = \sum\limits_{i=1}^{n-1}(x_{i}-\bar{x})^2$
+
+$(n-1)\sigma^{2}_{n} - (n-2)\sigma^{2}_{n-1} = \sum\limits_{i=1}^{n}(x_{i}-\bar{x}_{n})^2 - \sum\limits_{i=1}^{n-1}(x_{i}-\bar{x}_{n-1)})^2$
+
+$= (x_{n}-\bar{x}_{n})^2 + \sum\limits_{i=1}^{n-1}[(x_{i}-\bar{x}_{n})^2-(x_{i}-\bar{x}_{n-1)})^2]$
+
+$= (x_{n}-\bar{x}_{n})^2 + \sum\limits_{i=1}^{n-1}[x_{i}^2+2(x_{i})(\bar{x}_{n})+\bar{x}_{n}^2+x_{i}^2+2(x_{i})(\bar{x}_{n-1})+\bar{x}_{n-1}^2]$
+
+$= (x_{n}-\bar{x}_{n})^2 + \sum\limits_{i=1}^{n-1}[x_{i}^2+2(x_{i})(\bar{x}_{n})+\bar{x}_{n}^2+x_{i}^2+2(x_{i})(\bar{x}_{n-1})+\bar{x}_{n-1}^2]$
+
+
+
+
+
+
+
+
+
+
+
 ### Part C
+
+The median will not decrease, but it is not possible to tell whether it will remain the same or increase with the information we have. When the new house is built, its price is above the new median so it is impossible for the median to shift down. If the values in the middle of the ordered set are the same, adding a single value to the upper half would have no effect. Since the data set initially had an even number of values, the median was origionally an average of the two middle values. If there is a difference between the two adding a value above the median would shift the median to the u
+
+1 4 8 9 10 13 15 
 
 ## Question 4
 
 ### Part A
 
+Condition: $y_{i}= (x_{i}+c) \cdot k$
+
+Calculating the new mean:
+
+$\bar{y} = \frac{1}{n} \Big[ ((x_{i}+c) \cdot k) + ... ((x_{n}+c) \cdot k) \Big]$
+
+$\bar{y} = c + \frac{1}{n} \Big[ (x_{i} \cdot k) + ... (x_{n} \cdot k) \Big]$
+
+$\bar{y} = k \bigg[ c + \frac{1}{n} \Big[ (x_{i} \cdot k) + ... (x_{n} \cdot k) \Big] \bigg]$
+
+$\bar{y} = k \Big[ c + \bar{x} \Big]$
+
+Calculating the new variance:
+
+$s_{y}^2 = \frac{1}{n-1} \sum\limits_{i=1}^{n} (((x_{i}+c) \cdot k) - k (c + \bar{x}))^2$
+
+
+
+
+
+
+
+
+
+
 ### Part B
 
-$$z_{i} = \frac{x_{i}-\overline{x}}{s_{x}}$$
+Sample $(z_{1}, ... z_{n})$ where $z_{i} = \frac{x_{i}-\bar{x}}{s_{x}}$ and $s_{x}$ is the standard deviation for the $x$ data. $\bar{z}$ is the ______________ and $s_{s}^2$ is the _____________.
+
+$\bar{z} = \frac{1}{n}\sum\limits_{i=1}^{n}z_{i} = \frac{1}{n}\sum\limits_{i=1}^{n} \frac{x_{i}-\bar{x}}{s_{x}}$
+
+$= $
+
+
+
+
+
+
+
+ddd

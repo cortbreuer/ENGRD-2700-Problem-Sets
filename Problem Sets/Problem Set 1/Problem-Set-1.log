@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  8 SEP 2019 15:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  10 SEP 2019 16:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -828,10 +828,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Overfull \hbox (16.26701pt too wide) in paragraph at lines 162--163
-[]$[] \OT1/lmr/m/n/10 (-20) = [] = [] =
- []
-
 
 Package xcolor Warning: Incompatible color definition on input line 164.
 
@@ -842,149 +838,135 @@ Package xcolor Warning: Incompatible color definition on input line 176.
 Package xcolor Warning: Incompatible color definition on input line 176.
 
 
-Package xcolor Warning: Incompatible color definition on input line 209.
+Package xcolor Warning: Incompatible color definition on input line 216.
 
 
-Package xcolor Warning: Incompatible color definition on input line 218.
+Package xcolor Warning: Incompatible color definition on input line 225.
 
 
-Package xcolor Warning: Incompatible color definition on input line 218.
-
-
-Overfull \vbox (0.68065pt too high) detected at line 218
- []
-
-
-Package xcolor Warning: Incompatible color definition on input line 218.
+Package xcolor Warning: Incompatible color definition on input line 225.
 
 [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-Package xcolor Warning: Incompatible color definition on input line 218.
+Package xcolor Warning: Incompatible color definition on input line 225.
 
 
-Package xcolor Warning: Incompatible color definition on input line 218.
+Package xcolor Warning: Incompatible color definition on input line 225.
 
-<Problem-Set-1_files/figure-latex/quartet scatter plots-1.pdf, id=100, 442.6537
-5pt x 265.99374pt>
+<Problem-Set-1_files/figure-latex/quartet scatter plots-1.pdf, id=100, 459.7175
+pt x 313.17pt>
 File: Problem-Set-1_files/figure-latex/quartet scatter plots-1.pdf Graphic file
  (type pdf)
 <use Problem-Set-1_files/figure-latex/quartet scatter plots-1.pdf>
 Package pdftex.def Info: Problem-Set-1_files/figure-latex/quartet scatter plots
--1.pdf  used on input line 220.
-(pdftex.def)             Requested size: 442.67966pt x 266.00931pt.
+-1.pdf  used on input line 227.
+(pdftex.def)             Requested size: 459.7304pt x 313.17877pt.
 
-Package xcolor Warning: Incompatible color definition on input line 231.
-
-
-Package xcolor Warning: Incompatible color definition on input line 236.
+Package xcolor Warning: Incompatible color definition on input line 249.
 
 
-Package xcolor Warning: Incompatible color definition on input line 236.
+Package xcolor Warning: Incompatible color definition on input line 254.
 
 
-Package xcolor Warning: Incompatible color definition on input line 241.
+Package xcolor Warning: Incompatible color definition on input line 254.
 
 
-Package xcolor Warning: Incompatible color definition on input line 245.
+Package xcolor Warning: Incompatible color definition on input line 259.
+
+[2 <./Problem-Set-1_files/figure-latex/quartet scatter plots-1.pdf>]
+
+Package xcolor Warning: Incompatible color definition on input line 263.
 
 
-Package xcolor Warning: Incompatible color definition on input line 245.
+Package xcolor Warning: Incompatible color definition on input line 263.
 
-<Problem-Set-1_files/figure-latex/foreign language histogram-1.pdf, id=101, 463
+<Problem-Set-1_files/figure-latex/foreign language histogram-1.pdf, id=116, 463
 .7325pt x 316.18124pt>
 File: Problem-Set-1_files/figure-latex/foreign language histogram-1.pdf Graphic
  file (type pdf)
 <use Problem-Set-1_files/figure-latex/foreign language histogram-1.pdf>
 Package pdftex.def Info: Problem-Set-1_files/figure-latex/foreign language hist
-ogram-1.pdf  used on input line 247.
+ogram-1.pdf  used on input line 265.
 (pdftex.def)             Requested size: 463.73842pt x 316.18529pt.
-[2 <./Problem-Set-1_files/figure-latex/quartet scatter plots-1.pdf>]
 
-Package xcolor Warning: Incompatible color definition on input line 252.
-
-
-Package xcolor Warning: Incompatible color definition on input line 256.
+Package xcolor Warning: Incompatible color definition on input line 270.
 
 
-Package xcolor Warning: Incompatible color definition on input line 256.
+Package xcolor Warning: Incompatible color definition on input line 274.
 
 
-Package xcolor Warning: Incompatible color definition on input line 265.
+Package xcolor Warning: Incompatible color definition on input line 274.
 
 
-Package xcolor Warning: Incompatible color definition on input line 271.
+Package xcolor Warning: Incompatible color definition on input line 281.
 
 
-Package xcolor Warning: Incompatible color definition on input line 271.
+Package xcolor Warning: Incompatible color definition on input line 285.
 
-<Problem-Set-1_files/figure-latex/poverty and education plot-1.pdf, id=117, 298
-.11375pt x 313.17pt>
+
+Package xcolor Warning: Incompatible color definition on input line 285.
+
+<Problem-Set-1_files/figure-latex/poverty and education plot-1.pdf, id=117, 310
+.15875pt x 316.18124pt>
 File: Problem-Set-1_files/figure-latex/poverty and education plot-1.pdf Graphic
  file (type pdf)
 <use Problem-Set-1_files/figure-latex/poverty and education plot-1.pdf>
 Package pdftex.def Info: Problem-Set-1_files/figure-latex/poverty and education
- plot-1.pdf  used on input line 273.
-(pdftex.def)             Requested size: 298.12212pt x 313.17877pt.
-
-Package xcolor Warning: Incompatible color definition on input line 275.
-
+ plot-1.pdf  used on input line 287.
+(pdftex.def)             Requested size: 310.15799pt x 316.18047pt.
 [3 <./Problem-Set-1_files/figure-latex/foreign language histogram-1.pdf>]
 
-Package xcolor Warning: Incompatible color definition on input line 281.
+Package xcolor Warning: Incompatible color definition on input line 299.
 
 
-Package xcolor Warning: Incompatible color definition on input line 281.
+Package xcolor Warning: Incompatible color definition on input line 305.
 
-<Problem-Set-1_files/figure-latex/poverty and education plot-2.pdf, id=131, 269
-.005pt x 286.06876pt>
-File: Problem-Set-1_files/figure-latex/poverty and education plot-2.pdf Graphic
- file (type pdf)
-<use Problem-Set-1_files/figure-latex/poverty and education plot-2.pdf>
-Package pdftex.def Info: Problem-Set-1_files/figure-latex/poverty and education
- plot-2.pdf  used on input line 283.
-(pdftex.def)             Requested size: 269.00844pt x 286.07242pt.
+
+Package xcolor Warning: Incompatible color definition on input line 305.
+
 [4 <./Problem-Set-1_files/figure-latex/poverty and education plot-1.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
-[5 <./Problem-Set-1_files/figure-latex/poverty and education plot-2.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 386.
+[5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 386.
 (./Problem-Set-1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 312.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 312.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 386.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 386.
 Package rerunfilecheck Info: File `Problem-Set-1.out' has not changed.
 (rerunfilecheck)             Checksum: E1490302A704732170849D168B03131F;1629.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 312.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 386.
  ) 
 Here is how much of TeX's memory you used:
- 14409 strings out of 492649
- 210009 string characters out of 6129622
- 331744 words of memory out of 5000000
- 17998 multiletter control sequences out of 15000+600000
- 49384 words of font info for 52 fonts, out of 8000000 for 9000
+ 14421 strings out of 492649
+ 209870 string characters out of 6129622
+ 332744 words of memory out of 5000000
+ 17994 multiletter control sequences out of 15000+600000
+ 50048 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,9n,38p,997b,375s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
-cal/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texliv
+ 34i,9n,38p,994b,375s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
+cal/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texliv
 e/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2018/tex
 mf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2018/texmf-dist/fonts/
 enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/l
 m/lmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx12.p
 fb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/l
 ocal/texlive/2018/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texli
-ve/2018/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2018/tex
-mf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fon
-ts/type1/public/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
-blic/lm/lmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr
-7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri12.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/te
-xlive/2018/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2018/
-texmf-dist/fonts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2018/texmf-dist
-/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Problem-Set-1.pdf (5 pages, 594342 bytes).
+ve/2018/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/local/texlive/2018/tex
+mf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2018/texmf-dist/fon
+ts/type1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
+blic/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr
+17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr
+/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/tex
+live/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2018/
+texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2018/texmf-dist/
+fonts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
+1/public/lm/lmtt10.pfb>
+Output written on Problem-Set-1.pdf (5 pages, 431988 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
- 191 compressed objects within 2 object streams
+ 221 PDF objects out of 1000 (max. 8388607)
+ 188 compressed objects within 2 object streams
  42 named destinations out of 1000 (max. 500000)
- 8357 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 8352 words of extra memory for PDF output out of 10000 (max. 10000000)
 
