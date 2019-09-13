@@ -3,8 +3,8 @@ title: "Problem Set 1"
 author: "Cort Breuer"
 date: "09/08/19"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 subtitle: ENGRD 2700
 ---
   
@@ -42,7 +42,9 @@ quartetMean <- apply(quartet, 2, mean)
 quartetMedian <- apply(quartet, 2, median)
 quartetSD <- apply(quartet, 2, sd)
 
-summaryTable <- tibble(colNames, quartetMean, quartetMedian, quartetSD) %>% rename(Column = colNames, "Sample Mean" = quartetMean, "Sample Median" = quartetMedian, "Sample Standard Deviation" = quartetSD) %>% mutate_if(is.numeric, round, digits = 2)
+summaryTable <- tibble(colNames, quartetMean, quartetMedian, quartetSD) %>% 
+  rename(Column = colNames, "Sample Mean" = quartetMean, "Sample Median" = quartetMedian, 
+         "Sample Standard Deviation" = quartetSD) %>% mutate_if(is.numeric, round, digits = 2)
 
 kable(summaryTable) %>% kable_styling(bootstrap_options = c("striped", "hover"))
 ```
@@ -132,6 +134,10 @@ $= (x_{n}-\bar{x}_{n})^2 + \sum\limits_{i=1}^{n-1}[x_{i}^2+2(x_{i})(\bar{x}_{n})
 
 
 
+$s^2_{n-1} = 30000^2 = 900000000$
+
+$s^2_{n-1} = \frac{1}{n-2} \sum\limits^{n-1}_{i=1}$
+
 
 
 
@@ -141,9 +147,7 @@ $= (x_{n}-\bar{x}_{n})^2 + \sum\limits_{i=1}^{n-1}[x_{i}^2+2(x_{i})(\bar{x}_{n})
 
 ### Part C
 
-The median will not decrease, but it is not possible to tell whether it will remain the same or increase with the information we have. When the new house is built, its price is above the new median so it is impossible for the median to shift down. If the values in the middle of the ordered set are the same, adding a single value to the upper half would have no effect. Since the data set initially had an even number of values, the median was origionally an average of the two middle values. If there is a difference between the two adding a value above the median would shift the median to the u
-
-1 4 8 9 10 13 15 
+The median will not decrease, but it is not possible to tell whether it will remain the same or increase with the information we have. When the new house is built, its price is above the new median so it is impossible for the median to shift down. If the values in the middle of the ordered set are the same, adding a single value to the upper half would have no effect. Since the data set initially had an even number of values, the median was originally an average of the two middle values. If there is a difference between the two, adding a value above the median would shift the median to the upper value.
 
 ## Question 4
 
@@ -176,16 +180,14 @@ $s_{y}^2 = \frac{1}{n-1} \sum\limits_{i=1}^{n} (((x_{i}+c) \cdot k) - k (c + \ba
 
 ### Part B
 
-Sample $(z_{1}, ... z_{n})$ where $z_{i} = \frac{x_{i}-\bar{x}}{s_{x}}$ and $s_{x}$ is the standard deviation for the $x$ data. $\bar{z}$ is the ______________ and $s_{s}^2$ is the _____________.
+Sample $(z_{1}, ... z_{n})$ where $z_{i} = \frac{x_{i}-\bar{x}}{s_{x}}$ and $s_{x}$ is the standard deviation for the $x$ data.
 
 $\bar{z} = \frac{1}{n}\sum\limits_{i=1}^{n}z_{i} = \frac{1}{n}\sum\limits_{i=1}^{n} \frac{x_{i}-\bar{x}}{s_{x}}$
 
-$= $
+$= \frac{1}{n}\sum\limits_{i=1}^{n} \Big[ \frac{x_{i}}{s_{x}} - \frac{\overline{x}}{s_{x}} \Big]$
 
+$= \frac{\overline{x}}{s_{x}} - \frac{\bar{x}}{s_{x}}$
 
+$\bar{z} = 0$
 
-
-
-
-
-ddd
+$s^2_{z} = \frac{1}{n-1} \sum\limits^{n}_{i=1} (z_{i} - \bar{z})^2 = \frac{1}{n-1} \sum\limits^{n}_{i=1} \frac^{x_{i} - \bar{x}}_{s_{x}}$

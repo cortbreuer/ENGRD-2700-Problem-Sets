@@ -395,7 +395,9 @@ quartetMean &lt;- apply(quartet, 2, mean)
 quartetMedian &lt;- apply(quartet, 2, median)
 quartetSD &lt;- apply(quartet, 2, sd)
 
-summaryTable &lt;- tibble(colNames, quartetMean, quartetMedian, quartetSD) %&gt;% rename(Column = colNames, &quot;Sample Mean&quot; = quartetMean, &quot;Sample Median&quot; = quartetMedian, &quot;Sample Standard Deviation&quot; = quartetSD) %&gt;% mutate_if(is.numeric, round, digits = 2)
+summaryTable &lt;- tibble(colNames, quartetMean, quartetMedian, quartetSD) %&gt;% 
+  rename(Column = colNames, &quot;Sample Mean&quot; = quartetMean, &quot;Sample Median&quot; = quartetMedian, 
+         &quot;Sample Standard Deviation&quot; = quartetSD) %&gt;% mutate_if(is.numeric, round, digits = 2)
 
 kable(summaryTable) %&gt;% kable_styling(bootstrap_options = c(&quot;striped&quot;, &quot;hover&quot;))</code></pre>
 <table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">
@@ -596,11 +598,12 @@ percOver30 &lt;- 100  * (over30 / nrow(countyData))</code></pre>
 <p><span class="math inline">\(= (x_{n}-\bar{x}_{n})^2 + \sum\limits_{i=1}^{n-1}[(x_{i}-\bar{x}_{n})^2-(x_{i}-\bar{x}_{n-1)})^2]\)</span></p>
 <p><span class="math inline">\(= (x_{n}-\bar{x}_{n})^2 + \sum\limits_{i=1}^{n-1}[x_{i}^2+2(x_{i})(\bar{x}_{n})+\bar{x}_{n}^2+x_{i}^2+2(x_{i})(\bar{x}_{n-1})+\bar{x}_{n-1}^2]\)</span></p>
 <p><span class="math inline">\(= (x_{n}-\bar{x}_{n})^2 + \sum\limits_{i=1}^{n-1}[x_{i}^2+2(x_{i})(\bar{x}_{n})+\bar{x}_{n}^2+x_{i}^2+2(x_{i})(\bar{x}_{n-1})+\bar{x}_{n-1}^2]\)</span></p>
+<p><span class="math inline">\(s^2_{n-1} = 30000^2 = 900000000\)</span></p>
+<p><span class="math inline">\(s^2_{n-1} = \frac{1}{n-2} \sum\limits^{n-1}_{i=1}\)</span></p>
 </div>
 <div id="part-c-2" class="section level3">
 <h3>Part C</h3>
-<p>The median will not decrease, but it is not possible to tell whether it will remain the same or increase with the information we have. When the new house is built, its price is above the new median so it is impossible for the median to shift down. If the values in the middle of the ordered set are the same, adding a single value to the upper half would have no effect. Since the data set initially had an even number of values, the median was origionally an average of the two middle values. If there is a difference between the two adding a value above the median would shift the median to the u</p>
-<p>1 4 8 9 10 13 15</p>
+<p>The median will not decrease, but it is not possible to tell whether it will remain the same or increase with the information we have. When the new house is built, its price is above the new median so it is impossible for the median to shift down. If the values in the middle of the ordered set are the same, adding a single value to the upper half would have no effect. Since the data set initially had an even number of values, the median was originally an average of the two middle values. If there is a difference between the two, adding a value above the median would shift the median to the upper value.</p>
 </div>
 </div>
 <div id="question-4" class="section level2">
@@ -618,8 +621,12 @@ percOver30 &lt;- 100  * (over30 / nrow(countyData))</code></pre>
 </div>
 <div id="part-b-3" class="section level3">
 <h3>Part B</h3>
-<p>Sample <span class="math inline">\((z_{1}, ... z_{n})\)</span> where <span class="math inline">\(z_{i} = \frac{x_{i}-\bar{x}}{s_{x}}\)</span> and <span class="math inline">\(s_{x}\)</span> is the standard deviation for the <span class="math inline">\(x\)</span> data. <span class="math inline">\(\bar{z}\)</span> is the ______________ and <span class="math inline">\(s_{s}^2\)</span> is the _____________.</p>
-<p>ddd</p>
+<p>Sample <span class="math inline">\((z_{1}, ... z_{n})\)</span> where <span class="math inline">\(z_{i} = \frac{x_{i}-\bar{x}}{s_{x}}\)</span> and <span class="math inline">\(s_{x}\)</span> is the standard deviation for the <span class="math inline">\(x\)</span> data.</p>
+<p><span class="math inline">\(\bar{z} = \frac{1}{n}\sum\limits_{i=1}^{n}z_{i} = \frac{1}{n}\sum\limits_{i=1}^{n} \frac{x_{i}-\bar{x}}{s_{x}}\)</span></p>
+<p><span class="math inline">\(= \frac{1}{n}\sum\limits_{i=1}^{n} \Big[ \frac{x_{i}}{s_{x}} - \frac{\overline{x}}{s_{x}} \Big]\)</span></p>
+<p><span class="math inline">\(= \frac{\overline{x}}{s_{x}} - \frac{\bar{x}}{s_{x}}\)</span></p>
+<p><span class="math inline">\(\bar{z} = 0\)</span></p>
+<p><span class="math inline">\(s^2_{z} = \frac{1}{n-1} \sum\limits^{n}_{i=1} (z_{i} - \bar{z})^2 = \frac{1}{n-1} \sum\limits^{n}_{i=1} \frac^{x_{i} - \bar{x}}_{s_{x}}\)</span></p>
 </div>
 </div>
 
