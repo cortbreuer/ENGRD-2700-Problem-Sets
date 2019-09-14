@@ -27,7 +27,7 @@ theme_set(theme_bw())
 quartet <- read.csv("Data/Quartet.csv")
 ```
 
-### Part A
+#### Part A
 
 $x_1 \text{ Sample Mean} = \frac{10+8+13+9+11+14+6+4+12+7+5}{11}=9$
 
@@ -49,11 +49,11 @@ summaryTable <- tibble(colNames, quartetMean, quartetMedian, quartetSD) %>%
 kable(summaryTable) %>% kable_styling(bootstrap_options = c("striped", "hover"))
 ```
 
-### Part B
+#### Part B
 
 Based on the summary statistics the four data sets appear to be quite similar. The X's are all identical in mean, median, and standard deviation except for a small difference in the median for X4. The Y's are all quite similar too, with identical means and standard deviations, with small differences in their medians. It appears as though the X/Y data sets could be nearly identical to each other.
 
-### Part C
+#### Part C
 
 ```{r, quartet scatter plots}
 p1 <- ggplot(data = quartet, aes(x = x1, y = y1)) + geom_point(size = 3) + xlim(0, 19) + ylim(0, 15)
@@ -64,11 +64,11 @@ p4 <- ggplot(data = quartet, aes(x = x4, y = y4)) + geom_point(size = 3) + xlim(
 grid.arrange(p1, p2, p3, p4)
 ```
 
-### Part D
+#### Part D
 
 Based on the four plots generated, all 4 X/Y pairings are quite different. Each of the four plots indicates a different relationship, from a smooth curve to a set of similar points with a single outlier. 
 
-### Part E
+#### Part E
 
 The stark difference between the nearly identical summary statistics and the very different plots demonstrates that trusting a set of summary statistics for the complete analysis of a data set could result in missing key information. More generally though, it is likely best to use a combination of analysis methods combining both summary statistics and plotting to get a well rounded picture of the data. 
 
@@ -79,13 +79,13 @@ countyData <- read.csv("Data/CountyData.csv")
 countyData <- as_tibble(countyData)
 ```
 
-### Part A
+#### Part A
 
 ```{r, foreign language histogram}
 ggplot(data = countyData) + geom_histogram(mapping = aes(foreign_spoken_at_home), binwidth = 5) + labs(x = "Percent of Residents Who Speak a Foreign Language at Home", y = "Number of Counties") + theme(panel.border = element_rect(colour = "black", fill=NA, size=1))
 ```
 
-### Part B
+#### Part B
 
 ```{r, median federal spennding}
 fedSpendingMedian <- median(countyData$fed_spending, na.rm = TRUE)
@@ -93,7 +93,7 @@ fedSpendingMedian <- median(countyData$fed_spending, na.rm = TRUE)
 
 The median annual federal spending per county is $214,994.
 
-### Part C
+#### Part C
 
 ```{r, poverty and education plot}
 ggplot(data = countyData) + geom_point(mapping = aes(x = bachelors, y = poverty)) + xlim(0, 80) + ylim(0, 80) + coord_fixed() + ggtitle("Poverty Rate vs. Bachelors Degrees Per County") + ylab("Percent of County Below Poverty Line") + xlab("Percent of County with Bachelors Degrees")
@@ -101,7 +101,7 @@ ggplot(data = countyData) + geom_point(mapping = aes(x = bachelors, y = poverty)
 
 The above plot shows that in general, counties where a larger portion of residents have bachelor degrees have lower poverty rates and counties with high poverty rates have a smaller portion of  residents with bachelor degrees. Though it shows that poverty rates and bachelor degree rates are correlated, it isn't possible to tell whether they have any direct effect on each other (though it might be suspected). 
 
-### Part D
+#### Part D
 
 ```{r, percent under 18}
 over30 <- countyData %>% filter(age_under_18 > 30)
@@ -113,81 +113,76 @@ percOver30 <- 100  * (over30 / nrow(countyData))
 
 ## Question 3
 
-### Part A
+#### Part A
 
-$\text{New Mean House Price }(\bar{x})= \frac{(24 \cdot 500000)+700000}{25} = \$ 508,000$
+New Mean House Price:
 
-### Part B
+$\bar{x} = \frac{(24 \cdot 500000)+700000}{25} = \$ 508,000$
 
-$\text{New Standard Deviation }(\sigma)$
+#### Part B
 
-$(n-1)\sigma^2 = \sum\limits_{i=1}^{n-1}(x_{i}-\bar{x})^2$
+New Standard Deviation:
 
-$(n-1)\sigma^{2}_{n} - (n-2)\sigma^{2}_{n-1} = \sum\limits_{i=1}^{n}(x_{i}-\bar{x}_{n})^2 - \sum\limits_{i=1}^{n-1}(x_{i}-\bar{x}_{n-1)})^2$
+$(n-1)s^2 = \sum\limits_{i=1}^{n-1}(x_{i}-\bar{x})^2$
+
+$(n-1)s^{2}_{n} - (n-2)s^{2}_{n-1} = \sum\limits_{i=1}^{n}(x_{i}-\bar{x}_{n})^2 - \sum\limits_{i=1}^{n-1}(x_{i}-\bar{x}_{n-1)})^2$
 
 $= (x_{n}-\bar{x}_{n})^2 + \sum\limits_{i=1}^{n-1}[(x_{i}-\bar{x}_{n})^2-(x_{i}-\bar{x}_{n-1)})^2]$
 
-$= (x_{n}-\bar{x}_{n})^2 + \sum\limits_{i=1}^{n-1}[x_{i}^2+2(x_{i})(\bar{x}_{n})+\bar{x}_{n}^2+x_{i}^2+2(x_{i})(\bar{x}_{n-1})+\bar{x}_{n-1}^2]$
+$= (x_{n}-\bar{x}_{n})^2 + \sum\limits_{i=1}^{n-1}(2x_{i}-\bar{x}_{n}-\bar{x}_{n-1)})(x_{n}-\bar{x}_{n-1)})$
 
-$= (x_{n}-\bar{x}_{n})^2 + \sum\limits_{i=1}^{n-1}[x_{i}^2+2(x_{i})(\bar{x}_{n})+\bar{x}_{n}^2+x_{i}^2+2(x_{i})(\bar{x}_{n-1})+\bar{x}_{n-1}^2]$
+$(n-1)s^{2}_{n} - (n-2)s^{2}_{n-1} = (x_n - \bar{x}_n)(x_n - \bar{x}_{n-1})$
 
+$s_n = \sqrt{\frac{(n-2)(s^2_{n-1}) + (x_n - \bar{x}_n)(x_n - \bar{x}_{n-1})}{n-1}}$
 
+$s_n = \sqrt{\frac{(23)(900000000) + (700000 - 508000)(700000) - 500000)}{24}}$
 
+$s_n = \$ 49,624$
 
-$s^2_{n-1} = 30000^2 = 900000000$
-
-$s^2_{n-1} = \frac{1}{n-2} \sum\limits^{n-1}_{i=1}$
-
-
-
-
-
-
-
-
-### Part C
+#### Part C
 
 The median will not decrease, but it is not possible to tell whether it will remain the same or increase with the information we have. When the new house is built, its price is above the new median so it is impossible for the median to shift down. If the values in the middle of the ordered set are the same, adding a single value to the upper half would have no effect. Since the data set initially had an even number of values, the median was originally an average of the two middle values. If there is a difference between the two, adding a value above the median would shift the median to the upper value.
 
 ## Question 4
 
-### Part A
+#### Part A
 
 Condition: $y_{i}= (x_{i}+c) \cdot k$
 
 Calculating the new mean:
 
-$\bar{y} = \frac{1}{n} \Big[ ((x_{i}+c) \cdot k) + ... ((x_{n}+c) \cdot k) \Big]$
+$\bar{y} = \frac{1}{n} \Big[ ((x_{i}+c) \cdot k) + ... ((x_{n}+c) \cdot k) \Big] = c + \frac{1}{n} \Big[ (x_{i} \cdot k) + ... (x_{n} \cdot k) \Big]$
 
-$\bar{y} = c + \frac{1}{n} \Big[ (x_{i} \cdot k) + ... (x_{n} \cdot k) \Big]$
+$= k \bigg[ c + \frac{1}{n} \Big[ (x_{i} \cdot k) + ... (x_{n} \cdot k) \Big] \bigg]$
 
-$\bar{y} = k \bigg[ c + \frac{1}{n} \Big[ (x_{i} \cdot k) + ... (x_{n} \cdot k) \Big] \bigg]$
-
-$\bar{y} = k \Big[ c + \bar{x} \Big]$
+$\bar{y} = k \big[ c + \bar{x} \big]$
 
 Calculating the new variance:
 
-$s_{y}^2 = \frac{1}{n-1} \sum\limits_{i=1}^{n} (((x_{i}+c) \cdot k) - k (c + \bar{x}))^2$
+$s_{y}^2 = \frac{1}{n-1} \sum\limits_{i=1}^{n} \Big[ (k(x_{i}+c) - k (c + \bar{x}))^2 \Big]$
 
+$= \frac{k^2}{n-1} \sum\limits_{i=1}^{n} (x_{i}+c - c + \bar{x})^2$
 
+$= \frac{k^2}{n-1} \sum\limits_{i=1}^{n} (x_{i} - \bar{x})^2$
 
+$s_{y}^2 = k^2 s^2_{x}$
 
-
-
-
-
-
-
-### Part B
+#### Part B
 
 Sample $(z_{1}, ... z_{n})$ where $z_{i} = \frac{x_{i}-\bar{x}}{s_{x}}$ and $s_{x}$ is the standard deviation for the $x$ data.
 
+Finding the mean of z:
+
 $\bar{z} = \frac{1}{n}\sum\limits_{i=1}^{n}z_{i} = \frac{1}{n}\sum\limits_{i=1}^{n} \frac{x_{i}-\bar{x}}{s_{x}}$
 
-$= \frac{1}{n}\sum\limits_{i=1}^{n} \Big[ \frac{x_{i}}{s_{x}} - \frac{\overline{x}}{s_{x}} \Big]$
-
-$= \frac{\overline{x}}{s_{x}} - \frac{\bar{x}}{s_{x}}$
+$= \frac{1}{n}\sum\limits_{i=1}^{n} \Big[ \frac{x_{i}}{s_{x}} - \frac{\overline{x}}{s_{x}} \Big] = \frac{\overline{x}}{s_{x}} - \frac{\bar{x}}{s_{x}}$
 
 $\bar{z} = 0$
 
-$s^2_{z} = \frac{1}{n-1} \sum\limits^{n}_{i=1} (z_{i} - \bar{z})^2 = \frac{1}{n-1} \sum\limits^{n}_{i=1} \frac^{x_{i} - \bar{x}}_{s_{x}}$
+Finding the variance of z:
+
+$s^2_{z} = \frac{1}{n-1} \sum\limits^{n}_{i=1} (z_{i} - \bar{z})^2 = \frac{1}{n-1} \sum\limits^{n}_{i=1} (\frac{x_{i}-\bar{x}}{s_{x}})^2$
+
+$= \frac{1}{(s_{x}^{2})(n-1)} \sum\limits^{n}_{i=1} ({x_{i}-\bar{x}})^2 = \frac{s^{2}_{x}}{s^{2}_{x}} = 1$
+
+$s^2_{z} = 1$

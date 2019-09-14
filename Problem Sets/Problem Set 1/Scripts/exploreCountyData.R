@@ -2,6 +2,8 @@
 library(tidyverse)
 library(knitr)
 library(kableExtra)
+library(gridExtra)
+theme_set(theme_bw())
 
 #import CountyData data set
 countyData <- read.csv("Data/CountyData.csv")
@@ -16,15 +18,11 @@ ggplot(data = countyData) +
 median(countyData$fed_spending, na.rm = TRUE)
 
 #plot relationship between bachelor degrees and poverty
-theme_set(theme_bw())
-
 ggplot(data = countyData) + geom_point(mapping = aes(x = bachelors, y = poverty)) + 
-  xlim(0, 80) + ylim(0, 80) + coord_fixed() + ggtitle("Poverty vs. Bachelors") + 
-  theme(panel.border = element_rect(colour = "black", fill=NA, size=1))
+  xlim(0, 80) + ylim(0, 80) + coord_fixed() + ggtitle("Poverty Rate vs. Bachelors Degrees Per County") + 
+  ylab("Percent of County Below Poverty Line") + xlab("Percent of County with Bachelors Degrees")
 
-    #alternative core r plot
-    #par(pty = "s")
-    #plot(countyData$bachelors, countyData$poverty, xlim = c(0, 80), ylim = c(0, 80), 
-        #main = "Poverty vs. Bachelors", 
-        #xlab = "Percent of County with Bachelors Degrees", 
-        #ylab = "Percent of County Below Poverty Line")
+#percent of counties with more than 30% population under 30
+over30 <- countyData %>% filter(age_under_18 > 30)
+over30 <- nrow(over30)
+percOver30 <- 100  * (over30 / nrow(countyData))
