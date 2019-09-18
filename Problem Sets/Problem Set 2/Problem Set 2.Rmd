@@ -1,0 +1,89 @@
+---
+title: "Problem Set 2"
+author: "Cort Breuer"
+date: "09/18/19"
+output:
+  html_document: default
+  pdf_document: default
+subtitle: ENGRD 2700
+
+\include{amsmath}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##Question 1
+
+####Part A
+
+
+
+####Part B
+
+####Part C
+
+##Question 2
+
+####Part A
+
+####Part B
+
+####Part C
+
+##Question 3
+
+####Part A
+
+The number of 4 person teams that can be made from 36 MEng students is based on unordered sampling without replacement. Thus $C_{4,36} = \binom{n}{k} = \binom{36}{4} = \frac{36!}{4! \cdot 32!} = 58905$ so there are a total of 58905 possible teams.
+
+####Part B
+
+Finding the numbere of possible 4 person teams consisting of 2 men and 2 women when there are 16 men and 20 women involves unordered sampling without replacement of gender pairs and the multiplication rule for making full teams. Thus the ways to make pairs of men is $C_{2,16} = \binom{n}{k} = \binom{16}{2} = \frac{16!}{2! \cdot 14!} = 120$ while the ways to make pairs of women is $C_{2,20} = \binom{n}{k} = \binom{20}{2} = \frac{20!}{2! \cdot 18!} = 190$. The ways to make teams of 4 incorporating 2 men and 2 women involves multiplying the possibilities of pairs of men and women, $C_{2,20} \cdot C_{2,16} = 120 \cdot 190 = 22800$, so there are a total of 22800 teams possible.
+
+##Question 4
+
+A~1~ denotes the event someone likes football
+A~2~ denotes the event someone likes basketball
+A~3~ denotes the event someone likes swimming
+
+
+
+####Part A
+
+
+
+
+
+####Part B
+
+####Part C
+
+####Part D
+
+####Part E
+
+##Question 5
+
+####Part A
+
+####Part B
+
+####Part C
+
+####Part D
+
+##Question 6
+
+####Part A
+
+####Part B
+
+####Part C
+
+####Part D
+
+####Part E
+
+####Part F
