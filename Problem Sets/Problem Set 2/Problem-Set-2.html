@@ -399,7 +399,7 @@ summary {
 </div>
 <div id="part-c-1" class="section level4">
 <h4>Part C</h4>
-<p><span class="math inline">\(\frac{1}{8} \binom{8}{3} \binom{5}{2} 3! = 420\)</span></p>
+<p><span class="math inline">\(\frac{1}{8} \binom{8}{3} \binom{5}{2} 3! = 420\)</span> divide by 8 since you can rotate each arrangement by 1 letter 8 times and still have the same ‘word’</p>
 </div>
 </div>
 <div id="question-3" class="section level2">
@@ -438,16 +438,17 @@ summary {
 <div id="part-a-4" class="section level4">
 <h4>Part A</h4>
 <ul>
-<li><p>all 3 elevators are down, <span class="math inline">\(A \cap B \cap C\)</span></p></li>
-<li><p>only elevator A is down, <span class="math inline">\((B \cup C)^c\)</span></p></li>
-<li><p>none of the elevators are down, <span class="math inline">\((A \cup B \cup C)^c\)</span></p></li>
-<li><p>at least one elevator is down, <span class="math inline">\(A \cup B \cup C\)</span></p></li>
-<li><p>exactly one elevator is down,</p></li>
+<li><p>All 3 elevators are down is given by <span class="math inline">\(A \cap B \cap C\)</span></p></li>
+<li><p>Only elevator A is down is given by <span class="math inline">\(A \cap B^c \cap C^c\)</span></p></li>
+<li><p>None of the elevators are down is given by <span class="math inline">\((A \cap B \cap C)^c\)</span></p></li>
+<li><p>At least one elevator is down is given by <span class="math inline">\(A \cup B \cup C\)</span></p></li>
+<li><p>Exactly one elevator is down is given by <span class="math inline">\((A \cap B^c \cap C^c) \cup (B \cap A^c \cap C^c) \cup (C \cap B^c \cap A^c)\)</span></p></li>
 </ul>
 </div>
 <div id="part-b-3" class="section level4">
 <h4>Part B</h4>
 <p>The max of <span class="math inline">\(P(A \cup B \cup C)\)</span> is the sum of probabilities, <span class="math inline">\(P = 35 + 30 + 10 = 75%\)</span>, while</p>
+<p>max is sum, min is 35</p>
 </div>
 <div id="part-c-3" class="section level4">
 <h4>Part C</h4>

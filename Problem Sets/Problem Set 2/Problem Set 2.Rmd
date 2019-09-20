@@ -42,7 +42,7 @@ assign the 8 letters, divide by the different ways of arranging the same E's,  t
 
 #### Part C
 
-$\frac{1}{8} \binom{8}{3} \binom{5}{2} 3! = 420$
+$\frac{1}{8} \binom{8}{3} \binom{5}{2} 3! = 420$ divide by 8 since you can rotate each arrangement by 1 letter 8 times and still have the same 'word'
 
 ## Question 3
 
@@ -84,19 +84,19 @@ Elevator A is down 35% of the time, elevator 30%, and elevator C 10%.
 
 - All 3 elevators are down is given by $A \cap B \cap C$
 
-- Only elevator A is down is given by $(B \cup C)^c$
+- Only elevator A is down is given by $A \cap B^c \cap C^c$
 
-- None of the elevators are down is given by $(A \cup B \cup C)^c$
+- None of the elevators are down is given by $(A \cap B \cap C)^c$
 
 - At least one elevator is down is given by $A \cup B \cup C$
 
-- EExactly one elevator is down is given by 
+- Exactly one elevator is down is given by $(A \cap B^c \cap C^c) \cup (B \cap A^c \cap C^c) \cup (C \cap B^c \cap A^c)$
 
 #### Part B
 
 The max of $P(A \cup B \cup C)$ is the sum of probabilities, $P = 35 + 30 + 10 = 75%$, while 
 
-
+max is sum, min is 35
 
 #### Part C
 
