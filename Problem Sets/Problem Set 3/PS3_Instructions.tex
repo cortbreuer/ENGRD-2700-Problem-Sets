@@ -1,0 +1,146 @@
+\documentclass{article}    % Specifies the document style.
+\renewcommand{\baselinestretch}{1}      % Spacing
+\setlength{\oddsidemargin}{0in} \setlength{\evensidemargin}{0in} \setlength{\textwidth}{6.5in}
+\setlength{\topmargin}{-.2in} \setlength{\headsep}{0in} \setlength{\textheight}{9.5in}
+\pagestyle{empty}
+%
+\usepackage{color,url}
+\usepackage{amsmath,amsthm}
+\usepackage{graphicx}
+\usepackage{enumitem}
+
+\begin{document}           % End of preamble and beginning of text.
+	\begin{center}
+		
+		\textbf{\large{ENGRD 2700: Basic Engineering Probability and
+				Statistics\medskip \\ Fall 2019}}\bigskip
+		
+		\vskip 0.25em
+		
+		\textbf{\large{Homework 3}}
+	\end{center}
+	
+	\vskip 1em
+	
+	\noindent Due Friday, October 4 by 11:59pm. Submit to Gradescope by clicking the name of the assignment. See \url{https://people.orie.cornell.edu/yudong.chen/engrd2700_2019fa.html#homework} for detailed submission instructions. 
+	
+	\vskip 1em
+	
+	
+	The same stipulations from Homework 1 (e.g., independent work, computer code, etc.) still apply. \bigskip
+	
+	
+	\begin{enumerate}[leftmargin=0.55cm]
+		
+		\vskip 1em
+		
+		\item The lifetime $T$, in years, of the light bulb you just purchased satisfies
+		\begin{displaymath}
+		P(T > t) = e^{-t/3} \qquad \text{for all} \ \ t \geq 0.
+		\end{displaymath}
+		Suppose the bulb has lasted more than $ x $ years, where $x \geq 0$. Given this information, what's the
+		conditional probability that it will last at most $ x+2 $ years? Does your answer depend on the value of $x$?
+		\vskip 1em
+		
+		\item  Suppose a family with two children is selected at random, and
+		the genders of the children are noted in the order of their birth
+		($f$ for female, $m$ for male). Assume that the possible outcomes
+		$\{ff, fm, mf, mm\}$ are all equally likely.
+		\begin{enumerate}
+			\item A family tells us that the first child is female. Given this information, what's the probability that both children are female?
+				
+				
+			\item Another family tells us that at least one of the children is female.  Given this information, what's the probability that both children are female?
+		
+			\item  Assume that, if a child is female, then her name is Katie
+			with some small probability $p$ independently of the gender and naming of the
+			other child, and that no boys are named Katie. 
+			
+			Now, a third family tells us that they have at least one child named
+			Katie. Given this information, what's the probability that both children
+			are female?
+
+		\end{enumerate}
+		
+		\vskip 1em
+		
+		\item A train station has installed a system for determining whether bags  contain explosives. It has a 90\% chance of correctly identifying a
+		bag containing explosives as dangerous, and a 99\% chance of correctly
+		classifying a bag without explosives as safe. Suppose that the
+		train station screens 4 million bags per year, and that 10 of these
+		bags are expected to contain explosives.
+		\begin{enumerate}
+			\item A bag is identified by the system as dangerous. What's the probability that it actually contains
+			explosives?
+			
+			\item If we want the probability in part (a) to be at least 0.5,
+			what should the probability of correctly identifying a bag without
+			explosives be?
+			
+			\item  Would it be possible to make the probability in part (a) at
+			least 0.5 by increasing the chance of correctly identifying bags
+			containing explosives? Justify your answer.
+		\end{enumerate}
+		
+		\vskip 1em
+		
+		\item  A casino offers you the following game. There's a pot that
+		initially contains 1 dollar. A fair coin is tossed. If it comes
+		up tails, the amount of money in the pot is doubled, and the coin is
+		tossed again. The game ends once the coin comes up heads, at which
+		point you get whatever is in the pot. Let the random variable $X$
+		denote the amount of money you win by playing this game. 
+		\begin{enumerate}
+			
+			\item  What is the set $ \mathcal{X} $ of possible values for $ X $?
+
+			\item Write down the PMF $p_X(x)$ of $X$ for $ x \in \mathcal{X} $.
+			
+			\item  What's the probability that you'll win
+			more than 40 dollars? 
+			\item Compute $E[X]$.
+			\item Define another random variable $Y = \min\{X, 2^{10}\}$.  Find the set $ \mathcal{Y} $ of possible values for $ Y $, write down the PMF of $Y$, and
+			compute $E[Y]$.
+		\end{enumerate}
+		
+		\vskip 1em
+		
+		\item A random variable $X$ has the following cumulative distribution function (CDF):
+		$$
+		F(x) = \begin{cases}
+		0   & x < -2 \\
+		0.2 & -2 \leq x < -1 \\
+		0.3 & -1  \leq x < 0 \\
+		0.7 & 0  \leq x < 1 \\
+		0.8 & 1 \leq x < 2 \\
+		1   & x \geq 2
+		\end{cases}
+		$$
+		\begin{enumerate}
+			\item Find $f(x)$, its probability mass function (PMF). 
+			
+			
+			\item  Compute $E[X]$ and Var$(X)$.
+			
+			\item  Compute $E[\sin(X)]$. 
+		\end{enumerate}
+		
+		\vskip 1em
+		
+		\item 
+		Stephanie Kerry is a very good basketball player. Each time she attempts a free throw, she misses it with a probability of only 7\% (independently of other free throw attempts). This month, she will attempt 1000 free throws. 
+		\begin{enumerate}
+			\item What is the distribution of $X$, the total number of free throws that Stephanie misses this month? Give its name and
+			compute its parameters.
+			\item  What is the probability that Stephanie will miss at least $ 61 $ free throws this month? 
+			\item Use a Poisson approximation to give an approximation for the
+			probability that Stephanie will miss at least 61 free throws this month.
+			\item By the end of the 15th day of the month, Stephanie has already missed 55 free throws (though we don't know how many free throws she has attempted). Given this information, what is the chance that she will miss
+			\emph{at least} 60 free throws in total this month? Use the Poisson approximation in
+			answering this question.
+			\item At the end of the month, Stephanie will look at her total number of missed free throws, $ X $. If $ X \ge 40 $, she will put 5 dollars in a jar \textbf{\emph{for each}} free throw she misses. For example, she puts $ 200 $ dollars in the jar if $ X = 40 $. If $ X<40 $, she will leave the jar empty. What is the expected number of dollars in the jar? Use the Poisson approximation in answering this question. 
+
+		\end{enumerate}
+		
+	\end{enumerate}
+\end{document}
