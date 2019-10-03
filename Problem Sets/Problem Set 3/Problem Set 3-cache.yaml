@@ -1,0 +1,2083 @@
+version: 0.12.2
+filePath: Problem Set 3.tex
+options:
+  $BIBINPUTS:
+    - $ROOTDIR
+    - $ROOTDIR/$OUTDIR
+    - ''
+  $TEXINPUTS:
+    - $ROOTDIR
+    - $ROOTDIR/$OUTDIR
+    - ''
+  bibtexEngine: bibtex
+  cleanPatterns:
+    - '**/*.aux'
+    - '**/*.aux.bak'
+    - '**/*.bbl'
+    - '**/*.bcf'
+    - '**/*.blg'
+    - '**/*.dvi'
+    - '**/*.fdb_latexmk'
+    - '**/*.fls'
+    - '**/*.idx'
+    - '**/*.idx.bak'
+    - '**/*.ilg'
+    - '**/*.ind'
+    - '**/*.lof'
+    - '**/*.log'
+    - '**/*.lol'
+    - '**/*.lot'
+    - '**/*.nav'
+    - '**/*.out'
+    - '**/*.pdf'
+    - '**/*.ps'
+    - '**/*.snm'
+    - '**/*.synctex.gz'
+    - '**/*.toc'
+    - '/**/_minted-${JOB}'
+    - '/${OUTDIR}/sage-plots-for-${JOB}.tex'
+    - /missfont.log
+    - /texput.log
+    - /texput.aux
+  dviToPdfEngine: xdvipdfmx
+  engine: pdflatex
+  epstopdfBoundingBox: default
+  epstopdfOutputPath: $DIR_0/$NAME_0.pdf
+  indexAutomaticRanges: true
+  indexEngine: makeindex
+  indexOrdering: word
+  indexSorting: default
+  knitrConcordance: true
+  knitrOutputPath: $JOB.tex
+  lhs2texStyle: poly
+  literateAgdaEngine: agda
+  literateHaskellEngine: lhs2TeX
+  loadCache: true
+  loadUserOptions: true
+  outputFormat: pdf
+  phaseCycles: 20
+  pweaveCacheDirectory: pweave-cache-for-$JOB
+  pweaveFigureDirectory: pweave-figures-for-$JOB
+  pweaveKernel: python3
+  pweaveOutputFormat: tex
+  pweaveOutputPath: $JOB.tex
+  saveCache: true
+  severity: info
+  validateCache: true
+  synctex: true
+  copyTargetsToRoot: true
+  outputDirectory: ''
+  intermediatePostScript: false
+  $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
+files:
+  dicy-instance.yaml-ParsedYAML:
+    timeStamp: 2019-10-03T14:50:06.002Z
+    jobNames: []
+    value:
+      severity: info
+    type: ParsedYAML
+  dicy.yaml-ParsedYAML:
+    jobNames: []
+    type: ParsedYAML
+  Problem Set 3.yaml-ParsedYAML:
+    jobNames: []
+    type: ParsedYAML
+  Problem Set 3.tex-ParsedLaTeXMagic:
+    timeStamp: 2019-10-03T14:50:06.062Z
+    jobNames: []
+    value: {}
+    type: ParsedLaTeXMagic
+  /Users/cortbreuer/Library/Application Support/dicy/config.yaml-ParsedYAML:
+    timeStamp: 2019-10-03T14:50:06.059Z
+    jobNames: []
+    value:
+      synctex: true
+      engine: pdflatex
+      severity: warning
+      copyTargetsToRoot: true
+      outputDirectory: ''
+      outputFormat: pdf
+      cleanPatterns:
+        - '**/*.aux'
+        - '**/*.aux.bak'
+        - '**/*.bbl'
+        - '**/*.bcf'
+        - '**/*.blg'
+        - '**/*.dvi'
+        - '**/*.fdb_latexmk'
+        - '**/*.fls'
+        - '**/*.idx'
+        - '**/*.idx.bak'
+        - '**/*.ilg'
+        - '**/*.ind'
+        - '**/*.lof'
+        - '**/*.log'
+        - '**/*.lol'
+        - '**/*.lot'
+        - '**/*.nav'
+        - '**/*.out'
+        - '**/*.pdf'
+        - '**/*.ps'
+        - '**/*.snm'
+        - '**/*.synctex.gz'
+        - '**/*.toc'
+        - '/**/_minted-${JOB}'
+        - '/${OUTDIR}/sage-plots-for-${JOB}.tex'
+        - /missfont.log
+        - /texput.log
+        - /texput.aux
+      intermediatePostScript: false
+      $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
+    type: ParsedYAML
+  Problem Set 3.tex:
+    timeStamp: 2019-10-03T20:58:43.567Z
+    jobNames: []
+    hash: vtPygjhE67CsyLUamGxQNmIiH0sdV/5ooXQ8LoUf60A=
+    type: LaTeX
+    subType: article
+  /Users/cortbreuer/Library/Application Support/dicy/config.yaml:
+    timeStamp: 2019-10-02T23:53:54.512Z
+    jobNames: []
+    type: YAML
+  x.y-Nil:
+    jobNames: []
+    type: Nil
+  Problem Set 3.fls-ParsedFileListing:
+    timeStamp: 2019-10-03T17:33:52.734Z
+    jobNames: []
+    value:
+      messages: []
+      inputs:
+        - /usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map
+        - >-
+          /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+        - /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+        - /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+        - /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+        - >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+        - >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+        - >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+        - >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
+        - >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+        - >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+        - >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+        - >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+        - /usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+        - >-
+          /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/keyval.tex
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+        - >-
+          /usr/local/texlive/2018/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/datetime/datetime.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fc-english.def
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+        - >-
+          /usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mhsetup.sty
+        - >-
+          /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+        - /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
+        - /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+        - /usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
+        - /usr/local/texlive/2018/texmf.cnf
+        - Problem Set 3.aux
+        - Problem Set 3.tex
+      outputs:
+        - Problem Set 3.aux
+        - Problem Set 3.log
+        - Problem Set 3.pdf
+      calls: []
+    type: ParsedFileListing
+  Problem Set 3.log-ParsedLaTeXLog:
+    timeStamp: 2019-10-03T20:49:54.566Z
+    jobNames: []
+    value:
+      messages:
+        - name: pdfTeX
+          severity: info
+          text: datetime 2015/03/20 v2.60 Date Time Package
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/datetime/datetime.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 29
+              end: 29
+        - name: pdfTeX
+          severity: info
+          text: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 31
+              end: 31
+        - name: pdfTeX
+          severity: info
+          text: fmtcount 2017/12/24 v3.05
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 34
+              end: 34
+        - name: pdfTeX
+          severity: info
+          text: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 36
+              end: 36
+        - name: pdfTeX
+          severity: info
+          text: xkeyval 2014/12/03 v2.7a package option processing (HA)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 38
+              end: 38
+        - name: pdfTeX
+          severity: info
+          text: fcprefix 2012/09/28
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 47
+              end: 47
+        - name: pdfTeX
+          severity: info
+          text: fcnumparser 2017/06/15
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 49
+              end: 49
+        - name: pdfTeX
+          severity: info
+          text: datetime-defaults 2013/09/10
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 66
+              end: 66
+        - severity: info
+          name: pdfTeX
+          category: Package datetime
+          text: 'No datetime.cfg file found, using default settings'
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/datetime/datetime.sty
+            range:
+              start: 308
+              end: 308
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 80
+              end: 81
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \today
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/datetime/datetime.sty
+            range:
+              start: 736
+              end: 736
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 85
+              end: 85
+        - name: pdfTeX
+          severity: info
+          text: geometry 2018/03/24 v5.7 Page Geometry
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 89
+              end: 89
+        - name: pdfTeX
+          severity: info
+          text: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 91
+              end: 91
+        - name: pdfTeX
+          severity: info
+          text: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 93
+              end: 93
+        - severity: info
+          name: pdfTeX
+          category: Package ifvtex
+          text: VTeX not detected.
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 94
+              end: 94
+        - name: pdfTeX
+          severity: info
+          text: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 96
+              end: 96
+        - name: pdfTeX
+          severity: info
+          text: >-
+            fancyhdr 2017/06/30 v3.9a Extensive control of page headers and
+            footers
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 111
+              end: 112
+        - name: pdfTeX
+          severity: info
+          text: mathtools 2018/01/08 v1.21 mathematical typesetting tools
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 123
+              end: 123
+        - name: pdfTeX
+          severity: info
+          text: 'calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)'
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 125
+              end: 125
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \setlength
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
+            range:
+              start: 80
+              end: 80
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 132
+              end: 132
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \addtolength
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
+            range:
+              start: 81
+              end: 81
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 133
+              end: 133
+        - name: pdfTeX
+          severity: info
+          text: mhsetup 2017/03/31 v1.3 programming setup (MH)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mhsetup.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 137
+              end: 137
+        - name: pdfTeX
+          severity: info
+          text: amsmath 2017/09/02 v2.17a AMS math features
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 139
+              end: 139
+        - name: pdfTeX
+          severity: info
+          text: amstext 2000/06/29 v2.01 AMS text
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 143
+              end: 143
+        - name: pdfTeX
+          severity: info
+          text: amsbsy 1999/11/29 v1.2d Bold Symbols
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 145
+              end: 145
+        - name: pdfTeX
+          severity: info
+          text: amsopn 2016/03/08 v2.02 operator names
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 148
+              end: 148
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \frac
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 213
+              end: 213
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 151
+              end: 151
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \overline
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 375
+              end: 375
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 154
+              end: 154
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \ldots
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 472
+              end: 472
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 157
+              end: 157
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \dots
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 475
+              end: 475
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 158
+              end: 158
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \cdots
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 596
+              end: 596
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 159
+              end: 159
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring font encoding OML
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 712
+              end: 712
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 163
+              end: 163
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring font encoding OMS
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 713
+              end: 713
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 164
+              end: 164
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: 'Redefining \['
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 2817
+              end: 2817
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 185
+              end: 185
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: 'Redefining \]'
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 2818
+              end: 2818
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 186
+              end: 186
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Thecontrolsequence`\('isalreadyrobust
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
+            range:
+              start: 129
+              end: 129
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 188
+              end: 188
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Thecontrolsequence`\)'isalreadyrobust
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
+            range:
+              start: 129
+              end: 129
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 189
+              end: 189
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: 'Thecontrolsequence`\[''isalreadyrobust'
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
+            range:
+              start: 129
+              end: 129
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 190
+              end: 190
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: 'Thecontrolsequence`\]''isalreadyrobust'
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
+            range:
+              start: 129
+              end: 129
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 191
+              end: 191
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for OML/cmm/m/it ... okay
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 15
+              end: 15
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 206
+              end: 207
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for T1/cmr/m/n ... okay
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 15
+              end: 15
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 208
+              end: 209
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for OT1/cmr/m/n ... okay
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 15
+              end: 15
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 210
+              end: 211
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for OMS/cmsy/m/n ... okay
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 15
+              end: 15
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 212
+              end: 213
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for OMX/cmex/m/n ... okay
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 15
+              end: 15
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 214
+              end: 215
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for U/cmr/m/n ... okay
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 15
+              end: 15
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 216
+              end: 217
+        - name: pdfTeX
+          severity: info
+          text: 'graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)'
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 256
+              end: 256
+        - name: pdfTeX
+          severity: info
+          text: 'graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)'
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 258
+              end: 258
+        - name: pdfTeX
+          severity: info
+          text: trig 2016/01/03 v1.10 sin cos tan (DPC)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 260
+              end: 260
+        - severity: info
+          name: pdfTeX
+          category: Package graphics
+          text: 'Driver file: pdftex.def'
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+            range:
+              start: 99
+              end: 99
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 264
+              end: 264
+        - name: pdfTeX
+          severity: info
+          text: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 281
+              end: 281
+        - name: pdfTeX
+          severity: info
+          text: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 283
+              end: 283
+        - name: pdfTeX
+          severity: info
+          text: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 285
+              end: 285
+        - name: pdfTeX
+          severity: info
+          text: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 287
+              end: 287
+        - name: pdfTeX
+          severity: info
+          text: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 289
+              end: 289
+        - name: pdfTeX
+          severity: info
+          text: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 291
+              end: 291
+        - name: pdfTeX
+          severity: info
+          text: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 293
+              end: 293
+        - name: pdfTeX
+          severity: info
+          text: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 295
+              end: 295
+        - name: pdfTeX
+          severity: info
+          text: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 297
+              end: 297
+        - severity: info
+          name: pdfTeX
+          category: Package ifluatex
+          text: LuaTeX not detected.
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 298
+              end: 298
+        - severity: info
+          name: pdfTeX
+          category: Package etexcmds
+          text: >-
+            Could not find \expanded. That can mean that you are not using
+            pdfTeX 1.50 or that some package has redefined \expanded. In the
+            latter case, load this package earlier.
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 300
+              end: 303
+        - name: pdfTeX
+          severity: info
+          text: >-
+            pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX
+            (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 305
+              end: 306
+        - severity: info
+          name: pdfTeX
+          category: Package pdftexcmds
+          text: LuaTeX not detected.
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 307
+              end: 307
+        - severity: info
+          name: pdfTeX
+          category: Package pdftexcmds
+          text: \pdf@primitive is available.
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 308
+              end: 308
+        - severity: info
+          name: pdfTeX
+          category: Package pdftexcmds
+          text: \pdf@ifprimitive is available.
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 309
+              end: 309
+        - severity: info
+          name: pdfTeX
+          category: Package pdftexcmds
+          text: \pdfdraftmode found.
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 310
+              end: 310
+        - severity: info
+          name: pdfTeX
+          category: Package epstopdf-base
+          text: Redefining graphics rule for `.eps'
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+            range:
+              start: 438
+              end: 438
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 312
+              end: 313
+        - severity: info
+          name: pdfTeX
+          category: Package grfext
+          text: >-
+            Graphics extension search list:
+            [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+            \AppendGraphicsExtensions.
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+            range:
+              start: 456
+              end: 456
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 314
+              end: 317
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 327
+              end: 328
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 98
+              end: 98
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 336
+              end: 337
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 98
+              end: 98
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 348
+              end: 349
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 98
+              end: 98
+        - severity: error
+          name: pdfTeX
+          text: Missing \cr inserted
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 360
+              end: 362
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 98
+              end: 98
+        - severity: error
+          name: pdfTeX
+          text: 'Missing { inserted'
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 369
+              end: 370
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 98
+              end: 98
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 379
+              end: 380
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 98
+              end: 98
+        - severity: error
+          name: pdfTeX
+          text: Misplaced alignment tab character &
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 388
+              end: 390
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 99
+              end: 99
+        - severity: error
+          name: pdfTeX
+          text: Misplaced \cr
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 400
+              end: 401
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 99
+              end: 99
+        - severity: error
+          name: pdfTeX
+          text: Misplaced \noalign
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 412
+              end: 413
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 99
+              end: 99
+        - severity: error
+          name: pdfTeX
+          text: Misplaced alignment tab character &
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 421
+              end: 423
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 100
+              end: 100
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 433
+              end: 434
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 100
+              end: 100
+        - severity: error
+          name: pdfTeX
+          text: Misplaced \cr
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 442
+              end: 443
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 100
+              end: 100
+        - severity: error
+          name: pdfTeX
+          text: Misplaced \noalign
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 454
+              end: 455
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 100
+              end: 100
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 464
+              end: 465
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 100
+              end: 100
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 473
+              end: 474
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 100
+              end: 100
+        - severity: error
+          name: pdfTeX
+          text: Misplaced alignment tab character &
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 485
+              end: 487
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 101
+              end: 101
+        - severity: error
+          name: pdfTeX
+          text: Misplaced alignment tab character &
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 497
+              end: 499
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 102
+              end: 102
+        - severity: error
+          name: pdfTeX
+          text: Misplaced alignment tab character &
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 509
+              end: 511
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 103
+              end: 103
+        - severity: error
+          name: pdfTeX
+          text: Misplaced alignment tab character &
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 521
+              end: 523
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 104
+              end: 104
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 533
+              end: 534
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 105
+              end: 105
+        - severity: error
+          name: pdfTeX
+          text: Missing \right. inserted
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 542
+              end: 544
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 105
+              end: 105
+        - severity: error
+          name: pdfTeX
+          text: Missing \endgroup inserted
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 555
+              end: 557
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 105
+              end: 105
+        - severity: error
+          name: pdfTeX
+          text: Display math should end with $$
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 568
+              end: 570
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 105
+              end: 105
+        - severity: error
+          name: pdfTeX
+          text: Misplaced \crcr
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 583
+              end: 584
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 106
+              end: 106
+        - severity: error
+          name: pdfTeX
+          text: 'Extra }, or forgotten \endgroup'
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 595
+              end: 597
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 106
+              end: 106
+        - severity: error
+          name: pdfTeX
+          text: 'Extra }, or forgotten \endgroup'
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 608
+              end: 610
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 106
+              end: 106
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 621
+              end: 622
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 106
+              end: 106
+        - severity: error
+          name: pdfTeX
+          text: Extra \right
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 630
+              end: 631
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 106
+              end: 106
+        - severity: error
+          name: pdfTeX
+          text: '\begin{equation*} on input line 97 ended by \end{dcases}'
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 639
+              end: 641
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 106
+              end: 106
+          category: LaTeX
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 653
+              end: 654
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 106
+              end: 106
+        - severity: error
+          name: pdfTeX
+          text: Bad math environment delimiter
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 666
+              end: 668
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 107
+              end: 107
+          category: LaTeX
+        - severity: error
+          name: pdfTeX
+          text: '\begin{document} ended by \end{equation*}'
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 681
+              end: 683
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 107
+              end: 107
+          category: LaTeX
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 695
+              end: 696
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 107
+              end: 107
+        - severity: error
+          name: pdfTeX
+          text: Display math should end with $$
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 707
+              end: 709
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 107
+              end: 107
+        - severity: error
+          name: pdfTeX
+          text: Extra \endgroup
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 717
+              end: 718
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 107
+              end: 107
+      inputs: []
+      outputs:
+        - Problem Set 3.pdf
+      calls: []
+    type: ParsedLaTeXLog
+  Problem Set 3.aux:
+    timeStamp: 2019-10-03T20:58:44.231Z
+    jobNames: []
+    hash: M0WgdaIvs7vARWeh5WYO0CQNU/WIH0WKIjTc1Cp40zU=
+    type: LaTeXAuxilary
+  Problem Set 3.fls:
+    timeStamp: 2019-10-03T20:58:44.251Z
+    jobNames: []
+    hash: x/cZJWuZpJylLu7AR6Rh2eHQBPmSiFrnmWMEO+BlRGY=
+    type: FileListing
+  Problem Set 3.log:
+    timeStamp: 2019-10-03T20:58:44.268Z
+    jobNames: []
+    hash: +QLUI7Fr94CRD6yq/6QpfnpYUgyN8xi5ytEuXouLUCo=
+    type: LaTeXLog
+    subType: pdfTeX
+  Problem Set 3.synctex.gz:
+    timeStamp: 2019-10-03T20:58:44.267Z
+    jobNames: []
+    hash: PvRPCfpM9+9eQFTgFWfjq/IcUPkXUjHykH4xKdrW6k4=
+    type: SyncTeX
+  Problem Set 3.pdf:
+    timeStamp: 2019-10-03T20:58:44.267Z
+    jobNames: []
+    hash: 3PK+kVGLRHc4DWpnpDqAdrTtO7dgW8FlnavvEDFBy28=
+    type: PortableDocumentFormat
+  Problem Set 3.aux-ParsedLaTeXAuxilary:
+    timeStamp: 2019-10-03T15:09:19.644Z
+    jobNames: []
+    value:
+      commands:
+        - relax
+    type: ParsedLaTeXAuxilary
+  /usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map:
+    timeStamp: 2017-11-27T23:19:31.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb:
+    timeStamp: 2016-11-25T18:32:13.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb:
+    timeStamp: 2016-11-25T18:32:13.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb:
+    timeStamp: 2016-11-25T18:32:13.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb:
+    timeStamp: 2016-11-25T18:32:13.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb:
+    timeStamp: 2016-11-25T18:32:13.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb:
+    timeStamp: 2016-11-25T18:32:13.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb:
+    timeStamp: 2016-11-25T18:32:13.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty:
+    timeStamp: 2016-11-25T18:33:35.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty:
+    timeStamp: 2017-03-26T21:48:50.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty:
+    timeStamp: 2016-11-25T18:33:35.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/keyval.tex:
+    timeStamp: 2016-11-25T18:33:39.000Z
+    jobNames: []
+    type: TeX
+  /usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex:
+    timeStamp: 2016-11-25T18:33:39.000Z
+    jobNames: []
+    type: TeX
+  /usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex:
+    timeStamp: 2016-11-25T18:33:39.000Z
+    jobNames: []
+    type: TeX
+  /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty:
+    timeStamp: 2018-04-07T20:51:30.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls:
+    timeStamp: 2018-04-06T21:33:45.000Z
+    jobNames: []
+    type: LaTeXClass
+  /usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty:
+    timeStamp: 2018-04-06T21:33:45.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo:
+    timeStamp: 2018-04-06T21:33:45.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/latex/datetime/datetime-defaults.sty:
+    timeStamp: 2016-11-25T18:33:46.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/datetime/datetime.sty:
+    timeStamp: 2016-11-25T18:33:46.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty:
+    timeStamp: 2018-02-11T22:50:58.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty:
+    timeStamp: 2017-06-30T22:24:08.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fc-english.def:
+    timeStamp: 2017-12-28T23:44:51.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fcnumparser.sty:
+    timeStamp: 2017-12-28T23:44:51.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fcprefix.sty:
+    timeStamp: 2017-12-28T23:44:51.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fmtcount.sty:
+    timeStamp: 2017-12-28T23:44:51.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty:
+    timeStamp: 2018-03-25T21:23:05.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty:
+    timeStamp: 2016-11-25T18:34:03.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf:
+    timeStamp: 2018-03-26T12:22:29.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map:
+    timeStamp: 2018-04-17T03:08:12.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt:
+    timeStamp: 2018-04-17T03:08:36.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf.cnf:
+    timeStamp: 2018-04-17T03:08:03.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb:
+    timeStamp: 2016-11-25T18:32:13.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm:
+    timeStamp: 2016-11-25T18:31:38.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii:
+    timeStamp: 2016-11-25T18:33:26.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty:
+    timeStamp: 2016-11-25T18:33:35.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty:
+    timeStamp: 2016-11-25T18:33:35.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty:
+    timeStamp: 2016-11-25T18:33:35.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty:
+    timeStamp: 2016-11-25T18:33:35.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty:
+    timeStamp: 2016-11-25T18:33:35.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty:
+    timeStamp: 2016-11-25T18:33:35.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty:
+    timeStamp: 2018-03-30T21:19:41.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty:
+    timeStamp: 2018-04-07T20:51:30.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty:
+    timeStamp: 2018-04-07T20:51:30.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty:
+    timeStamp: 2018-04-07T20:51:30.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty:
+    timeStamp: 2018-04-07T20:51:30.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg:
+    timeStamp: 2016-11-25T18:33:50.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def:
+    timeStamp: 2018-01-09T22:36:08.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty:
+    timeStamp: 2018-04-07T20:53:05.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty:
+    timeStamp: 2018-04-07T20:53:05.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty:
+    timeStamp: 2018-04-07T20:53:05.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg:
+    timeStamp: 2016-11-25T18:33:53.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty:
+    timeStamp: 2018-01-08T22:18:48.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mhsetup.sty:
+    timeStamp: 2017-06-06T21:53:26.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty:
+    timeStamp: 2016-11-25T18:33:56.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty:
+    timeStamp: 2016-11-25T18:33:56.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty:
+    timeStamp: 2016-11-25T18:33:56.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty:
+    timeStamp: 2018-04-06T21:33:45.000Z
+    jobNames: []
+    type: LaTeXStyle
+rules:
+  - name: ApplyOptions
+    command: load
+    phase: initialize
+    parameters: []
+    inputs:
+      - file: dicy.yaml-ParsedYAML
+        type: default
+      - file: Problem Set 3.yaml-ParsedYAML
+        type: default
+      - file: Problem Set 3.tex-ParsedLaTeXMagic
+        type: default
+      - file: dicy-instance.yaml-ParsedYAML
+        type: default
+      - file: >-
+          /Users/cortbreuer/Library/Application
+          Support/dicy/config.yaml-ParsedYAML
+        type: default
+    outputs: []
+  - name: LoadAndValidateCache
+    command: load
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: Migrate
+    command: load
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: ApplyOptions
+    command: load
+    phase: execute
+    parameters: []
+    inputs:
+      - file: dicy.yaml-ParsedYAML
+        type: default
+      - file: Problem Set 3.yaml-ParsedYAML
+        type: default
+      - file: Problem Set 3.tex-ParsedLaTeXMagic
+        type: default
+      - file: dicy-instance.yaml-ParsedYAML
+        type: default
+      - file: >-
+          /Users/cortbreuer/Library/Application
+          Support/dicy/config.yaml-ParsedYAML
+        type: default
+    outputs: []
+  - name: ParseOptionsFile
+    command: load
+    phase: execute
+    parameters: []
+    inputs:
+      - file: /Users/cortbreuer/Library/Application Support/dicy/config.yaml
+        type: default
+    outputs:
+      - file: >-
+          /Users/cortbreuer/Library/Application
+          Support/dicy/config.yaml-ParsedYAML
+        type: default
+  - name: ParseLaTeXMagic
+    command: load
+    phase: execute
+    parameters:
+      - Problem Set 3.tex
+    inputs:
+      - file: Problem Set 3.tex
+        type: default
+    outputs:
+      - file: Problem Set 3.tex-ParsedLaTeXMagic
+        type: default
+  - name: AssignJobNames
+    command: load
+    phase: finalize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: FindLogFiles
+    command: build
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: LaTeX
+    command: build
+    phase: execute
+    parameters:
+      - Problem Set 3.tex
+    inputs:
+      - file: Problem Set 3.tex
+        type: default
+      - file: Problem Set 3.fls-ParsedFileListing
+        type: default
+      - file: Problem Set 3.log-ParsedLaTeXLog
+        type: default
+      - file: Problem Set 3.aux
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/keyval.tex
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/datetime/datetime.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fc-english.def
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
+        type: default
+      - file: /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+        type: default
+      - file: /usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
+        type: default
+      - file: /usr/local/texlive/2018/texmf.cnf
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mhsetup.sty
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
+        type: default
+    outputs:
+      - file: Problem Set 3.aux
+        type: default
+      - file: Problem Set 3.fls
+        type: default
+      - file: Problem Set 3.log
+        type: default
+      - file: Problem Set 3.synctex.gz
+        type: target
+      - file: Problem Set 3.pdf
+        type: target
+  - name: ParseLaTeXAuxilary
+    command: build
+    phase: execute
+    parameters:
+      - Problem Set 3.aux
+    inputs:
+      - file: Problem Set 3.aux
+        type: default
+    outputs:
+      - file: Problem Set 3.aux-ParsedLaTeXAuxilary
+        type: default
+  - name: ParseFileListing
+    command: build
+    phase: execute
+    parameters:
+      - Problem Set 3.fls
+    inputs:
+      - file: Problem Set 3.fls
+        type: default
+    outputs:
+      - file: Problem Set 3.fls-ParsedFileListing
+        type: default
+  - name: ParseLaTeXLog
+    command: build
+    phase: execute
+    parameters:
+      - Problem Set 3.log
+    inputs:
+      - file: Problem Set 3.log
+        type: default
+    outputs:
+      - file: Problem Set 3.log-ParsedLaTeXLog
+        type: default
+  - name: LogProducedTargets
+    command: build
+    phase: finalize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: CheckForMissingBuildRule
+    command: build
+    phase: finalize
+    parameters:
+      - Problem Set 3.tex
+    inputs:
+      - file: Problem Set 3.tex
+        type: default
+    outputs: []
+  - name: FindLogFiles
+    command: log
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: ReportLogMessages
+    command: log
+    phase: execute
+    parameters:
+      - Problem Set 3.log-ParsedLaTeXLog
+    inputs:
+      - file: Problem Set 3.log-ParsedLaTeXLog
+        type: default
+    outputs: []
+  - name: ParseLaTeXLog
+    command: log
+    phase: execute
+    parameters:
+      - Problem Set 3.log
+    inputs:
+      - file: Problem Set 3.log
+        type: default
+    outputs:
+      - file: Problem Set 3.log-ParsedLaTeXLog
+        type: default
+  - name: SaveCache
+    command: save
+    phase: execute
+    parameters: []
+    inputs: []
+    outputs: []
