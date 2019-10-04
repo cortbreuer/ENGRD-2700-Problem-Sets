@@ -130,9 +130,9 @@ files:
       $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
     type: ParsedYAML
   Problem Set 3.tex:
-    timeStamp: 2019-10-03T20:58:43.567Z
+    timeStamp: 2019-10-04T15:16:54.291Z
     jobNames: []
-    hash: vtPygjhE67CsyLUamGxQNmIiH0sdV/5ooXQ8LoUf60A=
+    hash: yLMvfVwFWrJYAMArbJSluR3q/vVuCCg07cigJGbyly4=
     type: LaTeX
     subType: article
   /Users/cortbreuer/Library/Application Support/dicy/config.yaml:
@@ -143,7 +143,7 @@ files:
     jobNames: []
     type: Nil
   Problem Set 3.fls-ParsedFileListing:
-    timeStamp: 2019-10-03T17:33:52.734Z
+    timeStamp: 2019-10-03T21:30:11.036Z
     jobNames: []
     value:
       messages: []
@@ -170,18 +170,9 @@ files:
           /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
         - >-
           /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
-        - /usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
         - /usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-        - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-        - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
         - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
         - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-        - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-        - >-
-          /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-        - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-        - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-        - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
         - /usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/keyval.tex
         - /usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex
         - /usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
@@ -203,20 +194,6 @@ files:
         - /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fcprefix.sty
         - /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fmtcount.sty
         - /usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
-        - /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-        - /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
-        - /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
-        - /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
-        - /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
-        - >-
-          /usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-        - /usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
-        - /usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mhsetup.sty
-        - >-
-          /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-        - /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
-        - /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-        - /usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
         - /usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
         - /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
         - /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
@@ -231,7 +208,7 @@ files:
       calls: []
     type: ParsedFileListing
   Problem Set 3.log-ParsedLaTeXLog:
-    timeStamp: 2019-10-03T20:49:54.566Z
+    timeStamp: 2019-10-04T15:10:44.998Z
     jobNames: []
     value:
       messages:
@@ -410,73 +387,14 @@ files:
               end: 112
         - name: pdfTeX
           severity: info
-          text: mathtools 2018/01/08 v1.21 mathematical typesetting tools
-          source:
-            file: >-
-              /usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 123
-              end: 123
-        - name: pdfTeX
-          severity: info
-          text: 'calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)'
-          source:
-            file: /usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 125
-              end: 125
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          text: Redefining \setlength
-          source:
-            file: /usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
-            range:
-              start: 80
-              end: 80
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 132
-              end: 132
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          text: Redefining \addtolength
-          source:
-            file: /usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
-            range:
-              start: 81
-              end: 81
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 133
-              end: 133
-        - name: pdfTeX
-          severity: info
-          text: mhsetup 2017/03/31 v1.3 programming setup (MH)
-          source:
-            file: /usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mhsetup.sty
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 137
-              end: 137
-        - name: pdfTeX
-          severity: info
           text: amsmath 2017/09/02 v2.17a AMS math features
           source:
             file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
           log:
             file: Problem Set 3.log
             range:
-              start: 139
-              end: 139
+              start: 123
+              end: 123
         - name: pdfTeX
           severity: info
           text: amstext 2000/06/29 v2.01 AMS text
@@ -485,8 +403,8 @@ files:
           log:
             file: Problem Set 3.log
             range:
-              start: 143
-              end: 143
+              start: 127
+              end: 127
         - name: pdfTeX
           severity: info
           text: amsbsy 1999/11/29 v1.2d Bold Symbols
@@ -495,8 +413,8 @@ files:
           log:
             file: Problem Set 3.log
             range:
-              start: 145
-              end: 145
+              start: 129
+              end: 129
         - name: pdfTeX
           severity: info
           text: amsopn 2016/03/08 v2.02 operator names
@@ -505,8 +423,8 @@ files:
           log:
             file: Problem Set 3.log
             range:
-              start: 148
-              end: 148
+              start: 132
+              end: 132
         - severity: info
           name: pdfTeX
           category: LaTeX
@@ -519,8 +437,8 @@ files:
           log:
             file: Problem Set 3.log
             range:
-              start: 151
-              end: 151
+              start: 135
+              end: 135
         - severity: info
           name: pdfTeX
           category: LaTeX
@@ -533,8 +451,8 @@ files:
           log:
             file: Problem Set 3.log
             range:
-              start: 154
-              end: 154
+              start: 138
+              end: 138
         - severity: info
           name: pdfTeX
           category: LaTeX
@@ -547,8 +465,8 @@ files:
           log:
             file: Problem Set 3.log
             range:
-              start: 157
-              end: 157
+              start: 141
+              end: 141
         - severity: info
           name: pdfTeX
           category: LaTeX
@@ -561,8 +479,8 @@ files:
           log:
             file: Problem Set 3.log
             range:
-              start: 158
-              end: 158
+              start: 142
+              end: 142
         - severity: info
           name: pdfTeX
           category: LaTeX
@@ -575,8 +493,8 @@ files:
           log:
             file: Problem Set 3.log
             range:
-              start: 159
-              end: 159
+              start: 143
+              end: 143
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -589,8 +507,8 @@ files:
           log:
             file: Problem Set 3.log
             range:
-              start: 163
-              end: 163
+              start: 147
+              end: 147
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -603,8 +521,8 @@ files:
           log:
             file: Problem Set 3.log
             range:
-              start: 164
-              end: 164
+              start: 148
+              end: 148
         - severity: info
           name: pdfTeX
           category: LaTeX
@@ -617,8 +535,8 @@ files:
           log:
             file: Problem Set 3.log
             range:
-              start: 185
-              end: 185
+              start: 169
+              end: 169
         - severity: info
           name: pdfTeX
           category: LaTeX
@@ -631,68 +549,8 @@ files:
           log:
             file: Problem Set 3.log
             range:
-              start: 186
-              end: 186
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          text: Thecontrolsequence`\('isalreadyrobust
-          source:
-            file: >-
-              /usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
-            range:
-              start: 129
-              end: 129
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 188
-              end: 188
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          text: Thecontrolsequence`\)'isalreadyrobust
-          source:
-            file: >-
-              /usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
-            range:
-              start: 129
-              end: 129
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 189
-              end: 189
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          text: 'Thecontrolsequence`\[''isalreadyrobust'
-          source:
-            file: >-
-              /usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
-            range:
-              start: 129
-              end: 129
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 190
-              end: 190
-        - severity: info
-          name: pdfTeX
-          category: LaTeX
-          text: 'Thecontrolsequence`\]''isalreadyrobust'
-          source:
-            file: >-
-              /usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
-            range:
-              start: 129
-              end: 129
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 191
-              end: 191
+              start: 170
+              end: 170
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -705,8 +563,8 @@ files:
           log:
             file: Problem Set 3.log
             range:
-              start: 206
-              end: 207
+              start: 176
+              end: 177
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -719,8 +577,8 @@ files:
           log:
             file: Problem Set 3.log
             range:
-              start: 208
-              end: 209
+              start: 178
+              end: 179
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -733,8 +591,8 @@ files:
           log:
             file: Problem Set 3.log
             range:
-              start: 210
-              end: 211
+              start: 180
+              end: 181
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -747,8 +605,8 @@ files:
           log:
             file: Problem Set 3.log
             range:
-              start: 212
-              end: 213
+              start: 182
+              end: 183
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -761,8 +619,8 @@ files:
           log:
             file: Problem Set 3.log
             range:
-              start: 214
-              end: 215
+              start: 184
+              end: 185
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -775,759 +633,116 @@ files:
           log:
             file: Problem Set 3.log
             range:
-              start: 216
-              end: 217
-        - name: pdfTeX
-          severity: info
-          text: 'graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)'
+              start: 186
+              end: 187
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 228
+              end: 229
           source:
-            file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+            file: Problem Set 3.tex
+            range:
+              start: 107
+              end: 107
+        - severity: error
+          name: pdfTeX
+          text: Display math should end with $$
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 237
+              end: 239
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 107
+              end: 107
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 247
+              end: 248
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 108
+              end: 108
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
           log:
             file: Problem Set 3.log
             range:
               start: 256
-              end: 256
-        - name: pdfTeX
-          severity: info
-          text: 'graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)'
+              end: 257
           source:
-            file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
-          log:
-            file: Problem Set 3.log
+            file: Problem Set 3.tex
             range:
-              start: 258
-              end: 258
-        - name: pdfTeX
-          severity: info
-          text: trig 2016/01/03 v1.10 sin cos tan (DPC)
-          source:
-            file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 260
-              end: 260
-        - severity: info
-          name: pdfTeX
-          category: Package graphics
-          text: 'Driver file: pdftex.def'
-          source:
-            file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
-            range:
-              start: 99
-              end: 99
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 264
-              end: 264
-        - name: pdfTeX
-          severity: info
-          text: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-          source:
-            file: >-
-              /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 281
-              end: 281
-        - name: pdfTeX
-          severity: info
-          text: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-          source:
-            file: >-
-              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 283
-              end: 283
-        - name: pdfTeX
-          severity: info
-          text: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-          source:
-            file: /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 285
-              end: 285
-        - name: pdfTeX
-          severity: info
-          text: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-          source:
-            file: >-
-              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 287
-              end: 287
-        - name: pdfTeX
-          severity: info
-          text: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-          source:
-            file: >-
-              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 289
-              end: 289
-        - name: pdfTeX
-          severity: info
-          text: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-          source:
-            file: >-
-              /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 291
-              end: 291
-        - name: pdfTeX
-          severity: info
-          text: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-          source:
-            file: >-
-              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 293
-              end: 293
-        - name: pdfTeX
-          severity: info
-          text: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-          source:
-            file: >-
-              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 295
-              end: 295
-        - name: pdfTeX
-          severity: info
-          text: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-          source:
-            file: >-
-              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 297
-              end: 297
-        - severity: info
-          name: pdfTeX
-          category: Package ifluatex
-          text: LuaTeX not detected.
-          source:
-            file: >-
-              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 298
-              end: 298
-        - severity: info
-          name: pdfTeX
-          category: Package etexcmds
-          text: >-
-            Could not find \expanded. That can mean that you are not using
-            pdfTeX 1.50 or that some package has redefined \expanded. In the
-            latter case, load this package earlier.
-          source:
-            file: >-
-              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 300
-              end: 303
-        - name: pdfTeX
-          severity: info
-          text: >-
-            pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX
-            (HO)
-          source:
-            file: >-
-              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 305
-              end: 306
-        - severity: info
-          name: pdfTeX
-          category: Package pdftexcmds
-          text: LuaTeX not detected.
-          source:
-            file: >-
-              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 307
-              end: 307
-        - severity: info
-          name: pdfTeX
-          category: Package pdftexcmds
-          text: \pdf@primitive is available.
-          source:
-            file: >-
-              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 308
-              end: 308
-        - severity: info
-          name: pdfTeX
-          category: Package pdftexcmds
-          text: \pdf@ifprimitive is available.
-          source:
-            file: >-
-              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 309
-              end: 309
-        - severity: info
-          name: pdfTeX
-          category: Package pdftexcmds
-          text: \pdfdraftmode found.
-          source:
-            file: >-
-              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 310
-              end: 310
-        - severity: info
-          name: pdfTeX
-          category: Package epstopdf-base
-          text: Redefining graphics rule for `.eps'
-          source:
-            file: >-
-              /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-            range:
-              start: 438
-              end: 438
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 312
-              end: 313
-        - severity: info
-          name: pdfTeX
-          category: Package grfext
-          text: >-
-            Graphics extension search list:
-            [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-            \AppendGraphicsExtensions.
-          source:
-            file: >-
-              /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-            range:
-              start: 456
-              end: 456
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 314
-              end: 317
+              start: 114
+              end: 114
         - severity: error
           name: pdfTeX
           text: Missing $ inserted
           log:
             file: Problem Set 3.log
             range:
-              start: 327
-              end: 328
+              start: 268
+              end: 269
           source:
             file: Problem Set 3.tex
             range:
-              start: 98
-              end: 98
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 336
-              end: 337
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 98
-              end: 98
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 348
-              end: 349
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 98
-              end: 98
-        - severity: error
-          name: pdfTeX
-          text: Missing \cr inserted
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 360
-              end: 362
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 98
-              end: 98
-        - severity: error
-          name: pdfTeX
-          text: 'Missing { inserted'
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 369
-              end: 370
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 98
-              end: 98
-        - severity: error
-          name: pdfTeX
-          text: Missing $ inserted
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 379
-              end: 380
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 98
-              end: 98
-        - severity: error
-          name: pdfTeX
-          text: Misplaced alignment tab character &
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 388
-              end: 390
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 99
-              end: 99
-        - severity: error
-          name: pdfTeX
-          text: Misplaced \cr
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 400
-              end: 401
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 99
-              end: 99
-        - severity: error
-          name: pdfTeX
-          text: Misplaced \noalign
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 412
-              end: 413
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 99
-              end: 99
-        - severity: error
-          name: pdfTeX
-          text: Misplaced alignment tab character &
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 421
-              end: 423
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 100
-              end: 100
-        - severity: error
-          name: pdfTeX
-          text: Missing $ inserted
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 433
-              end: 434
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 100
-              end: 100
-        - severity: error
-          name: pdfTeX
-          text: Misplaced \cr
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 442
-              end: 443
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 100
-              end: 100
-        - severity: error
-          name: pdfTeX
-          text: Misplaced \noalign
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 454
-              end: 455
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 100
-              end: 100
-        - severity: error
-          name: pdfTeX
-          text: Missing $ inserted
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 464
-              end: 465
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 100
-              end: 100
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 473
-              end: 474
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 100
-              end: 100
-        - severity: error
-          name: pdfTeX
-          text: Misplaced alignment tab character &
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 485
-              end: 487
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 101
-              end: 101
-        - severity: error
-          name: pdfTeX
-          text: Misplaced alignment tab character &
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 497
-              end: 499
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 102
-              end: 102
-        - severity: error
-          name: pdfTeX
-          text: Misplaced alignment tab character &
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 509
-              end: 511
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 103
-              end: 103
-        - severity: error
-          name: pdfTeX
-          text: Misplaced alignment tab character &
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 521
-              end: 523
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 104
-              end: 104
-        - severity: error
-          name: pdfTeX
-          text: Missing $ inserted
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 533
-              end: 534
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 105
-              end: 105
-        - severity: error
-          name: pdfTeX
-          text: Missing \right. inserted
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 542
-              end: 544
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 105
-              end: 105
-        - severity: error
-          name: pdfTeX
-          text: Missing \endgroup inserted
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 555
-              end: 557
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 105
-              end: 105
+              start: 115
+              end: 115
         - severity: error
           name: pdfTeX
           text: Display math should end with $$
           log:
             file: Problem Set 3.log
             range:
-              start: 568
-              end: 570
+              start: 277
+              end: 279
           source:
             file: Problem Set 3.tex
             range:
-              start: 105
-              end: 105
-        - severity: error
-          name: pdfTeX
-          text: Misplaced \crcr
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 583
-              end: 584
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 106
-              end: 106
-        - severity: error
-          name: pdfTeX
-          text: 'Extra }, or forgotten \endgroup'
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 595
-              end: 597
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 106
-              end: 106
-        - severity: error
-          name: pdfTeX
-          text: 'Extra }, or forgotten \endgroup'
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 608
-              end: 610
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 106
-              end: 106
-        - severity: error
-          name: pdfTeX
-          text: Missing $ inserted
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 621
-              end: 622
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 106
-              end: 106
-        - severity: error
-          name: pdfTeX
-          text: Extra \right
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 630
-              end: 631
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 106
-              end: 106
-        - severity: error
-          name: pdfTeX
-          text: '\begin{equation*} on input line 97 ended by \end{dcases}'
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 639
-              end: 641
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 106
-              end: 106
-          category: LaTeX
-        - severity: error
-          name: pdfTeX
-          text: Missing $ inserted
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 653
-              end: 654
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 106
-              end: 106
-        - severity: error
-          name: pdfTeX
-          text: Bad math environment delimiter
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 666
-              end: 668
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 107
-              end: 107
-          category: LaTeX
-        - severity: error
-          name: pdfTeX
-          text: '\begin{document} ended by \end{equation*}'
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 681
-              end: 683
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 107
-              end: 107
-          category: LaTeX
-        - severity: error
-          name: pdfTeX
-          text: Missing $ inserted
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 695
-              end: 696
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 107
-              end: 107
-        - severity: error
-          name: pdfTeX
-          text: Display math should end with $$
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 707
-              end: 709
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 107
-              end: 107
-        - severity: error
-          name: pdfTeX
-          text: Extra \endgroup
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 717
-              end: 718
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 107
-              end: 107
+              start: 115
+              end: 115
       inputs: []
       outputs:
         - Problem Set 3.pdf
       calls: []
     type: ParsedLaTeXLog
   Problem Set 3.aux:
-    timeStamp: 2019-10-03T20:58:44.231Z
+    timeStamp: 2019-10-04T15:16:54.887Z
     jobNames: []
     hash: M0WgdaIvs7vARWeh5WYO0CQNU/WIH0WKIjTc1Cp40zU=
     type: LaTeXAuxilary
   Problem Set 3.fls:
-    timeStamp: 2019-10-03T20:58:44.251Z
+    timeStamp: 2019-10-04T15:16:54.909Z
     jobNames: []
-    hash: x/cZJWuZpJylLu7AR6Rh2eHQBPmSiFrnmWMEO+BlRGY=
+    hash: 3y4G8oWHq2xqc4Pc1M/CNIyT2SLd6VUSbAQ5w4G7eus=
     type: FileListing
   Problem Set 3.log:
-    timeStamp: 2019-10-03T20:58:44.268Z
+    timeStamp: 2019-10-04T15:16:54.925Z
     jobNames: []
-    hash: +QLUI7Fr94CRD6yq/6QpfnpYUgyN8xi5ytEuXouLUCo=
+    hash: zAgNzbqW3OOqSVb8bH3voIBtwsCGHLQhU5E93q4Z+co=
     type: LaTeXLog
     subType: pdfTeX
   Problem Set 3.synctex.gz:
-    timeStamp: 2019-10-03T20:58:44.267Z
+    timeStamp: 2019-10-04T15:16:54.925Z
     jobNames: []
-    hash: PvRPCfpM9+9eQFTgFWfjq/IcUPkXUjHykH4xKdrW6k4=
+    hash: 5XAMpGvsh+cftEWCIAxbLY3cMpxlUv2V3zm6nyypuZ0=
     type: SyncTeX
   Problem Set 3.pdf:
-    timeStamp: 2019-10-03T20:58:44.267Z
+    timeStamp: 2019-10-04T15:16:54.924Z
     jobNames: []
-    hash: 3PK+kVGLRHc4DWpnpDqAdrTtO7dgW8FlnavvEDFBy28=
+    hash: UI/AtDtVz6ipLykEruprmGg4m1z52Yxrhgaj0XtsKiw=
     type: PortableDocumentFormat
   Problem Set 3.aux-ParsedLaTeXAuxilary:
     timeStamp: 2019-10-03T15:09:19.644Z

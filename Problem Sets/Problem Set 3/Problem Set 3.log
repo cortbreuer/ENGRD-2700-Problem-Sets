@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  3 OCT 2019 16:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  4 OCT 2019 11:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -119,85 +119,55 @@ s
 \f@nch@O@erf=\skip49
 \f@nch@O@olf=\skip50
 \f@nch@O@orf=\skip51
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
-(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count118
-\calc@Bcount=\count119
-\calc@Adimen=\dimen112
-\calc@Bdimen=\dimen113
-\calc@Askip=\skip52
-\calc@Bskip=\skip53
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count120
-\calc@Cskip=\skip54
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mhsetup.sty
-Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
-\@mathmargin=\skip55
+\@mathmargin=\skip52
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen114
+\pmbraise@=\dimen112
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count121
+\inf@bad=\count118
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count122
-\leftroot@=\count123
+\uproot@=\count119
+\leftroot@=\count120
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count124
-\DOTSCASE@=\count125
+\classnum@=\count121
+\DOTSCASE@=\count122
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
-\big@size=\dimen115
+\big@size=\dimen113
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count126
-\c@MaxMatrixCols=\count127
+\macc@depth=\count123
+\c@MaxMatrixCols=\count124
 \dotsspace@=\muskip10
-\c@parentequation=\count128
-\dspbrk@lvl=\count129
+\c@parentequation=\count125
+\dspbrk@lvl=\count126
 \tag@help=\toks20
-\row@=\count130
-\column@=\count131
-\maxfields@=\count132
+\row@=\count127
+\column@=\count128
+\maxfields@=\count129
 \andhelp@=\toks21
-\eqnshift@=\dimen116
-\alignsep@=\dimen117
-\tagshift@=\dimen118
-\tagwidth@=\dimen119
-\totwidth@=\dimen120
-\lineht@=\dimen121
+\eqnshift@=\dimen114
+\alignsep@=\dimen115
+\tagshift@=\dimen116
+\tagwidth@=\dimen117
+\totwidth@=\dimen118
+\lineht@=\dimen119
 \@envbody=\toks22
-\multlinegap=\skip56
-\multlinetaggap=\skip57
+\multlinegap=\skip53
+\multlinetaggap=\skip54
 \mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
-)
-LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count133
-\l_MT_multwidth_dim=\dimen122
-\origjot=\skip58
-\l_MT_shortvdotswithinadjustabove_dim=\dimen123
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen124
-\l_MT_above_intertext_sep=\dimen125
-\l_MT_below_intertext_sep=\dimen126
-\l_MT_above_shortintertext_sep=\dimen127
-\l_MT_below_shortintertext_sep=\dimen128
 )
 (/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD
  2700 Work/Problem Sets/Problem Set 3/Problem Set 3.aux)
@@ -252,487 +222,79 @@ File: fc-english.def 2016/01/12
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 99.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count134
-\scratchdimen=\dimen129
-\scratchbox=\box28
-\nofMPsegments=\count135
-\nofMParguments=\count136
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count137
-\MPscratchDim=\dimen130
-\MPnumerator=\count138
-\makeMPintoPDFobject=\count139
-\everyMPtoPDFconversion=\toks25
-))) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-))) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-))) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-\Gin@req@height=\dimen131
-\Gin@req@width=\dimen132
-) [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+[1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ] [2] [3] [4]
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:98: Missing $ inserted.
-<inserted text> 
-                $
-l.98 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:98: Missing } inserted.
-<inserted text> 
-                }
-l.98 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:98: Missing } inserted.
-<inserted text> 
-                }
-l.98 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:98: Missing \cr inserted
-.
-<inserted text> 
-                \cr 
-l.98 
-     
-I'm guessing that you meant to end an alignment here.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:98: Missing { inserted.
-<inserted text> 
-                {
-l.98 
-     
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:98: Missing $ inserted.
-<inserted text> 
-                $
-l.98 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:99: Misplaced alignment 
-tab character &.
-l.99 0 &
-         x < -2 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:99: Misplaced \cr.
-\math@cr@@@ ->\cr 
-                  
-l.99 0 & x < -2 \\
-                  
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:99: Misplaced \noalign.
-\math@cr@@ ... \iffalse }\fi \math@cr@@@ \noalign 
-                                                  {\vskip #1\relax }
-l.99 0 & x < -2 \\
-                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:100: Misplaced alignment
- tab character &.
-l.100 .2 &
-           -2 \leq x < -1 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:100: Missing $ inserted.
-<inserted text> 
-                $
-l.100 .2 & -2 \leq
-                   x < -1 \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:100: Misplaced \cr.
-\math@cr@@@ ->\cr 
-                  
-l.100 .2 & -2 \leq x < -1 \\
-                            
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:100: Misplaced \noalign.
-
-\math@cr@@ ... \iffalse }\fi \math@cr@@@ \noalign 
-                                                  {\vskip #1\relax }
-l.100 .2 & -2 \leq x < -1 \\
-                            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:100: Missing $ inserted.
-<inserted text> 
-                $
-l.100 .2 & -2 \leq x < -1 \\
-                            
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:100: Missing } inserted.
-<inserted text> 
-                }
-l.100 .2 & -2 \leq x < -1 \\
-                            
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:101: Misplaced alignment
- tab character &.
-l.101 .1 &
-           -1 \leq x < 0 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:102: Misplaced alignment
- tab character &.
-l.102 .4 &
-           0 \leq x < 1 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:103: Misplaced alignment
- tab character &.
-l.103 .1 &
-           1 \leq x < 2 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:104: Misplaced alignment
- tab character &.
-l.104 .2 &
-           x \geq 2
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:105: Missing $ inserted.
-<inserted text> 
-                $
-l.105 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:105: Missing \right. ins
-erted.
-<inserted text> 
-                \right .
-l.105 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:105: Missing \endgroup i
-nserted.
-<inserted text> 
-                \endgroup 
-l.105 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:105: Display math should
- end with $$.
-<to be read again> 
-                   \par 
-l.105 
-      
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-
-Overfull \hbox (204.61598pt too wide) detected at line 105
-[]
- []
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:106: Misplaced \crcr.
-\MH_end_cases: ->\crcr 
-                       \egroup \restorecolumn@ \egroup \MH_group_align_safe_...
-l.106 \end{dcases}
-                  
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:106: Extra }, or forgott
-en \endgroup.
-\MH_end_cases: ->\crcr \egroup 
-                               \restorecolumn@ \egroup \MH_group_align_safe_...
-l.106 \end{dcases}
-                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:106: Extra }, or forgott
-en \endgroup.
-\MH_end_cases: ...\egroup \restorecolumn@ \egroup 
-                                                  \MH_group_align_safe_end: 
-l.106 \end{dcases}
-                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:106: Missing $ inserted.
-<inserted text> 
-                $
-l.106 \end{dcases}
-                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:106: Extra \right.
-\enddcases ->\MH_end_cases: \right .
-                                    
-l.106 \end{dcases}
-                  
-I'm ignoring a \right that had no matching \left.
-
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:106: LaTeX Error: \begin
-{equation*} on input line 97 ended by \end{dcases}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.106 \end{dcases}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:106: Missing $ inserted.
-<inserted text> 
-                $
-l.106 \end{dcases}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:107: LaTeX Error: Bad ma
-th environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.107 \]
-        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:107: LaTeX Error: \begin
-{document} ended by \end{equation*}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.107 \]
-        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 /Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
 2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:107: Missing $ inserted.
 <inserted text> 
                 $
-l.107 \]
-        
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+l.107 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 /Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
 2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:107: Display math should
  end with $$.
 <to be read again> 
-                   \endgroup 
-l.107 \]
-        
+                   \par 
+l.107 
+      
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
 /Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:107: Extra \endgroup.
-<recently read> \endgroup 
+2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:108: Missing $ inserted.
+<inserted text> 
+                $
+l.108 f(x) = \begin{cases}
                           
-l.107 \]
-        
-Things are pretty mixed up, but I think the worst is over.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
+2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:114: Missing $ inserted.
+<inserted text> 
+                $
+l.114 \end{cases}
+                  $$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
+2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:115: Missing $ inserted.
+<inserted text> 
+                $
+l.115 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
+2700 Work/Problem Sets/Problem Set 3/Problem Set 3.tex:115: Display math should
+ end with $$.
+<to be read again> 
+                   \par 
+l.115 
+      
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
 
 [5] [6]
 (/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD
  2700 Work/Problem Sets/Problem Set 3/Problem Set 3.aux) ) 
 Here is how much of TeX's memory you used:
- 4393 strings out of 492649
- 63875 string characters out of 6129622
- 157801 words of memory out of 5000000
- 8214 multiletter control sequences out of 15000+600000
+ 2684 strings out of 492649
+ 36504 string characters out of 6129622
+ 124571 words of memory out of 5000000
+ 6573 multiletter control sequences out of 15000+600000
  5919 words of font info for 22 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,10n,68p,1033b,196s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,10n,68p,1033b,194s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2
 018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/20
 18/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/201
@@ -742,7 +304,7 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "Problem Set 3.pdf" (6 pages, 88001 bytes).
+Output written on "Problem Set 3.pdf" (6 pages, 89806 bytes).
 PDF statistics:
  55 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream

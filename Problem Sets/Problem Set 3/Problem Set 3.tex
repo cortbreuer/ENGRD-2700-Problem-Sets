@@ -3,7 +3,7 @@
 \usepackage[ddmmyy]{datetime}
 \usepackage[margin=1.25in]{geometry}
 \usepackage{fancyhdr}
-\usepackage{mathtools}
+\usepackage{amsmath}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -34,6 +34,9 @@ $$P(A|B) = \frac{\frac{1}{3} e^{-x/3} - \frac{1}{3} e^{-(x+2)/3}}{\frac{1}{3} - 
 
 
 
+
+
+
 \newpage
 
 \section*{Question 2}
@@ -44,7 +47,7 @@ The probability that both children are female, assuming the first is female, is 
 
 $$P(A|B) = \frac{P(A \cap B)}{P(B)} = \frac{.25}{.5} = .5$$
 
-There is a probability of .5 that given the first child is female that the second will also be female.
+\noindent There is a probability of .5 that given the first child is female that the second will also be female.
 
 \subsection*{Part B}
 
@@ -52,17 +55,23 @@ Here the conditional probability equation is used again, but the order of  child
 
 $$P(A|B) = \frac{P(A \cap B)}{P(B)} = \frac{.25}{.75} = .333$$
 
-There is a probability of .333 that given as least one child is female that the other will also be female.
+\noindent There is a probability of .333 that given as least one child is female that the other will also be female.
 
 \subsection*{Part C}
 
-$$P(\text{ff } | \geq \text{Katie}) = \frac{P(\text{ff } \cap \geq \text{Katie})}{P(\geq  \text{Katie})} = $$
+$$P(\text{ff } | \geq \text{1 Katie}) = \frac{P(\text{ff } \cap \geq \text{1 Katie})}{P(\geq  \text{1 Katie})} = \frac{.25}{.75}$$
 
 \newpage
 
 \section*{Question 3}
 
 \subsection*{Part A}
+
+A = {bag is identified as dangerous}
+
+\noindent B = {bag contains explosives}
+
+$$P(A|B) = \frac{P(A \cap B)}{P(B)} = \frac{}{10/4000000}$$
 
 \subsection*{Part B}
 
@@ -94,19 +103,19 @@ The PMF of $X$ is given by $p_{X}(x) = P(X = x)$.
 
 \subsection*{Part A}
 
-\[ \begin{dcases}
+$$
 
-0 & x < -2 \\
-.2 & -2 \leq x < -1 \\
-.1 & -1 \leq x < 0 \\
-.4 & 0 \leq x < 1 \\
-.1 & 1 \leq x < 2 \\
-.2 & x \geq 2
-
-\end{dcases}
-\]
+f(x) = \begin{cases}
+    P(X = -2) & = .2  \\
+    P(X = -1) & = .1  \\
+    P(X = 0) & = .4  \\
+    P(X = 1) & = .1  \\
+    P(X = 2) & = .2
+\end{cases} $$
 
 \subsection*{Part B}
+
+$$E[X] = \sum_{x \in \mathcal{X}} x \cdot P_X (X = x) = (-2 \cdot .2) + (-1 \cdot .1) + (0 \cdot .4) + (1 \cdot .1) + (2 \cdot .2) = -.4 - .1 + 0 + .1 + .4 = 0$$
 
 \subsection*{Part C}
 
