@@ -24,18 +24,15 @@
 
 Lifetime of a light bulb $T$ is given by $P(T>t)=e^{-t/3}$ for all $t \geq 0$. The bulb has lasted $x$ years, so the conditional probability that it will last at most $x + 2$ years is given by the conditional probability equation.
 
- $$P(A|B) = \frac{P(A \cap B)}{P(B)}$$
+$$P(A|B) = \frac{P(A \cap B)}{P(B)}$$
 
-$$P(A \cap B) = \int_x^{x+2} e^{-t/3} dt = -\frac{1}{3} e^{-t/3} \Big|_x^{x+2} = \frac{1}{3} e^{-x/3} - \frac{1}{3} e^{-(x+2)/3}$$
+$$P(A \cap B) = 1 - e^{-(x+2)/3} - 1 + e^{-x/3}$$
 
-$$P(B) = \int_0^{x} e^{-t/3} dt = -\frac{1}{3} e^{-t/3} \Big|_0^{x} = - \frac{1}{3} e^{-x/3} + \frac{1}{3} e^{-0/3} = \frac{1}{3} - \frac{1}{3} e^{-x/3}$$
+$$P(B) = e^{-x/3}$$
 
-$$P(A|B) = \frac{\frac{1}{3} e^{-x/3} - \frac{1}{3} e^{-(x+2)/3}}{\frac{1}{3} - \frac{1}{3} e^{-x/3}} = \frac{e^{-x/3} - e^{-x/3} e^{-2/3}}{1 - e^{-x/3}}$$
+$$P(A|B) = \frac{e^{-x/3} - e^{-(x+2)/3}}{e^{-x/3}} = \frac{e^{-x/3} - e^{-x/3}e^{-2/3}}{e^{-x/3}} = 1 - e^{-2/3} = .487$$
 
-
-
-
-
+\noindent Thus the probability that given the bulb has lasted x years, it will last at most $x + 2$ years is .487, which is independent of x.
 
 \newpage
 
@@ -59,7 +56,9 @@ $$P(A|B) = \frac{P(A \cap B)}{P(B)} = \frac{.25}{.75} = .333$$
 
 \subsection*{Part C}
 
-$$P(\text{ff } | \geq \text{1 Katie}) = \frac{P(\text{ff } \cap \geq \text{1 Katie})}{P(\geq  \text{1 Katie})} = \frac{.25}{.75}$$
+$$P(\text{ff } | \geq \text{1 Katie}) = \frac{P(\text{ff } \cap \geq \text{1 Katie})}{P(\geq  \text{1 Katie})} = \frac{.25 \cdot (2p(1-p) + p^2)}{.5p + .25 \cdot (2p(1-p) + p^2)} = \frac{.5p - .5p^2 + .25p^2}{.5p + .5p - .5p^2 + .25p^2}$$
+
+$$= \frac{.5p - .25p^2}{p - .25p^2} = \frac{.5 - .25p}{1 - .25p}$$
 
 \newpage
 
@@ -71,11 +70,31 @@ A = {bag is identified as dangerous}
 
 \noindent B = {bag contains explosives}
 
-$$P(A|B) = \frac{P(A \cap B)}{P(B)} = \frac{}{10/4000000}$$
+\noindent C = {false positive, safe bag identified as containing explosives}
+
+$$P(A \cap B) = P(B|A) \cdot P(A) = .9 \cdot (10/4000000) = 2.25 \times 10^{-6}$$
+
+$$P(B) = P(B|A) \cdot P(A) + P(C) = .9 \cdot (10/4000000) + (1 - .99) = .01$$
+
+$$P(A|B) = \frac{P(A \cap B)}{P(B)} = \frac{2.25 \times 10^{-6}}{.01} = .000225$$
 
 \subsection*{Part B}
 
+D = {bag without explosives correctly identified}
+
+$$P(A|B) = \frac{P(A \cap B)}{P(B)} = \frac{2.25 \times 10^{-6}}{2.25 \times 10^{-6} + (1 - P(D))} \geq .5$$
+
+$$2.25 \times 10^{-6} \geq .5 \big[ 2.25 \times 10^{-6} + (1 - P(D)) \big]$$
+
+$$2.25 \times 10^{-6} \geq .5 \cdot 2.25 \times 10^{-6} + .5 - .5 \cdot P(D)$$
+
+$$1 - 2.25 \times 10^{-6} \leq P(D)$$
+
+$$P(D) \geq .99999775$$
+
 \subsection*{Part C}
+
+No, it is not possible to make $P(A|B)$ be at least .5 by increasing the chance of correclty identifying bags containing explosives. It would require increasing $P(A)$ so significantly that it would make it above 1, thus breaking the standard laws of probabilities ranging from 0 to 1.
 
 \newpage
 
@@ -87,15 +106,23 @@ The set $\mathcal{X}$ of possible values for $X$ is given by $S = \{ 1, 2, 4, 8,
 
 \subsection*{Part B}
 
-The PMF of $X$ is given by $p_{X}(x) = P(X = x)$.
+Since each coin flip has a .5 chance of heads and a .5 chance of tails, the probability of n number of successive tails will be given by $.5^{n + 1}$ since the first probability is .5, thus the PMF of $X$ is given by:
 
-
+$$p_{X}(2^n) = .5^{n+1}$$
 
 \subsection*{Part C}
 
+$$P(X > 40) = 1 - \sum_i^{40} P_X(2^n) = 1 - .5^{1} - .5^{2} - .5^{3} - .5^{4}- .5^{5} = .03125$$
+
 \subsection*{Part D}
 
+$$E(X) = \sum_{x \in \mathcal{X}} x \cdot P_X (X = x) = \sum_{x \in \mathcal{X}} 2^n \cdot .5^{n + 1} = \sum_{x \in \mathcal{X}} .5 = \infty$$
+
 \subsection*{Part E}
+
+Possible values for Y are $2^n$ for values of n = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+
+\noindent The PMF of Y will just be $P_X (X = x) = .5^{n+1}$ for n 1 through 9, and 2^10 for n = 10. 
 
 \newpage
 
@@ -117,7 +144,13 @@ f(x) = \begin{cases}
 
 $$E[X] = \sum_{x \in \mathcal{X}} x \cdot P_X (X = x) = (-2 \cdot .2) + (-1 \cdot .1) + (0 \cdot .4) + (1 \cdot .1) + (2 \cdot .2) = -.4 - .1 + 0 + .1 + .4 = 0$$
 
+$$E[X^2] = \sum_{x \in \mathcal{X}} x^2 \cdot P_X (X = x) = (4 \cdot .2) + (1 \cdot .1) + (0 \cdot .4) + (1 \cdot .1) + (4 \cdot .2) = .4 + .1 + 0 + .1 + .4 = 1$$
+
+$$Var(X) = E(X^2) - E(X)^2 = 1 - 0 = 1$$
+
 \subsection*{Part C}
+
+$$E[sin(X)] = \sum_{x \in \mathcal(X)} sin(x) \cdot P_X (X = x) = (sin(-2) \cdot .2) + (sin(-1) \cdot .1) + (sin(0) \cdot .4) + (sin(1) \cdot .1) + (sin(2) \cdot .2) = 0$$
 
 \newpage
 
@@ -125,11 +158,23 @@ $$E[X] = \sum_{x \in \mathcal{X}} x \cdot P_X (X = x) = (-2 \cdot .2) + (-1 \cdo
 
 \subsection*{Part A}
 
+Making or missing a freethrow is classified as a Bernoulli Trial since there are only two outcomes, modelled by a binomial distribution. Since $X$ is a binomial distribution, it has parameters: $n = 1000$ and $\rho = .07$.
+
+$$E(X) = n \rho = 1000 \cdot .07 = 70$$
+
+$$Var(X) = n \rho (1 - \rho) = 1000 \cdot .07 (1 - .07) = 65.1$$
+
 \subsection*{Part B}
+
+$$P_X(X = 61) = \binom{n}{x} \rho^x (1 - \rho)^{n-x} = \binom{1000}{61} .07^{61} (1 - .07)^{1000-61} = 9.046 \times 10^{-101} \cdot 3.042 \times 10^{98} = .0275$$
 
 \subsection*{Part C}
 
+$$P_X(X = 61) = \frac{e^{-n \rho} (n \rho)^x}{x!} = \frac{e^{-1000 \cdot .07} (1000 \cdot .07)^61}{61!} = .0279$$
+
 \subsection*{Part D}
+
+$$P(\geq \text{60 misses} | \text{55 misses}) = \frac{P(\geq \text{60 misses} \cap \text{55 misses})}{P(\text{55 misses})} = $$
 
 \subsection*{Part E}
 

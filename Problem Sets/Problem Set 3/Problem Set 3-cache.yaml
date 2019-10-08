@@ -130,9 +130,9 @@ files:
       $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
     type: ParsedYAML
   Problem Set 3.tex:
-    timeStamp: 2019-10-04T15:16:54.291Z
+    timeStamp: 2019-10-05T03:56:15.434Z
     jobNames: []
-    hash: yLMvfVwFWrJYAMArbJSluR3q/vVuCCg07cigJGbyly4=
+    hash: N+Y5FXB+ezOhR7DOJ5nledVLxjtLOmN/PWHM6JEyPxw=
     type: LaTeX
     subType: article
   /Users/cortbreuer/Library/Application Support/dicy/config.yaml:
@@ -208,7 +208,7 @@ files:
       calls: []
     type: ParsedFileListing
   Problem Set 3.log-ParsedLaTeXLog:
-    timeStamp: 2019-10-04T15:10:44.998Z
+    timeStamp: 2019-10-05T03:56:16.157Z
     jobNames: []
     value:
       messages:
@@ -646,21 +646,21 @@ files:
           source:
             file: Problem Set 3.tex
             range:
-              start: 107
-              end: 107
+              start: 125
+              end: 125
         - severity: error
           name: pdfTeX
-          text: Display math should end with $$
+          text: Missing $ inserted
           log:
             file: Problem Set 3.log
             range:
               start: 237
-              end: 239
+              end: 238
           source:
             file: Problem Set 3.tex
             range:
-              start: 107
-              end: 107
+              start: 126
+              end: 126
         - severity: error
           name: pdfTeX
           text: Missing $ inserted
@@ -672,77 +672,103 @@ files:
           source:
             file: Problem Set 3.tex
             range:
-              start: 108
-              end: 108
-        - severity: error
-          name: pdfTeX
-          text: Missing $ inserted
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 256
-              end: 257
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 114
-              end: 114
-        - severity: error
-          name: pdfTeX
-          text: Missing $ inserted
-          log:
-            file: Problem Set 3.log
-            range:
-              start: 268
-              end: 269
-          source:
-            file: Problem Set 3.tex
-            range:
-              start: 115
-              end: 115
+              start: 134
+              end: 134
         - severity: error
           name: pdfTeX
           text: Display math should end with $$
           log:
             file: Problem Set 3.log
             range:
-              start: 277
-              end: 279
+              start: 256
+              end: 258
           source:
             file: Problem Set 3.tex
             range:
-              start: 115
-              end: 115
+              start: 134
+              end: 134
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 266
+              end: 267
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 135
+              end: 135
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 275
+              end: 276
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 141
+              end: 141
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 287
+              end: 288
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 142
+              end: 142
+        - severity: error
+          name: pdfTeX
+          text: Display math should end with $$
+          log:
+            file: Problem Set 3.log
+            range:
+              start: 296
+              end: 298
+          source:
+            file: Problem Set 3.tex
+            range:
+              start: 142
+              end: 142
       inputs: []
       outputs:
         - Problem Set 3.pdf
       calls: []
     type: ParsedLaTeXLog
   Problem Set 3.aux:
-    timeStamp: 2019-10-04T15:16:54.887Z
+    timeStamp: 2019-10-05T03:56:16.082Z
     jobNames: []
     hash: M0WgdaIvs7vARWeh5WYO0CQNU/WIH0WKIjTc1Cp40zU=
     type: LaTeXAuxilary
   Problem Set 3.fls:
-    timeStamp: 2019-10-04T15:16:54.909Z
+    timeStamp: 2019-10-05T03:56:16.106Z
     jobNames: []
     hash: 3y4G8oWHq2xqc4Pc1M/CNIyT2SLd6VUSbAQ5w4G7eus=
     type: FileListing
   Problem Set 3.log:
-    timeStamp: 2019-10-04T15:16:54.925Z
+    timeStamp: 2019-10-05T03:56:16.125Z
     jobNames: []
-    hash: zAgNzbqW3OOqSVb8bH3voIBtwsCGHLQhU5E93q4Z+co=
+    hash: mULKhBpmu7wOwg/X+/RVrmJkOjY8E1AXehWhXBXWuX4=
     type: LaTeXLog
     subType: pdfTeX
   Problem Set 3.synctex.gz:
-    timeStamp: 2019-10-04T15:16:54.925Z
+    timeStamp: 2019-10-05T03:56:16.125Z
     jobNames: []
-    hash: 5XAMpGvsh+cftEWCIAxbLY3cMpxlUv2V3zm6nyypuZ0=
+    hash: DqClZ0y+EQm5WUND13QS9gMZfuMPyrtQEGZgpxA2//s=
     type: SyncTeX
   Problem Set 3.pdf:
-    timeStamp: 2019-10-04T15:16:54.924Z
+    timeStamp: 2019-10-05T03:56:16.124Z
     jobNames: []
-    hash: UI/AtDtVz6ipLykEruprmGg4m1z52Yxrhgaj0XtsKiw=
+    hash: 9akdedz5TIDiFXTfj75uL8uVPvfimQ7KWhZ1MCrUIMU=
     type: PortableDocumentFormat
   Problem Set 3.aux-ParsedLaTeXAuxilary:
     timeStamp: 2019-10-03T15:09:19.644Z

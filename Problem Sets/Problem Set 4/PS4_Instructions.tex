@@ -1,0 +1,102 @@
+\documentclass{article}    % Specifies the document style.
+\renewcommand{\baselinestretch}{1}      % Spacing
+\setlength{\oddsidemargin}{0in} \setlength{\evensidemargin}{0in} \setlength{\textwidth}{6.5in}
+\setlength{\topmargin}{-.2in} \setlength{\headsep}{0in} \setlength{\textheight}{9.5in}
+\pagestyle{empty}
+%
+\usepackage{color}
+\usepackage{placeins}
+\usepackage{amsmath,amsthm}
+\usepackage{graphicx}
+\usepackage{enumitem,url}
+
+\newcommand{\answer}[1]{{\color{blue}#1}}
+\newcommand{\grade}[1]{\textcolor{red}{#1}}
+
+\newcommand{\yccomment}[1]{{\color{magenta} Yudong --- #1}}
+
+\begin{document}           % End of preamble and beginning of text.
+\begin{center}
+
+\textbf{\large{ENGRD 2700: Basic Engineering Probability and
+    Statistics\medskip \\ Fall 2019}}\bigskip
+
+\vskip 0.25em
+
+\textbf{\large{Homework 4}}
+\end{center}
+
+\vskip 1em
+
+	\noindent Due Friday, Oct 11th by 11:59pm. Submit to Gradescope by clicking the name of the assignment. See \url{https://people.orie.cornell.edu/yudong.chen/engrd2700_2019fa.html#homework} for detailed submission instructions. 
+
+\vskip 1em
+
+
+The same stipulations from Homework 1 (e.g., independent work, computer code, etc.) still apply. \bigskip
+
+\vskip 1em
+\begin{enumerate}
+\item Let $X$ have the following PMF:
+$$
+    f(x) = P(X = x) = \frac{1}{n}, \qquad x = 0, 1, 2, \ldots, n-1
+$$
+\begin{enumerate}
+\item[(a)] Find the cumulative distribution function, $F(x)$. Recall that  $ F(x) $ is defined for all $ x \in (-\infty, \infty) $.\\ 
+\item[(b)] Compute $E[X]$ and Var$(X)$. For this problem, you may find the following facts useful:
+    $$
+        \sum_{i = 0}^{n-1} i = \frac{n(n-1)}{2},\qquad \sum_{i = 0}^{n-1} i^2 = \frac{n(n-1)(2n-1)}{6}.
+    $$ \\ 
+    \end{enumerate}
+
+
+\item Suppose that a baseball game between teams A and B is tied at
+the end of the 9th inning. To determine a winner, extra innings will
+be played until one team scores more runs in an inning than the
+other. Suppose that the probability that A scores more than B in an
+inning is 0.2, the probability that B scores more than A in an
+inning is 0.3, and the probability that the score remains tied is
+0.5. The innings are independent of each other.
+\begin{enumerate}
+	\item What is the distribution of the number $X$ of extra innings that need to be played until a winner is determined (including the last one
+	where one team scores more runs)? To answer this question, state the possible values of  $ X $ and give a formula for $P(X=k)$ for
+	all relevant $k$.\\
+	\item What is the probability that at least 5 extra innings are required to
+	determine a winner?\\
+	\item Eventually, one of the two teams wins. Compute the  probability that B eventually wins. (Optional: You may try to use the same reasoning to compute the probability of A eventually winning. If the two probabilities do not sum to  $ 1 $, then something is wrong.)\\
+\end{enumerate}
+
+\item Suppose $X$ is a continuous random variable with probability density function (pdf)
+$$
+    f(x) = \begin{cases} cx^{-6} & 1 \leq x < \infty \\ 0 & x < 1 \end{cases}
+$$
+\begin{enumerate}
+\item[(a)] Find $c$. \\ 
+\item[(b)] Compute $F(x)$, the cumulative distribution function (cdf) of $X$. \\ 
+\item[(c)] Find the 40\textsuperscript{th} percentile of $X$, i.e., the number $\gamma$ such that $P(X \leq \gamma) = 0.4.$ \\ 
+\item[(d)] Compute $E[X]$ and Var$(X)$. \\ 
+\item[(e)] Compute $E[X^5]$. \\ 
+\end{enumerate}
+
+\item Suppose you and your friend just finished shopping at Wegmans and are checking out separately. You use one of those self-checkout kiosks and know that you will finish checking out in exactly $ 5 $ minutes. Your friend is waiting in a traditional checkout lane, and the amount of time until your friend finishes checking out is uniformly distributed between $ 0 $ and $ 15 $ minutes. The two of you will leave Wegmans together when you both finish checking out. Find $E[T]$, where $ T $ is the number of minutes between now and the time you leave. \\
+
+\item The gain from one share of stock in company $ i $ over the coming year is $X_i$,  where $i = 1, \ldots, 10$. (Negative values of $ X_i $ represent losses.) Suppose that the $X_i$ are independent Normal(100,\,196) random variables (i.e., with mean $\mu = 100$ and variance $\sigma^2 = 196$). 
+
+For the follow questions, \textbf{you should first derive an expression of the probability in terms of the CDF $ \Phi(\cdot) $ of a standard normal r.v., and then give a numerical answer.}
+\begin{enumerate}
+\item[(a)] Compute $P(X_1 \ge 90)$, the probability that company 1's gain is at least 90\% of its expectation. \\
+\item[(b)] Compute $P(\sum_{i=1}^{10} X_i \ge  900)$, the probability that the combined gain of all 10 companies is at least 90\% of the expectation. \\
+\item[(c)] Compute $P(X_1 - 2X_2 \geq 10)$. \\
+\end{enumerate}
+
+\item Suppose that $ X $ is an exponential random variables with parameter $ \lambda = 3 $. 
+\begin{enumerate}
+	\item[(a)] What is the cumulative distribution function of $ Y=-2X + 2$? \\
+	\item[(b)] What is the mean and variance of $ Y $?\\
+	\item[(c)] What is the $ 0.9 $ quantile of $ Y $? \\
+	\item[(d)] What is the probability density function of $ Y $?\\
+	
+\end{enumerate}
+\end{enumerate}
+
+\end{document}
