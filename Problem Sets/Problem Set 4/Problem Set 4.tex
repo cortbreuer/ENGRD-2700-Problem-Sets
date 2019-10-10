@@ -4,6 +4,7 @@
 \usepackage[margin=1.25in]{geometry}
 \usepackage{fancyhdr}
 \usepackage{amsmath}
+\usepackage{amssymb}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -22,7 +23,21 @@
 
 \section*{Question 1}
 
+\centerline{ $f(x) = P(X = x) = \frac{1}{n}$ \space \space \space \space $x = 0, 1, 2, ... (n-1)$ }
+
 \subsection*{Part A}
+
+$$F_X(x) = P_X(X \leq x) = \sum_{y \leq x} p_X (y)$$
+
+$$F_X(x) = \sum_{y \leq x} \frac{1}{n} \text{ for } x = 0, 1, 2, ... (n-1)$$
+
+$$\text{CDF, } F_X(x) = \frac{x}{n} \text{ for } x = 0, 1, 2, ... (n-1)$$
+
+$$ F_X(x) = \begin{cases}
+    1               &   x \geq n    \\
+    \frac{x}{n}     &   0 \leq x \leq (n-1) \\
+    0               &   x < 0   \\
+\end{cases} $$
 
 \subsection*{Part B}
 
@@ -40,9 +55,32 @@
 
 \section*{Question 3}
 
+$$
+    \text{PDF, } f(x) = \begin{cases} cx^{-6} & 1 \leq x < \infty \\ 0 & x < 1 \end{cases}
+$$
+
 \subsection*{Part A}
 
+$$P(a \leq X \leq b) = \int_a^b f(u)du$$
+
+$$P(1 \leq X \leq \infty) = 1$$
+
+$$P(1 \leq X \leq \infty) = \int_1^{\infty} c x^{-6} dx = \frac{c}{-5} x^{-5} \Big|_1^{\infty} = \frac{c}{-5} \infty^{-5} - \frac{c}{-5} 1^{-5}$$
+
+$$5 = c \cdot 1^{-5} \longrightarrow c = 5$$
+
 \subsection*{Part B}
+
+$$\text{CDF, } F(x) = P(X \leq x) = \int_{- \infty}^x f(u)du$$
+
+$$F(x) = \int_{- \infty}^x 5 x^{-6} dx = -x^{-5} \Big|_{- \infty}^{x} = -x^{-5} + (- \infty)^{-5}$$
+
+$$F(x) = -x^{-5}$$
+
+$$\text{CDF, } F(x) =\begin{cases}
+        -x^{-5}     &   x \geq 1    \\
+        0           &   x < 1
+\end{cases} $$
 
 \subsection*{Part C}
 
@@ -54,15 +92,48 @@
 
 \section*{Question 4}
 
+Since if $X < 5$, the time to departure  T will be 5, and if $X > 5$ T will be X, so $T = max{5, X}$, with X uniformly distributed from 0 to 15.
+
+$$E(T) = \int_0^5 5 \cdot \frac{1}{15} dx + \int_5^{15} x \cdot \frac{1}{15} dx$$
+
+$$E(T) = \frac{x}{3} \Big|_0^5 + \frac{x^2}{30} \Big|_5^{15} = \frac{5}{3} - 0 + \frac{15^2}{30} - \frac{5^2}{30} = 8.33$$
+
 \newpage
 
 \section*{Question 5}
 
+Gain from one share of stock in company $i$ over the next year is X, with $i = 1,...,10$.
+
+\noindent $X_i$ are independent normal random variables (Normal(100, 196)) with $\mu = 100$, $\sigma^2 = 196$.
+
 \subsection*{Part A}
+
+$$P(X_1 \geq 90) = P \Big( \frac{X_1 - 100}{14} \geq \frac{90 - 100}{14} \Big)$$
+
+$$N(0, 1) \thicksim \frac{X_1 - 100}{14}$$
+
+$$\Phi \Big( \frac{90 - 100}{14} \Big) = P \Big( \frac{X_1 - 100}{14} \leq \frac{90 - 100}{14} \Big)$$
+
+$$P(X_1 \geq 90) = 1 - P \Big( \frac{X_1 - 100}{14} \leq \frac{90 - 100}{14} \Big) = 1 - \Phi \Big( \frac{90 - 100}{14} \Big)$$
 
 \subsection*{Part B}
 
+
+
 \subsection*{Part C}
+
+independent (P(X_1 - 2X_2 \geq 10)) so X_1 -2X_2 \thicksim N(-100, 980)
+
+Y \thicksim N(-100, 980)
+
+P(Y \geq 10)^-100
+
+CDF P(Y \leq 1) = \Phi(\frac{X-\mu}{\sigma}) = \Phi(\frac{Y-(-100)}{\sqrt(980)}) with Phi as N(0,1)
+
+
+P(Y \geq 10)
+
+P(\frac{Y-(-100)}{\sqrt{980}} \geq )
 
 \newpage
 
@@ -70,10 +141,42 @@
 
 \subsection*{Part A}
 
+$\lambda = 3$
+
+$$Y = -2X + 2$$
+
+with X as exp(\lambda)
+
+CDF of Y, F_Y(y)
+
+$$P(Y \leq y) = P(-2X + 2 \leq y) = P(X \geq \frac{-y}{2} + 1) = 1 - P(X \leq \frac{-y}{2} + 1)$$
+
+CDF of X = P(X \leq \frac{-y}{2} + 1)
+
+$$F_Y(y) = \begin{cases}
+    0           &       \\ <--- don't actually need this
+    CDF of X    &       \\
+    1           &       \\
+\end{cases}$$
+
 \subsection*{Part B}
 
 \subsection*{Part C}
 
 \subsection*{Part D}
+
+
+
+_______________
+
+FOR QUESTIONS 5 AND 6
+
+E(X_1 + X_2) = E(X_1) + E(X_2)
+
+Var(X_1 + X_2) = Var(X_1) + Var(X_2)
+
+Var(5X_1 - X_2) = 5^2 \cdot Var(X_1) + Var(X_2)
+
+_______________
 
 \end{document}
