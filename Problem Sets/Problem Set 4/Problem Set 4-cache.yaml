@@ -130,9 +130,9 @@ files:
       $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
     type: ParsedYAML
   Problem Set 4.tex:
-    timeStamp: 2019-10-10T15:48:14.326Z
+    timeStamp: 2019-10-10T18:40:11.007Z
     jobNames: []
-    hash: uERNJO/io5MDoGH//A0gpyKVY7LosLI8vsuijZdVBkg=
+    hash: gNPUY5PstYJeA6MvqKoEvwdqldiby3fcUrAwpencuYI=
     type: LaTeX
     subType: article
   /Users/cortbreuer/Library/Application Support/dicy/config.yaml:
@@ -226,7 +226,7 @@ files:
       calls: []
     type: ParsedFileListing
   Problem Set 4.log-ParsedLaTeXLog:
-    timeStamp: 2019-10-10T15:48:15.179Z
+    timeStamp: 2019-10-10T18:40:11.860Z
     jobNames: []
     value:
       messages:
@@ -728,8 +728,8 @@ files:
           source:
             file: Problem Set 4.tex
             range:
-              start: 125
-              end: 125
+              start: 155
+              end: 155
         - severity: error
           name: pdfTeX
           text: Missing $ inserted
@@ -741,8 +741,8 @@ files:
           source:
             file: Problem Set 4.tex
             range:
-              start: 126
-              end: 126
+              start: 156
+              end: 156
         - severity: error
           name: pdfTeX
           text: Missing $ inserted
@@ -754,8 +754,8 @@ files:
           source:
             file: Problem Set 4.tex
             range:
-              start: 127
-              end: 127
+              start: 157
+              end: 157
         - severity: error
           name: pdfTeX
           text: Missing $ inserted
@@ -767,8 +767,8 @@ files:
           source:
             file: Problem Set 4.tex
             range:
-              start: 128
-              end: 128
+              start: 158
+              end: 158
         - severity: error
           name: pdfTeX
           text: Missing $ inserted
@@ -780,11 +780,11 @@ files:
           source:
             file: Problem Set 4.tex
             range:
-              start: 129
-              end: 129
+              start: 177
+              end: 177
         - severity: error
           name: pdfTeX
-          text: Missing $ inserted
+          text: 'Missing { inserted'
           log:
             file: Problem Set 4.log
             range:
@@ -793,102 +793,89 @@ files:
           source:
             file: Problem Set 4.tex
             range:
-              start: 130
-              end: 130
+              start: 177
+              end: 177
         - severity: error
           name: pdfTeX
-          text: Missing $ inserted
+          text: 'Missing { inserted'
           log:
             file: Problem Set 4.log
             range:
-              start: 297
-              end: 298
+              start: 299
+              end: 300
           source:
             file: Problem Set 4.tex
             range:
-              start: 131
-              end: 131
+              start: 177
+              end: 177
         - severity: error
           name: pdfTeX
-          text: Missing $ inserted
+          text: 'Missing { inserted'
           log:
             file: Problem Set 4.log
             range:
-              start: 306
-              end: 307
+              start: 310
+              end: 311
           source:
             file: Problem Set 4.tex
             range:
-              start: 132
-              end: 132
+              start: 177
+              end: 177
         - severity: error
           name: pdfTeX
-          text: Missing $ inserted
+          text: 'Missing { inserted'
           log:
             file: Problem Set 4.log
             range:
-              start: 315
-              end: 316
+              start: 321
+              end: 322
           source:
             file: Problem Set 4.tex
             range:
-              start: 134
-              end: 134
+              start: 177
+              end: 177
         - severity: error
           name: pdfTeX
-          text: Missing $ inserted
+          text: 'Missing { inserted'
           log:
             file: Problem Set 4.log
             range:
-              start: 324
-              end: 325
+              start: 332
+              end: 333
           source:
             file: Problem Set 4.tex
             range:
-              start: 135
-              end: 135
+              start: 177
+              end: 177
         - severity: error
           name: pdfTeX
-          text: Missing $ inserted
+          text: 'Missing { inserted'
           log:
             file: Problem Set 4.log
             range:
-              start: 333
-              end: 334
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 136
-              end: 136
-        - severity: error
-          name: pdfTeX
-          text: 'Extra }, or forgotten $'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 342
+              start: 343
               end: 344
           source:
             file: Problem Set 4.tex
             range:
-              start: 136
-              end: 136
+              start: 177
+              end: 177
         - severity: error
           name: pdfTeX
-          text: Missing $ inserted
+          text: 'Missing { inserted'
           log:
             file: Problem Set 4.log
             range:
-              start: 355
-              end: 356
+              start: 354
+              end: 355
           source:
             file: Problem Set 4.tex
             range:
-              start: 137
-              end: 137
+              start: 177
+              end: 177
         - severity: error
           name: pdfTeX
-          text: Missing $ inserted
+          text: 'Missing { inserted'
           log:
             file: Problem Set 4.log
             range:
@@ -897,536 +884,16 @@ files:
           source:
             file: Problem Set 4.tex
             range:
-              start: 148
-              end: 148
-        - severity: error
-          name: pdfTeX
-          text: Missing $ inserted
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 374
-              end: 375
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 149
-              end: 149
-        - severity: error
-          name: pdfTeX
-          text: Missing $ inserted
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 383
-              end: 384
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 150
-              end: 150
-        - severity: error
-          name: pdfTeX
-          text: Missing $ inserted
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 392
-              end: 393
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 151
-              end: 151
-        - severity: error
-          name: pdfTeX
-          text: Missing $ inserted
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 401
-              end: 402
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 154
-              end: 154
-        - severity: error
-          name: pdfTeX
-          text: Missing $ inserted
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 410
-              end: 411
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 155
-              end: 155
-        - severity: error
-          name: pdfTeX
-          text: Missing $ inserted
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 419
-              end: 420
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 170
-              end: 170
+              start: 177
+              end: 177
         - severity: error
           name: pdfTeX
           text: 'Missing { inserted'
           log:
             file: Problem Set 4.log
             range:
-              start: 428
-              end: 429
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 170
-              end: 170
-        - severity: error
-          name: pdfTeX
-          text: 'Missing { inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 439
-              end: 440
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 170
-              end: 170
-        - severity: error
-          name: pdfTeX
-          text: 'Missing { inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 450
-              end: 451
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 170
-              end: 170
-        - severity: error
-          name: pdfTeX
-          text: 'Missing { inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 461
-              end: 462
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 170
-              end: 170
-        - severity: error
-          name: pdfTeX
-          text: 'Missing { inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 472
-              end: 473
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 170
-              end: 170
-        - severity: error
-          name: pdfTeX
-          text: 'Missing { inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 483
-              end: 484
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 170
-              end: 170
-        - severity: error
-          name: pdfTeX
-          text: 'Missing { inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 494
-              end: 495
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 170
-              end: 170
-        - severity: error
-          name: pdfTeX
-          text: 'Missing { inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 505
-              end: 506
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 170
-              end: 170
-        - severity: error
-          name: pdfTeX
-          text: 'Missing { inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 516
-              end: 517
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 170
-              end: 170
-        - severity: error
-          name: pdfTeX
-          text: 'Missing { inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 527
-              end: 528
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 170
-              end: 170
-        - severity: error
-          name: pdfTeX
-          text: 'Missing { inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 538
-              end: 539
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 170
-              end: 170
-        - severity: error
-          name: pdfTeX
-          text: 'Missing { inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 549
-              end: 550
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 170
-              end: 170
-        - severity: error
-          name: pdfTeX
-          text: 'Missing { inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 560
-              end: 561
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 170
-              end: 170
-        - severity: error
-          name: pdfTeX
-          text: 'Missing { inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 571
-              end: 572
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 170
-              end: 170
-        - severity: error
-          name: pdfTeX
-          text: 'Missing { inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 582
-              end: 583
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 171
-              end: 171
-        - severity: error
-          name: pdfTeX
-          text: Missing $ inserted
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 593
-              end: 594
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 171
-              end: 171
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 602
-              end: 603
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 171
-              end: 171
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 614
-              end: 615
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 171
-              end: 171
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 626
-              end: 627
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 171
-              end: 171
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 638
-              end: 639
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 171
-              end: 171
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 650
-              end: 651
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 171
-              end: 171
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 662
-              end: 663
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 171
-              end: 171
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 674
-              end: 675
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 171
-              end: 171
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 686
-              end: 687
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 171
-              end: 171
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 698
-              end: 699
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 171
-              end: 171
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 710
-              end: 711
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 171
-              end: 171
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 722
-              end: 723
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 171
-              end: 171
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 734
-              end: 735
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 171
-              end: 171
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 746
-              end: 747
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 171
-              end: 171
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 758
-              end: 759
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 171
-              end: 171
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 770
-              end: 771
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 171
-              end: 171
-        - severity: error
-          name: pdfTeX
-          text: Missing $ inserted
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 782
-              end: 783
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 174
-              end: 174
-        - severity: error
-          name: pdfTeX
-          text: Missing $ inserted
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 791
-              end: 792
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 175
-              end: 175
-        - severity: error
-          name: pdfTeX
-          text: Missing $ inserted
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 800
-              end: 801
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 176
-              end: 176
-        - severity: error
-          name: pdfTeX
-          text: Missing $ inserted
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 809
-              end: 810
+              start: 376
+              end: 377
           source:
             file: Problem Set 4.tex
             range:
@@ -1434,12 +901,77 @@ files:
               end: 177
         - severity: error
           name: pdfTeX
-          text: Missing $ inserted
+          text: 'Missing { inserted'
           log:
             file: Problem Set 4.log
             range:
-              start: 818
-              end: 819
+              start: 387
+              end: 388
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 177
+              end: 177
+        - severity: error
+          name: pdfTeX
+          text: 'Missing { inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 398
+              end: 399
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 177
+              end: 177
+        - severity: error
+          name: pdfTeX
+          text: 'Missing { inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 409
+              end: 410
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 177
+              end: 177
+        - severity: error
+          name: pdfTeX
+          text: 'Missing { inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 420
+              end: 421
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 177
+              end: 177
+        - severity: error
+          name: pdfTeX
+          text: 'Missing { inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 431
+              end: 432
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 177
+              end: 177
+        - severity: error
+          name: pdfTeX
+          text: 'Missing { inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 442
+              end: 443
           source:
             file: Problem Set 4.tex
             range:
@@ -1451,211 +983,640 @@ files:
           log:
             file: Problem Set 4.log
             range:
-              start: 827
-              end: 828
+              start: 453
+              end: 454
           source:
             file: Problem Set 4.tex
             range:
-              start: 179
-              end: 179
+              start: 178
+              end: 178
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 462
+              end: 463
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 178
+              end: 178
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 474
+              end: 475
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 178
+              end: 178
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 486
+              end: 487
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 178
+              end: 178
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 498
+              end: 499
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 178
+              end: 178
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 510
+              end: 511
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 178
+              end: 178
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 522
+              end: 523
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 178
+              end: 178
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 534
+              end: 535
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 178
+              end: 178
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 546
+              end: 547
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 178
+              end: 178
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 558
+              end: 559
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 178
+              end: 178
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 570
+              end: 571
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 178
+              end: 178
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 582
+              end: 583
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 178
+              end: 178
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 594
+              end: 595
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 178
+              end: 178
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 606
+              end: 607
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 178
+              end: 178
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 618
+              end: 619
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 178
+              end: 178
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 630
+              end: 631
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 178
+              end: 178
         - severity: error
           name: pdfTeX
           text: Missing $ inserted
           log:
             file: Problem Set 4.log
             range:
-              start: 836
-              end: 837
+              start: 642
+              end: 643
           source:
             file: Problem Set 4.tex
             range:
-              start: 180
-              end: 180
+              start: 181
+              end: 181
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 651
+              end: 652
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 182
+              end: 182
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 660
+              end: 661
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 183
+              end: 183
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 669
+              end: 670
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 184
+              end: 184
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 678
+              end: 679
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 185
+              end: 185
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 687
+              end: 688
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 186
+              end: 186
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 696
+              end: 697
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 187
+              end: 187
         - severity: error
           name: pdfTeX
           text: 'Missing { inserted'
           log:
             file: Problem Set 4.log
             range:
-              start: 845
-              end: 846
+              start: 705
+              end: 706
           source:
             file: Problem Set 4.tex
             range:
-              start: 180
-              end: 180
+              start: 187
+              end: 187
         - severity: error
           name: pdfTeX
           text: 'Missing { inserted'
           log:
             file: Problem Set 4.log
             range:
-              start: 856
-              end: 857
+              start: 716
+              end: 717
           source:
             file: Problem Set 4.tex
             range:
-              start: 180
-              end: 180
+              start: 187
+              end: 187
         - severity: error
           name: pdfTeX
           text: 'Missing { inserted'
           log:
             file: Problem Set 4.log
             range:
-              start: 867
-              end: 868
+              start: 727
+              end: 728
           source:
             file: Problem Set 4.tex
             range:
-              start: 180
-              end: 180
+              start: 187
+              end: 187
         - severity: error
           name: pdfTeX
           text: 'Missing { inserted'
           log:
             file: Problem Set 4.log
             range:
-              start: 878
-              end: 879
+              start: 738
+              end: 739
           source:
             file: Problem Set 4.tex
             range:
-              start: 180
-              end: 180
+              start: 187
+              end: 187
         - severity: error
           name: pdfTeX
           text: 'Missing { inserted'
           log:
             file: Problem Set 4.log
             range:
-              start: 889
-              end: 890
+              start: 749
+              end: 750
           source:
             file: Problem Set 4.tex
             range:
-              start: 180
-              end: 180
+              start: 187
+              end: 187
         - severity: error
           name: pdfTeX
           text: 'Missing { inserted'
           log:
             file: Problem Set 4.log
             range:
-              start: 900
-              end: 901
+              start: 760
+              end: 761
           source:
             file: Problem Set 4.tex
             range:
-              start: 180
-              end: 180
+              start: 187
+              end: 187
         - severity: error
           name: pdfTeX
           text: 'Missing { inserted'
           log:
             file: Problem Set 4.log
             range:
-              start: 911
-              end: 912
+              start: 771
+              end: 772
           source:
             file: Problem Set 4.tex
             range:
-              start: 180
-              end: 180
+              start: 187
+              end: 187
         - severity: error
           name: pdfTeX
           text: 'Missing { inserted'
           log:
             file: Problem Set 4.log
             range:
-              start: 922
-              end: 923
+              start: 782
+              end: 783
           source:
             file: Problem Set 4.tex
             range:
-              start: 180
-              end: 180
+              start: 187
+              end: 187
         - severity: error
           name: pdfTeX
           text: 'Missing { inserted'
           log:
             file: Problem Set 4.log
             range:
-              start: 933
-              end: 934
+              start: 793
+              end: 794
           source:
             file: Problem Set 4.tex
             range:
-              start: 180
-              end: 180
+              start: 187
+              end: 187
         - severity: error
           name: pdfTeX
           text: 'Missing { inserted'
           log:
             file: Problem Set 4.log
             range:
-              start: 944
-              end: 945
+              start: 804
+              end: 805
           source:
             file: Problem Set 4.tex
             range:
-              start: 180
-              end: 180
+              start: 187
+              end: 187
         - severity: error
           name: pdfTeX
           text: 'Missing { inserted'
           log:
             file: Problem Set 4.log
             range:
-              start: 955
-              end: 956
+              start: 815
+              end: 816
           source:
             file: Problem Set 4.tex
             range:
-              start: 180
-              end: 180
+              start: 187
+              end: 187
         - severity: error
           name: pdfTeX
           text: 'Missing { inserted'
           log:
             file: Problem Set 4.log
             range:
-              start: 966
-              end: 967
+              start: 826
+              end: 827
           source:
             file: Problem Set 4.tex
             range:
-              start: 180
-              end: 180
+              start: 187
+              end: 187
         - severity: error
           name: pdfTeX
           text: 'Missing { inserted'
           log:
             file: Problem Set 4.log
             range:
-              start: 977
-              end: 978
+              start: 837
+              end: 838
           source:
             file: Problem Set 4.tex
             range:
-              start: 180
-              end: 180
+              start: 187
+              end: 187
         - severity: error
           name: pdfTeX
           text: 'Missing { inserted'
           log:
             file: Problem Set 4.log
             range:
-              start: 988
-              end: 989
+              start: 848
+              end: 849
           source:
             file: Problem Set 4.tex
             range:
-              start: 180
-              end: 180
+              start: 187
+              end: 187
         - severity: error
           name: pdfTeX
           text: 'Missing { inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 859
+              end: 860
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 188
+              end: 188
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 870
+              end: 871
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 188
+              end: 188
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 879
+              end: 880
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 188
+              end: 188
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 891
+              end: 892
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 188
+              end: 188
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 903
+              end: 904
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 188
+              end: 188
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 915
+              end: 916
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 188
+              end: 188
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 927
+              end: 928
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 188
+              end: 188
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 939
+              end: 940
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 188
+              end: 188
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 951
+              end: 952
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 188
+              end: 188
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 963
+              end: 964
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 188
+              end: 188
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 975
+              end: 976
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 188
+              end: 188
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
+          log:
+            file: Problem Set 4.log
+            range:
+              start: 987
+              end: 988
+          source:
+            file: Problem Set 4.tex
+            range:
+              start: 188
+              end: 188
+        - severity: error
+          name: pdfTeX
+          text: 'Missing } inserted'
           log:
             file: Problem Set 4.log
             range:
@@ -1664,246 +1625,90 @@ files:
           source:
             file: Problem Set 4.tex
             range:
-              start: 181
-              end: 181
-        - severity: error
-          name: pdfTeX
-          text: Missing $ inserted
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 1010
-              end: 1011
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 181
-              end: 181
+              start: 188
+              end: 188
         - severity: error
           name: pdfTeX
           text: 'Missing } inserted'
           log:
             file: Problem Set 4.log
             range:
-              start: 1019
-              end: 1020
+              start: 1011
+              end: 1012
           source:
             file: Problem Set 4.tex
             range:
-              start: 181
-              end: 181
+              start: 188
+              end: 188
         - severity: error
           name: pdfTeX
           text: 'Missing } inserted'
           log:
             file: Problem Set 4.log
             range:
-              start: 1031
-              end: 1032
+              start: 1023
+              end: 1024
           source:
             file: Problem Set 4.tex
             range:
-              start: 181
-              end: 181
+              start: 188
+              end: 188
         - severity: error
           name: pdfTeX
           text: 'Missing } inserted'
           log:
             file: Problem Set 4.log
             range:
-              start: 1043
-              end: 1044
+              start: 1035
+              end: 1036
           source:
             file: Problem Set 4.tex
             range:
-              start: 181
-              end: 181
+              start: 188
+              end: 188
         - severity: error
           name: pdfTeX
           text: 'Missing } inserted'
           log:
             file: Problem Set 4.log
             range:
-              start: 1055
-              end: 1056
+              start: 1047
+              end: 1048
           source:
             file: Problem Set 4.tex
             range:
-              start: 181
-              end: 181
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 1067
-              end: 1068
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 181
-              end: 181
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 1079
-              end: 1080
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 181
-              end: 181
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 1091
-              end: 1092
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 181
-              end: 181
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 1103
-              end: 1104
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 181
-              end: 181
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 1115
-              end: 1116
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 181
-              end: 181
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 1127
-              end: 1128
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 181
-              end: 181
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 1139
-              end: 1140
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 181
-              end: 181
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 1151
-              end: 1152
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 181
-              end: 181
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 1163
-              end: 1164
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 181
-              end: 181
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 1175
-              end: 1176
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 181
-              end: 181
-        - severity: error
-          name: pdfTeX
-          text: 'Missing } inserted'
-          log:
-            file: Problem Set 4.log
-            range:
-              start: 1187
-              end: 1188
-          source:
-            file: Problem Set 4.tex
-            range:
-              start: 181
-              end: 181
+              start: 188
+              end: 188
       inputs: []
       outputs:
         - Problem Set 4.pdf
       calls: []
     type: ParsedLaTeXLog
   Problem Set 4.aux:
-    timeStamp: 2019-10-10T15:48:15.077Z
+    timeStamp: 2019-10-10T18:40:11.758Z
     jobNames: []
     hash: M0WgdaIvs7vARWeh5WYO0CQNU/WIH0WKIjTc1Cp40zU=
     type: LaTeXAuxilary
   Problem Set 4.fls:
-    timeStamp: 2019-10-10T15:48:15.105Z
+    timeStamp: 2019-10-10T18:40:11.793Z
     jobNames: []
     hash: foYKwcaPUI1pvn53TFAvhPw3zQL2IKPxRt44d4N2lHs=
     type: FileListing
   Problem Set 4.log:
-    timeStamp: 2019-10-10T15:48:15.121Z
+    timeStamp: 2019-10-10T18:40:11.811Z
     jobNames: []
-    hash: dQnmH3IZp6QRneoIPYibm38t0FotdSWzLGNBbJoGZtY=
+    hash: eXL9RaGjbLcFo/5kxeXoGtfjLZFPsyhZR8+dIaqD9Iw=
     type: LaTeXLog
     subType: pdfTeX
   Problem Set 4.synctex.gz:
-    timeStamp: 2019-10-10T15:48:15.121Z
+    timeStamp: 2019-10-10T18:40:11.811Z
     jobNames: []
-    hash: lSOQj+R4V7YJLKs2AhILVRlzHFdo5LR5Il5hsAX1CMQ=
+    hash: zwHUdYj4pC5yFFkzqdPdWBVjtN3iBgSPs32tF8GLaHw=
     type: SyncTeX
   Problem Set 4.pdf:
-    timeStamp: 2019-10-10T15:48:15.120Z
+    timeStamp: 2019-10-10T18:40:11.810Z
     jobNames: []
-    hash: JotU18jk412FHcgjIm9FEmDTDjILQZ+jMuEGf0dPktI=
+    hash: qCzlSYpJz7jcCWA7weVSE/Qi4KK4GwYMxa6skRaaBpE=
     type: PortableDocumentFormat
   Problem Set 4.aux-ParsedLaTeXAuxilary:
     timeStamp: 2019-10-09T13:56:49.092Z

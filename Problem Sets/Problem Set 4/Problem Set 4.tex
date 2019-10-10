@@ -96,7 +96,7 @@ Since if $X < 5$, the time to departure  T will be 5, and if $X > 5$ T will be X
 
 $$E(T) = \int_0^5 5 \cdot \frac{1}{15} dx + \int_5^{15} x \cdot \frac{1}{15} dx$$
 
-$$E(T) = \frac{x}{3} \Big|_0^5 + \frac{x^2}{30} \Big|_5^{15} = \frac{5}{3} - 0 + \frac{15^2}{30} - \frac{5^2}{30} = 8.33$$
+$$E(T) = \frac{x}{3} \Big|_0^5 + \frac{x^2}{30} \Big|_5^{15} = \frac{5}{3} - 0 + \frac{15^2}{30} - \frac{5^2}{30} = 8.33 \text{ min}$$
 
 \newpage
 
@@ -116,24 +116,31 @@ $$\Phi \Big( \frac{90 - 100}{14} \Big) = P \Big( \frac{X_1 - 100}{14} \leq \frac
 
 $$P(X_1 \geq 90) = 1 - P \Big( \frac{X_1 - 100}{14} \leq \frac{90 - 100}{14} \Big) = 1 - \Phi \Big( \frac{90 - 100}{14} \Big)$$
 
+$$P(X_1 \geq 90) = 1 - \Phi(-.71) = 1 - .761 = .239$$
+
 \subsection*{Part B}
 
+For 10 companies, 100\% of the expectation will be 1000, hence 900 for 90\%.
 
+$$P \Big( \sum_{i=1}^{10} X_i \geq  900 \Big)$$
+
+$$\sum X_i = N \Big( \sum \mu_i, \sum \sigma_1^2\Big)$$
 
 \subsection*{Part C}
 
-independent (P(X_1 - 2X_2 \geq 10)) so X_1 -2X_2 \thicksim N(-100, 980)
+independent $(P(X_1 - 2X_2 \geq 10))$ so $X_1 -2X_2 \thicksim N(-100, 980)$
 
-Y \thicksim N(-100, 980)
+$$Y \thicksim N(-100, 980)$$
 
-P(Y \geq 10)^-100
+$$P(Y \geq 10)^-100$$
 
-CDF P(Y \leq 1) = \Phi(\frac{X-\mu}{\sigma}) = \Phi(\frac{Y-(-100)}{\sqrt(980)}) with Phi as N(0,1)
+$$\text{CDF ,} P(Y \leq 1) = \Phi(\frac{X-\mu}{\sigma}) = \Phi(\frac{Y-(-100)}{\sqrt(980)})$$
 
+$$\Phi = N(0,1)$$
 
-P(Y \geq 10)
+$$P(Y \geq 10)$$
 
-P(\frac{Y-(-100)}{\sqrt{980}} \geq )
+$$P(\frac{Y-(-100)}{\sqrt{980}} \geq )$$
 
 \newpage
 
@@ -151,7 +158,7 @@ CDF of Y, F_Y(y)
 
 $$P(Y \leq y) = P(-2X + 2 \leq y) = P(X \geq \frac{-y}{2} + 1) = 1 - P(X \leq \frac{-y}{2} + 1)$$
 
-CDF of X = P(X \leq \frac{-y}{2} + 1)
+CDF of $X = P(X \leq \frac{-y}{2} + 1)$
 
 $$F_Y(y) = \begin{cases}
     0           &       \\ <--- don't actually need this
