@@ -1,0 +1,825 @@
+version: 0.12.2
+filePath: Problem Set 5.tex
+options:
+  $BIBINPUTS:
+    - $ROOTDIR
+    - $ROOTDIR/$OUTDIR
+    - ''
+  $TEXINPUTS:
+    - $ROOTDIR
+    - $ROOTDIR/$OUTDIR
+    - ''
+  bibtexEngine: bibtex
+  cleanPatterns:
+    - '**/*.aux'
+    - '**/*.aux.bak'
+    - '**/*.bbl'
+    - '**/*.bcf'
+    - '**/*.blg'
+    - '**/*.dvi'
+    - '**/*.fdb_latexmk'
+    - '**/*.fls'
+    - '**/*.idx'
+    - '**/*.idx.bak'
+    - '**/*.ilg'
+    - '**/*.ind'
+    - '**/*.lof'
+    - '**/*.log'
+    - '**/*.lol'
+    - '**/*.lot'
+    - '**/*.nav'
+    - '**/*.out'
+    - '**/*.pdf'
+    - '**/*.ps'
+    - '**/*.snm'
+    - '**/*.synctex.gz'
+    - '**/*.toc'
+    - '/**/_minted-${JOB}'
+    - '/${OUTDIR}/sage-plots-for-${JOB}.tex'
+    - /missfont.log
+    - /texput.log
+    - /texput.aux
+  dviToPdfEngine: xdvipdfmx
+  engine: pdflatex
+  epstopdfBoundingBox: default
+  epstopdfOutputPath: $DIR_0/$NAME_0.pdf
+  indexAutomaticRanges: true
+  indexEngine: makeindex
+  indexOrdering: word
+  indexSorting: default
+  knitrConcordance: true
+  knitrOutputPath: $JOB.tex
+  lhs2texStyle: poly
+  literateAgdaEngine: agda
+  literateHaskellEngine: lhs2TeX
+  loadCache: true
+  loadUserOptions: true
+  outputFormat: pdf
+  phaseCycles: 20
+  pweaveCacheDirectory: pweave-cache-for-$JOB
+  pweaveFigureDirectory: pweave-figures-for-$JOB
+  pweaveKernel: python3
+  pweaveOutputFormat: tex
+  pweaveOutputPath: $JOB.tex
+  saveCache: true
+  severity: info
+  validateCache: true
+  synctex: true
+  copyTargetsToRoot: true
+  outputDirectory: ''
+  intermediatePostScript: false
+  $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
+files:
+  dicy-instance.yaml-ParsedYAML:
+    timeStamp: 2019-10-31T19:12:52.214Z
+    jobNames: []
+    value:
+      severity: info
+    type: ParsedYAML
+  dicy.yaml-ParsedYAML:
+    jobNames: []
+    type: ParsedYAML
+  Problem Set 5.yaml-ParsedYAML:
+    jobNames: []
+    type: ParsedYAML
+  Problem Set 5.tex-ParsedLaTeXMagic:
+    timeStamp: 2019-10-31T19:12:52.262Z
+    jobNames: []
+    value: {}
+    type: ParsedLaTeXMagic
+  /Users/cortbreuer/Library/Application Support/dicy/config.yaml-ParsedYAML:
+    timeStamp: 2019-10-31T19:12:52.258Z
+    jobNames: []
+    value:
+      synctex: true
+      engine: pdflatex
+      severity: warning
+      copyTargetsToRoot: true
+      outputDirectory: ''
+      outputFormat: pdf
+      cleanPatterns:
+        - '**/*.aux'
+        - '**/*.aux.bak'
+        - '**/*.bbl'
+        - '**/*.bcf'
+        - '**/*.blg'
+        - '**/*.dvi'
+        - '**/*.fdb_latexmk'
+        - '**/*.fls'
+        - '**/*.idx'
+        - '**/*.idx.bak'
+        - '**/*.ilg'
+        - '**/*.ind'
+        - '**/*.lof'
+        - '**/*.log'
+        - '**/*.lol'
+        - '**/*.lot'
+        - '**/*.nav'
+        - '**/*.out'
+        - '**/*.pdf'
+        - '**/*.ps'
+        - '**/*.snm'
+        - '**/*.synctex.gz'
+        - '**/*.toc'
+        - '/**/_minted-${JOB}'
+        - '/${OUTDIR}/sage-plots-for-${JOB}.tex'
+        - /missfont.log
+        - /texput.log
+        - /texput.aux
+      intermediatePostScript: false
+      $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
+    type: ParsedYAML
+  Problem Set 5.tex:
+    timeStamp: 2019-10-31T19:22:15.502Z
+    jobNames: []
+    hash: tZxIXAoP5ELYWcXCX8q38QMG1l/MhKmb7UD3xT3D5h4=
+    type: LaTeX
+    subType: article
+  /Users/cortbreuer/Library/Application Support/dicy/config.yaml:
+    timeStamp: 2019-10-31T19:12:52.226Z
+    jobNames: []
+    type: YAML
+  x.y-Nil:
+    jobNames: []
+    type: Nil
+  Problem Set 5.fls-ParsedFileListing:
+    jobNames: []
+    type: ParsedFileListing
+  Problem Set 5.log-ParsedLaTeXLog:
+    timeStamp: 2019-10-31T19:22:15.626Z
+    jobNames: []
+    value:
+      messages:
+        - name: pdfTeX
+          severity: info
+          text: datetime 2015/03/20 v2.60 Date Time Package
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/datetime/datetime.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 29
+              end: 29
+        - name: pdfTeX
+          severity: info
+          text: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 31
+              end: 31
+        - name: pdfTeX
+          severity: info
+          text: fmtcount 2017/12/24 v3.05
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 34
+              end: 34
+        - name: pdfTeX
+          severity: info
+          text: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 36
+              end: 36
+        - name: pdfTeX
+          severity: info
+          text: xkeyval 2014/12/03 v2.7a package option processing (HA)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 38
+              end: 38
+        - name: pdfTeX
+          severity: info
+          text: fcprefix 2012/09/28
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 47
+              end: 47
+        - name: pdfTeX
+          severity: info
+          text: fcnumparser 2017/06/15
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 49
+              end: 49
+        - name: pdfTeX
+          severity: info
+          text: datetime-defaults 2013/09/10
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 66
+              end: 66
+        - severity: info
+          name: pdfTeX
+          category: Package datetime
+          text: 'No datetime.cfg file found, using default settings'
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/datetime/datetime.sty
+            range:
+              start: 308
+              end: 308
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 80
+              end: 81
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \today
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/datetime/datetime.sty
+            range:
+              start: 736
+              end: 736
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 85
+              end: 85
+        - name: pdfTeX
+          severity: info
+          text: geometry 2018/03/24 v5.7 Page Geometry
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 89
+              end: 89
+        - name: pdfTeX
+          severity: info
+          text: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 91
+              end: 91
+        - name: pdfTeX
+          severity: info
+          text: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 93
+              end: 93
+        - severity: info
+          name: pdfTeX
+          category: Package ifvtex
+          text: VTeX not detected.
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 94
+              end: 94
+        - name: pdfTeX
+          severity: info
+          text: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 96
+              end: 96
+        - name: pdfTeX
+          severity: info
+          text: >-
+            fancyhdr 2017/06/30 v3.9a Extensive control of page headers and
+            footers
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 111
+              end: 112
+        - name: pdfTeX
+          severity: info
+          text: amsmath 2017/09/02 v2.17a AMS math features
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 123
+              end: 123
+        - name: pdfTeX
+          severity: info
+          text: amstext 2000/06/29 v2.01 AMS text
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 127
+              end: 127
+        - name: pdfTeX
+          severity: info
+          text: amsbsy 1999/11/29 v1.2d Bold Symbols
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 129
+              end: 129
+        - name: pdfTeX
+          severity: info
+          text: amsopn 2016/03/08 v2.02 operator names
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 132
+              end: 132
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \frac
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 213
+              end: 213
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 135
+              end: 135
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \overline
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 375
+              end: 375
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 138
+              end: 138
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \ldots
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 472
+              end: 472
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 141
+              end: 141
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \dots
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 475
+              end: 475
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 142
+              end: 142
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \cdots
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 596
+              end: 596
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 143
+              end: 143
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring font encoding OML
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 712
+              end: 712
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 147
+              end: 147
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring font encoding OMS
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 713
+              end: 713
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 148
+              end: 148
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: 'Redefining \['
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 2817
+              end: 2817
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 169
+              end: 169
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: 'Redefining \]'
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 2818
+              end: 2818
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 170
+              end: 170
+        - name: pdfTeX
+          severity: info
+          text: amssymb 2013/01/14 v3.01 AMS font symbols
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 172
+              end: 172
+        - name: pdfTeX
+          severity: info
+          text: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 174
+              end: 174
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting math alphabet `\mathfrak' in version `bold' U/euf/m/n
+            --> U/euf/b/n.
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+            range:
+              start: 106
+              end: 106
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 177
+              end: 178
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for OML/cmm/m/it ... okay
+          source:
+            file: Problem Set 5.tex
+            range:
+              start: 16
+              end: 16
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 184
+              end: 185
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for T1/cmr/m/n ... okay
+          source:
+            file: Problem Set 5.tex
+            range:
+              start: 16
+              end: 16
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 186
+              end: 187
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for OT1/cmr/m/n ... okay
+          source:
+            file: Problem Set 5.tex
+            range:
+              start: 16
+              end: 16
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 188
+              end: 189
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for OMS/cmsy/m/n ... okay
+          source:
+            file: Problem Set 5.tex
+            range:
+              start: 16
+              end: 16
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 190
+              end: 191
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for OMX/cmex/m/n ... okay
+          source:
+            file: Problem Set 5.tex
+            range:
+              start: 16
+              end: 16
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 192
+              end: 193
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for U/cmr/m/n ... okay
+          source:
+            file: Problem Set 5.tex
+            range:
+              start: 16
+              end: 16
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 194
+              end: 195
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Try loading font information for U+msa
+          source:
+            file: Problem Set 5.tex
+            range:
+              start: 26
+              end: 26
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 233
+              end: 233
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Try loading font information for U+msb
+          source:
+            file: Problem Set 5.tex
+            range:
+              start: 26
+              end: 26
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 237
+              end: 237
+        - severity: error
+          name: pdfTeX
+          text: Missing delimiter (
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 241
+              end: 242
+          source:
+            file: Problem Set 5.tex
+            range:
+              start: 26
+              end: 26
+      inputs: []
+      outputs:
+        - Problem Set 5.pdf
+      calls: []
+    type: ParsedLaTeXLog
+  Problem Set 5.log:
+    timeStamp: 2019-10-31T19:13:34.182Z
+    jobNames: []
+    hash: tCZjh7e8ClMTDJSsmV6ossCnIW7eF4BTd9bThSbWzys=
+    type: LaTeXLog
+    subType: pdfTeX
+  Problem Set 5.pdf:
+    timeStamp: 2019-10-31T19:22:16.148Z
+    jobNames: []
+    hash: bHzo/SEsBkTIY1rx9SP3A7ApD3oPe6HHWfUQPZcJR+w=
+    type: PortableDocumentFormat
+rules:
+  - name: ApplyOptions
+    command: load
+    phase: initialize
+    parameters: []
+    inputs:
+      - file: dicy.yaml-ParsedYAML
+        type: default
+      - file: Problem Set 5.yaml-ParsedYAML
+        type: default
+      - file: Problem Set 5.tex-ParsedLaTeXMagic
+        type: default
+      - file: dicy-instance.yaml-ParsedYAML
+        type: default
+      - file: >-
+          /Users/cortbreuer/Library/Application
+          Support/dicy/config.yaml-ParsedYAML
+        type: default
+    outputs: []
+  - name: LoadAndValidateCache
+    command: load
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: Migrate
+    command: load
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: ApplyOptions
+    command: load
+    phase: execute
+    parameters: []
+    inputs:
+      - file: dicy.yaml-ParsedYAML
+        type: default
+      - file: Problem Set 5.yaml-ParsedYAML
+        type: default
+      - file: Problem Set 5.tex-ParsedLaTeXMagic
+        type: default
+      - file: dicy-instance.yaml-ParsedYAML
+        type: default
+      - file: >-
+          /Users/cortbreuer/Library/Application
+          Support/dicy/config.yaml-ParsedYAML
+        type: default
+    outputs: []
+  - name: ParseOptionsFile
+    command: load
+    phase: execute
+    parameters: []
+    inputs:
+      - file: /Users/cortbreuer/Library/Application Support/dicy/config.yaml
+        type: default
+    outputs:
+      - file: >-
+          /Users/cortbreuer/Library/Application
+          Support/dicy/config.yaml-ParsedYAML
+        type: default
+  - name: ParseLaTeXMagic
+    command: load
+    phase: execute
+    parameters:
+      - Problem Set 5.tex
+    inputs:
+      - file: Problem Set 5.tex
+        type: default
+    outputs:
+      - file: Problem Set 5.tex-ParsedLaTeXMagic
+        type: default
+  - name: AssignJobNames
+    command: load
+    phase: finalize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: FindLogFiles
+    command: build
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: LaTeX
+    command: build
+    phase: execute
+    parameters:
+      - Problem Set 5.tex
+    inputs:
+      - file: Problem Set 5.tex
+        type: default
+      - file: Problem Set 5.fls-ParsedFileListing
+        type: default
+      - file: Problem Set 5.log-ParsedLaTeXLog
+        type: default
+    outputs:
+      - file: Problem Set 5.pdf
+        type: default
+  - name: LogProducedTargets
+    command: build
+    phase: finalize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: CheckForMissingBuildRule
+    command: build
+    phase: finalize
+    parameters:
+      - Problem Set 5.tex
+    inputs:
+      - file: Problem Set 5.tex
+        type: default
+    outputs: []
+  - name: FindLogFiles
+    command: log
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: ReportLogMessages
+    command: log
+    phase: execute
+    parameters:
+      - Problem Set 5.log-ParsedLaTeXLog
+    inputs:
+      - file: Problem Set 5.log-ParsedLaTeXLog
+        type: default
+    outputs: []
+  - name: ParseLaTeXLog
+    command: log
+    phase: execute
+    parameters:
+      - Problem Set 5.log
+    inputs:
+      - file: Problem Set 5.log
+        type: default
+    outputs:
+      - file: Problem Set 5.log-ParsedLaTeXLog
+        type: default
+  - name: SaveCache
+    command: save
+    phase: execute
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: ParseLaTeXLog
+    command: build
+    phase: execute
+    parameters:
+      - Problem Set 5.log
+    inputs:
+      - file: Problem Set 5.log
+        type: default
+    outputs:
+      - file: Problem Set 5.log-ParsedLaTeXLog
+        type: default
