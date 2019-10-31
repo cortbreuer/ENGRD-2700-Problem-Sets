@@ -1,0 +1,151 @@
+\documentclass{article}    % Specifies the document style.
+\renewcommand{\baselinestretch}{1}      % Spacing
+\setlength{\oddsidemargin}{0in} \setlength{\evensidemargin}{0in} \setlength{\textwidth}{6.5in}
+\setlength{\topmargin}{-.2in} \setlength{\headsep}{0in} \setlength{\textheight}{9.5in}
+\pagestyle{empty}
+%
+\usepackage{color,url}
+\usepackage{placeins}
+\usepackage{amsmath,amsthm}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{relsize}
+\usepackage{float}
+
+\begin{document}           % End of preamble and beginning of text.
+	\begin{center}
+		
+		\textbf{\large{ENGRD 2700: Basic Engineering Probability and
+				Statistics\medskip \\ Fall 2019}}\bigskip
+		
+		\vskip 0.25em
+		
+		\textbf{\large{Homework 5}} 
+	\end{center}
+	
+	\vskip 1em
+	
+	\noindent Due \textbf{Friday November 1} at 11:59pm. Submit to Gradescope by clicking the name of the assignment. See \url{https://people.orie.cornell.edu/yudong.chen/engrd2700_2019fa.html#homework} for detailed submission instructions. 
+	
+	\vskip 1em
+	
+	
+	The same stipulations from Homework 1 (e.g., independent work, computer code, etc.) still apply. \bigskip
+	
+	\vskip 1em
+
+	\begin{enumerate}
+		\item  The joint density function of two random variables is given by
+		$$
+		f_{X,Y}(x,y) = 
+		\begin{cases}
+		k(2y+xy) & \text{if } 0 \le x \le 1\text{ and } x \le y \le 1 \\
+		0 & \text{otherwise.}
+		\end{cases}
+		$$
+		\begin{enumerate}
+			\item What is the constant $k$?
+			\item What is the marginal pdf of $X$?
+			\item What is the conditional density of $X$, given that $Y = 1/4$?
+		\end{enumerate}
+		
+		\item  The lifetimes $X$ and $Y$ of two batteries (in years) are distributed according to the following joint PDF:
+		$$
+		f_{X,Y}(x,y) = 
+		\begin{cases} 
+		8e^{-4x}e^{-2y} & \text{if }x\geq 0 \text{ and } \, y \geq 0 \\ 
+		0 & \text{otherwise}
+		\end{cases}
+		$$
+		\begin{enumerate}
+			\item Compute the probability that both batteries last at least 2 years.
+			
+			\item  Find the marginal PDFs $f_X(x)$ and $f_Y(y)$.
+			
+			\item Compute $E[XY]$.
+			
+			\item What is $P(X \le \frac{Y}{2})$, the probability that the first battery lasts at most half as long as the second?
+			
+			\item Are $X$ and $Y$ independent? Why or why not?
+		\end{enumerate}
+		
+		\item For two discrete random variables  $X$ and $Y$, recall the definition of $ f_{X|Y}(x|y) $, the \textit{conditional PMF} of $X$ given that $Y=y$.
+		Also recall that conditional PMFs are still PMFs, so they must sum to one; that is,
+		$
+		\sum_{x} f_{X|Y}(x|y) = 1.
+		$
+		
+		A bakery sells two types of cupcakes:
+		red velvet and salted caramel. Let $R$ and $S$ denote the
+		number of each type of cupcake an individual customer
+		buys. Suppose that $R$ and $S$ are distributed according to
+		the following joint PMF:
+		
+		\begin{center}
+			
+			\vskip -1em
+			
+			\begin{tabular}{ r | c | c c c }
+				& &  & $s$  & \\
+				\hline
+				$f_{R,S}(r,s)$  & & 0 & 1   & 2\\
+				\hline
+				& 0 &  0   & 0.25 & 0.15\\
+				$r$ & 1 & 0.20 & 0.10 & 0.10\\
+				& 2 & 0.10 & 0.05 & 0.05
+			\end{tabular}
+		\end{center}
+
+		\begin{enumerate}
+			\item  			
+			Compute $f_{R|S}(1|1)$, the conditional probability that a customer buys 1 red velvet cupcake, given that (s)he buys 1 salted caramel cupcake. How does this probability compare to $f_R(1)$? 
+			
+			
+			\item Find $f_{R|S}(r|2)$, the conditional PMF of $R$, given that the customer buys $ 2 $ salted caramel cupcakes. (This involves computing $f_{R|S}(0|2)$, $f_{R|S}(1|2)$, and $f_{R|S}(2|2)$.)
+			
+			
+			\item  The \textit{conditional expectation} of $X$, given that $Y = y$, is defined as
+			$$
+			E[X \,|\, Y = y] = \sum_x x\,f_{X|Y}(x|y).
+			$$
+			Find $E[R\,|\,S=2]$, the expected number of red velvet cupcakes a customer buys, given that (s)he buys $ 2 $ salted caramel cupcakes.
+			
+		\end{enumerate}
+		
+		\item  Given two continuous random variables $X$ and $Y$, recall the definition of $ f_{X|Y} (x|y) $, the \textit{conditional PDF} of $X$ given that $Y = y$. Conditional PDFs are still PDFs, so they must \textit{integrate} to one:
+		$
+		\int_{-\infty}^{\infty} f_{X|Y}(x|y) dx = 1.
+		$ \smallskip
+		
+		Suppose $X$ and $Y$ are distributed as in the following joint PDF:
+		$$
+		f_{X, Y}(x, \,y) = \begin{cases}2 ye^{-y(2+x)} & x, \, y \geq 0 \\ 0 & \text{otherwise} \end{cases}
+		$$
+		For $y > 0$, compute $f_{X|Y}(x|y)$. 
+		
+		\item The file \texttt{Bwages.csv} contains hourly wages of 1473 randomly selected individuals living in Belgium in 1994. For the questions that follow, attach your plots, as well as any code used to generate them.
+		
+		\begin{enumerate}
+			\item Import this dataset into RStudio, and generate a histogram of the data. 
+			
+			\item  Construct a normal Q--Q plot, by hypothesizing
+			that the data originate from a Normal($\bar x$, $s^2)$ distribution,
+			where $\bar x$ and $s^2$ are the sample mean and sample variance,
+			respectively. Overlay the line $y=x$ onto your plot.  (See
+			Recitation 6 for an example of how to do this.) 		
+			
+			\item Does the normal distribution appear to be a reasonable fit for the data? Why or why not? 
+			
+
+			\item  We'll now attempt to fit a \textit{lognormal distribution} to the data. If $X \sim \text{Lognormal}(\mu, \, \sigma^2)$, it has PDF
+			$$
+			f(x) =\frac{1}{x\sigma\sqrt{2\pi}}e^{-(\ln(x) - \mu)^2/(2\sigma^2)} \qquad x > 0
+			$$
+			The lognormal random variable gets its name because $\ln(X)$ is normally distributed (with mean $\mu$ and variance $\sigma^2)$. Construct a lognormal Q--Q plot, by hypothesizing that the data originate from the Lognormal$(2.31, \, 0.41)$ distribution. Use R's \texttt{qlnorm} function to compute theoretical quantiles, and set \texttt{meanlog} to 2.31 and \texttt{sdlog} to 0.41. Overlay the line $y=x$ onto your plot.
+			
+			\item Does the lognormal distribution appear to be a better fit for the data? Where could the fit be improved? Comment on what you see. 
+			
+		\end{enumerate}		
+	\end{enumerate}
+	
+\end{document}

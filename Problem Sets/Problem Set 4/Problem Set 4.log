@@ -1,12 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  10 OCT 2019 14:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=latex 2018.4.16)  11 OCT 2019 23:03
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **"Problem Set 4.tex"
-
-(/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD
- 2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex
+(./Problem Set 4.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
@@ -25,30 +22,40 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/datetime/datetime.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/datetime/datetime.sty
 Package: datetime 2015/03/20 v2.60 Date Time Package
+
 (/usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count88
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fmtcount.sty
 Package: fmtcount 2017/12/24 v3.05
+
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local
-/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks14
 \XKV@tempa@toks=\toks15
+
 (/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/keyval.tex))
 \XKV@depth=\count89
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (/usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fcprefix.sty
 Package: fcprefix 2012/09/28
+
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
 Package: fcnumparser 2017/06/15
 \fc@digit@counter=\count90
-)) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen103
@@ -62,7 +69,8 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@tmpstrctr=\count97
 \@DT@loopN=\count98
 \@DT@X=\count99
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/datetime/datetime-defaults.sty
 Package: datetime-defaults 2013/09/10
 )
 \@day=\count100
@@ -85,14 +93,18 @@ put line 308.
 LaTeX Info: Redefining \today on input line 736.
 \dt@a=\toks17
 \dt@b=\toks18
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/03/24 v5.7 Page Geometry
+
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
-) (/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count115
@@ -107,7 +119,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen110
 \Gm@layoutvoffset=\dimen111
 \Gm@dimlist=\toks19
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip43
@@ -119,16 +132,20 @@ s
 \f@nch@O@erf=\skip49
 \f@nch@O@olf=\skip50
 \f@nch@O@orf=\skip51
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip52
+
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen112
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count118
@@ -168,8 +185,10 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
@@ -177,8 +196,7 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD
- 2700 Work/Problem Sets/Problem Set 4/Problem Set 4.aux)
+(./Problem Set 4.aux)
 \openout1 = `"Problem Set 4.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -193,13 +211,14 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
+
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
 )
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: dvips
 * paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -234,853 +253,4 @@ LaTeX Font Info:    Try loading font information for U+msa on input line 26.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 26.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-] [2] [3] [4] [5]
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:155: Missing $ inserted.
-<inserted text> 
-                $
-l.155 with X as exp(\lambda
-                           )
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:156: Missing $ inserted.
-<inserted text> 
-                $
-l.156 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:157: Missing $ inserted.
-<inserted text> 
-                $
-l.157 CDF of Y, F_
-                  Y(y)
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:158: Missing $ inserted.
-<inserted text> 
-                $
-l.158 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:177: Missing $ inserted.
-<inserted text> 
-                $
-l.177 _
-       ______________
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:177: Missing { inserted.
-<to be read again> 
-                   _
-l.177 __
-        _____________
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:177: Missing { inserted.
-<to be read again> 
-                   _
-l.177 ___
-         ____________
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:177: Missing { inserted.
-<to be read again> 
-                   _
-l.177 ____
-          ___________
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:177: Missing { inserted.
-<to be read again> 
-                   _
-l.177 _____
-           __________
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:177: Missing { inserted.
-<to be read again> 
-                   _
-l.177 ______
-            _________
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:177: Missing { inserted.
-<to be read again> 
-                   _
-l.177 _______
-             ________
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:177: Missing { inserted.
-<to be read again> 
-                   _
-l.177 ________
-              _______
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:177: Missing { inserted.
-<to be read again> 
-                   _
-l.177 _________
-               ______
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:177: Missing { inserted.
-<to be read again> 
-                   _
-l.177 __________
-                _____
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:177: Missing { inserted.
-<to be read again> 
-                   _
-l.177 ___________
-                 ____
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:177: Missing { inserted.
-<to be read again> 
-                   _
-l.177 ____________
-                  ___
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:177: Missing { inserted.
-<to be read again> 
-                   _
-l.177 _____________
-                   __
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:177: Missing { inserted.
-<to be read again> 
-                   _
-l.177 ______________
-                    _
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:177: Missing { inserted.
-<to be read again> 
-                   _
-l.177 _______________
-                     
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:178: Missing { inserted.
-<to be read again> 
-                   \par 
-l.178 
-      
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:178: Missing $ inserted.
-<inserted text> 
-                $
-l.178 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:178: Missing } inserted.
-<inserted text> 
-                }
-l.178 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:178: Missing } inserted.
-<inserted text> 
-                }
-l.178 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:178: Missing } inserted.
-<inserted text> 
-                }
-l.178 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:178: Missing } inserted.
-<inserted text> 
-                }
-l.178 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:178: Missing } inserted.
-<inserted text> 
-                }
-l.178 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:178: Missing } inserted.
-<inserted text> 
-                }
-l.178 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:178: Missing } inserted.
-<inserted text> 
-                }
-l.178 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:178: Missing } inserted.
-<inserted text> 
-                }
-l.178 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:178: Missing } inserted.
-<inserted text> 
-                }
-l.178 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:178: Missing } inserted.
-<inserted text> 
-                }
-l.178 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:178: Missing } inserted.
-<inserted text> 
-                }
-l.178 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:178: Missing } inserted.
-<inserted text> 
-                }
-l.178 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:178: Missing } inserted.
-<inserted text> 
-                }
-l.178 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:178: Missing } inserted.
-<inserted text> 
-                }
-l.178 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:178: Missing } inserted.
-<inserted text> 
-                }
-l.178 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:181: Missing $ inserted.
-<inserted text> 
-                $
-l.181 E(X_
-          1 + X_2) = E(X_1) + E(X_2)
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:182: Missing $ inserted.
-<inserted text> 
-                $
-l.182 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:183: Missing $ inserted.
-<inserted text> 
-                $
-l.183 Var(X_
-            1 + X_2) = Var(X_1) + Var(X_2)
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:184: Missing $ inserted.
-<inserted text> 
-                $
-l.184 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:185: Missing $ inserted.
-<inserted text> 
-                $
-l.185 Var(5X_
-             1 - X_2) = 5^2 \cdot Var(X_1) + Var(X_2)
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:186: Missing $ inserted.
-<inserted text> 
-                $
-l.186 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:187: Missing $ inserted.
-<inserted text> 
-                $
-l.187 _
-       ______________
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:187: Missing { inserted.
-<to be read again> 
-                   _
-l.187 __
-        _____________
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:187: Missing { inserted.
-<to be read again> 
-                   _
-l.187 ___
-         ____________
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:187: Missing { inserted.
-<to be read again> 
-                   _
-l.187 ____
-          ___________
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:187: Missing { inserted.
-<to be read again> 
-                   _
-l.187 _____
-           __________
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:187: Missing { inserted.
-<to be read again> 
-                   _
-l.187 ______
-            _________
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:187: Missing { inserted.
-<to be read again> 
-                   _
-l.187 _______
-             ________
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:187: Missing { inserted.
-<to be read again> 
-                   _
-l.187 ________
-              _______
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:187: Missing { inserted.
-<to be read again> 
-                   _
-l.187 _________
-               ______
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:187: Missing { inserted.
-<to be read again> 
-                   _
-l.187 __________
-                _____
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:187: Missing { inserted.
-<to be read again> 
-                   _
-l.187 ___________
-                 ____
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:187: Missing { inserted.
-<to be read again> 
-                   _
-l.187 ____________
-                  ___
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:187: Missing { inserted.
-<to be read again> 
-                   _
-l.187 _____________
-                   __
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:187: Missing { inserted.
-<to be read again> 
-                   _
-l.187 ______________
-                    _
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:187: Missing { inserted.
-<to be read again> 
-                   _
-l.187 _______________
-                     
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:188: Missing { inserted.
-<to be read again> 
-                   \par 
-l.188 
-      
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:188: Missing $ inserted.
-<inserted text> 
-                $
-l.188 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:188: Missing } inserted.
-<inserted text> 
-                }
-l.188 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:188: Missing } inserted.
-<inserted text> 
-                }
-l.188 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:188: Missing } inserted.
-<inserted text> 
-                }
-l.188 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:188: Missing } inserted.
-<inserted text> 
-                }
-l.188 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:188: Missing } inserted.
-<inserted text> 
-                }
-l.188 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:188: Missing } inserted.
-<inserted text> 
-                }
-l.188 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:188: Missing } inserted.
-<inserted text> 
-                }
-l.188 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:188: Missing } inserted.
-<inserted text> 
-                }
-l.188 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:188: Missing } inserted.
-<inserted text> 
-                }
-l.188 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:188: Missing } inserted.
-<inserted text> 
-                }
-l.188 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:188: Missing } inserted.
-<inserted text> 
-                }
-l.188 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:188: Missing } inserted.
-<inserted text> 
-                }
-l.188 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:188: Missing } inserted.
-<inserted text> 
-                }
-l.188 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:188: Missing } inserted.
-<inserted text> 
-                }
-l.188 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 
-2700 Work/Problem Sets/Problem Set 4/Problem Set 4.tex:188: Missing } inserted.
-<inserted text> 
-                }
-l.188 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[6]
-(/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD
- 2700 Work/Problem Sets/Problem Set 4/Problem Set 4.aux) ) 
-Here is how much of TeX's memory you used:
- 2969 strings out of 492649
- 39695 string characters out of 6129622
- 128029 words of memory out of 5000000
- 6839 multiletter control sequences out of 15000+600000
- 7164 words of font info for 28 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 36i,16n,68p,1033b,192s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2
-018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/20
-18/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/201
-8/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dis
-t/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "Problem Set 4.pdf" (6 pages, 99893 bytes).
-PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+LaTeX Font Info:    Try loadin
