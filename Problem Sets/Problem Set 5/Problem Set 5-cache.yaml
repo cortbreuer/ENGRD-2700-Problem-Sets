@@ -130,9 +130,9 @@ files:
       $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
     type: ParsedYAML
   Problem Set 5.tex:
-    timeStamp: 2019-10-31T19:22:15.502Z
+    timeStamp: 2019-11-01T05:50:37.599Z
     jobNames: []
-    hash: tZxIXAoP5ELYWcXCX8q38QMG1l/MhKmb7UD3xT3D5h4=
+    hash: APnU48CFsQlNczyTrzp2xLVLQYhONNLWn9xizoWIrJ4=
     type: LaTeX
     subType: article
   /Users/cortbreuer/Library/Application Support/dicy/config.yaml:
@@ -146,7 +146,7 @@ files:
     jobNames: []
     type: ParsedFileListing
   Problem Set 5.log-ParsedLaTeXLog:
-    timeStamp: 2019-10-31T19:22:15.626Z
+    timeStamp: 2019-11-01T05:50:37.706Z
     jobNames: []
     value:
       messages:
@@ -525,6 +525,84 @@ files:
             range:
               start: 177
               end: 178
+        - name: pdfTeX
+          severity: info
+          text: 'graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)'
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 180
+              end: 180
+        - name: pdfTeX
+          severity: info
+          text: 'graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)'
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 182
+              end: 182
+        - name: pdfTeX
+          severity: info
+          text: trig 2016/01/03 v1.10 sin cos tan (DPC)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 184
+              end: 184
+        - severity: info
+          name: pdfTeX
+          category: Package graphics
+          text: 'Driver file: pdftex.def'
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+            range:
+              start: 99
+              end: 99
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 188
+              end: 188
+        - name: pdfTeX
+          severity: info
+          text: listings 2015/06/04 1.6 (Carsten Heinz)
+          source:
+            file: Problem Set 5.tex
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 215
+              end: 215
+        - name: pdfTeX
+          severity: info
+          text: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 217
+              end: 217
+        - severity: info
+          name: pdfTeX
+          category: Package color
+          text: 'Driver file: pdftex.def'
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+            range:
+              start: 147
+              end: 147
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 221
+              end: 221
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -532,13 +610,13 @@ files:
           source:
             file: Problem Set 5.tex
             range:
-              start: 16
-              end: 16
+              start: 48
+              end: 48
           log:
             file: Problem Set 5.log
             range:
-              start: 184
-              end: 185
+              start: 227
+              end: 228
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -546,13 +624,13 @@ files:
           source:
             file: Problem Set 5.tex
             range:
-              start: 16
-              end: 16
+              start: 48
+              end: 48
           log:
             file: Problem Set 5.log
             range:
-              start: 186
-              end: 187
+              start: 229
+              end: 230
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -560,13 +638,13 @@ files:
           source:
             file: Problem Set 5.tex
             range:
-              start: 16
-              end: 16
+              start: 48
+              end: 48
           log:
             file: Problem Set 5.log
             range:
-              start: 188
-              end: 189
+              start: 231
+              end: 232
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -574,13 +652,13 @@ files:
           source:
             file: Problem Set 5.tex
             range:
-              start: 16
-              end: 16
+              start: 48
+              end: 48
           log:
             file: Problem Set 5.log
             range:
-              start: 190
-              end: 191
+              start: 233
+              end: 234
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -588,13 +666,13 @@ files:
           source:
             file: Problem Set 5.tex
             range:
-              start: 16
-              end: 16
+              start: 48
+              end: 48
           log:
             file: Problem Set 5.log
             range:
-              start: 192
-              end: 193
+              start: 235
+              end: 236
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -602,13 +680,232 @@ files:
           source:
             file: Problem Set 5.tex
             range:
-              start: 16
-              end: 16
+              start: 48
+              end: 48
           log:
             file: Problem Set 5.log
             range:
-              start: 194
-              end: 195
+              start: 237
+              end: 238
+        - name: pdfTeX
+          severity: info
+          text: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 290
+              end: 290
+        - name: pdfTeX
+          severity: info
+          text: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 292
+              end: 292
+        - name: pdfTeX
+          severity: info
+          text: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 294
+              end: 294
+        - name: pdfTeX
+          severity: info
+          text: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 296
+              end: 296
+        - name: pdfTeX
+          severity: info
+          text: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 298
+              end: 298
+        - name: pdfTeX
+          severity: info
+          text: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 300
+              end: 300
+        - name: pdfTeX
+          severity: info
+          text: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 302
+              end: 302
+        - name: pdfTeX
+          severity: info
+          text: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 304
+              end: 304
+        - name: pdfTeX
+          severity: info
+          text: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 306
+              end: 306
+        - severity: info
+          name: pdfTeX
+          category: Package ifluatex
+          text: LuaTeX not detected.
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 307
+              end: 307
+        - severity: info
+          name: pdfTeX
+          category: Package etexcmds
+          text: >-
+            Could not find \expanded. That can mean that you are not using
+            pdfTeX 1.50 or that some package has redefined \expanded. In the
+            latter case, load this package earlier.
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 309
+              end: 312
+        - name: pdfTeX
+          severity: info
+          text: >-
+            pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX
+            (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 314
+              end: 315
+        - severity: info
+          name: pdfTeX
+          category: Package pdftexcmds
+          text: LuaTeX not detected.
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 316
+              end: 316
+        - severity: info
+          name: pdfTeX
+          category: Package pdftexcmds
+          text: \pdf@primitive is available.
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 317
+              end: 317
+        - severity: info
+          name: pdfTeX
+          category: Package pdftexcmds
+          text: \pdf@ifprimitive is available.
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 318
+              end: 318
+        - severity: info
+          name: pdfTeX
+          category: Package pdftexcmds
+          text: \pdfdraftmode found.
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 319
+              end: 319
+        - severity: info
+          name: pdfTeX
+          category: Package epstopdf-base
+          text: Redefining graphics rule for `.eps'
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+            range:
+              start: 438
+              end: 438
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 321
+              end: 322
+        - severity: info
+          name: pdfTeX
+          category: Package grfext
+          text: >-
+            Graphics extension search list:
+            [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+            \AppendGraphicsExtensions.
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+            range:
+              start: 456
+              end: 456
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 323
+              end: 326
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -616,13 +913,13 @@ files:
           source:
             file: Problem Set 5.tex
             range:
-              start: 26
-              end: 26
+              start: 58
+              end: 58
           log:
             file: Problem Set 5.log
             range:
-              start: 233
-              end: 233
+              start: 332
+              end: 332
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -630,41 +927,55 @@ files:
           source:
             file: Problem Set 5.tex
             range:
-              start: 26
-              end: 26
+              start: 58
+              end: 58
           log:
             file: Problem Set 5.log
             range:
-              start: 237
-              end: 237
+              start: 336
+              end: 336
         - severity: error
           name: pdfTeX
           text: Missing delimiter (
           log:
             file: Problem Set 5.log
             range:
-              start: 241
-              end: 242
+              start: 340
+              end: 341
           source:
             file: Problem Set 5.tex
             range:
-              start: 26
-              end: 26
+              start: 58
+              end: 58
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: 'wageHistogram.png used Requested size: 433.62pt x 254.81383pt.'
+          source:
+            file: ''' or `\{'' or'
+            range:
+              start: 160
+              end: 160
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 366
+              end: 367
       inputs: []
       outputs:
         - Problem Set 5.pdf
       calls: []
     type: ParsedLaTeXLog
   Problem Set 5.log:
-    timeStamp: 2019-10-31T19:13:34.182Z
+    timeStamp: 2019-11-01T05:49:47.123Z
     jobNames: []
-    hash: tCZjh7e8ClMTDJSsmV6ossCnIW7eF4BTd9bThSbWzys=
+    hash: ++6izpKa3HNKXyKP5tql2O37seZPpYUZxTutHE80R38=
     type: LaTeXLog
     subType: pdfTeX
   Problem Set 5.pdf:
-    timeStamp: 2019-10-31T19:22:16.148Z
+    timeStamp: 2019-11-01T05:50:38.505Z
     jobNames: []
-    hash: bHzo/SEsBkTIY1rx9SP3A7ApD3oPe6HHWfUQPZcJR+w=
+    hash: F8YtfbGtLP3XgB7AT169eqtHPNMiPgCQ1H2qHtoUqg0=
     type: PortableDocumentFormat
 rules:
   - name: ApplyOptions
