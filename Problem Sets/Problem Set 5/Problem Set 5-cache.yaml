@@ -130,9 +130,9 @@ files:
       $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
     type: ParsedYAML
   Problem Set 5.tex:
-    timeStamp: 2019-11-01T05:50:37.599Z
+    timeStamp: 2019-11-02T02:52:07.532Z
     jobNames: []
-    hash: APnU48CFsQlNczyTrzp2xLVLQYhONNLWn9xizoWIrJ4=
+    hash: qqcSztI1+e5j02O9/ESYbNo/L7W9h0ENtiSKeJbeYPo=
     type: LaTeX
     subType: article
   /Users/cortbreuer/Library/Application Support/dicy/config.yaml:
@@ -146,7 +146,7 @@ files:
     jobNames: []
     type: ParsedFileListing
   Problem Set 5.log-ParsedLaTeXLog:
-    timeStamp: 2019-11-01T05:50:37.706Z
+    timeStamp: 2019-11-02T02:51:33.474Z
     jobNames: []
     value:
       messages:
@@ -950,32 +950,60 @@ files:
         - severity: info
           name: pdfTeX
           category: Package pdftex.def
-          text: 'wageHistogram.png used Requested size: 433.62pt x 254.81383pt.'
+          text: 'wageHistogram.png used Requested size: 361.34999pt x 212.3401pt.'
           source:
             file: ''' or `\{'' or'
             range:
-              start: 160
-              end: 160
+              start: 186
+              end: 186
           log:
             file: Problem Set 5.log
             range:
-              start: 366
-              end: 367
+              start: 367
+              end: 368
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: 'QQPlot.png used Requested size: 361.34999pt x 242.74661pt.'
+          source:
+            file: ''' or `\{'' or'
+            range:
+              start: 192
+              end: 192
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 372
+              end: 373
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: 'LogQQPlot.png used Requested size: 361.34999pt x 242.74661pt.'
+          source:
+            file: ''' or `\{'' or'
+            range:
+              start: 233
+              end: 233
+          log:
+            file: Problem Set 5.log
+            range:
+              start: 381
+              end: 382
       inputs: []
       outputs:
         - Problem Set 5.pdf
       calls: []
     type: ParsedLaTeXLog
   Problem Set 5.log:
-    timeStamp: 2019-11-01T05:49:47.123Z
+    timeStamp: 2019-11-02T02:51:33.436Z
     jobNames: []
-    hash: ++6izpKa3HNKXyKP5tql2O37seZPpYUZxTutHE80R38=
+    hash: AN/PC73/Opvi3aX45Oh0H9HedieLTOo+jQxAIUU9kL4=
     type: LaTeXLog
     subType: pdfTeX
   Problem Set 5.pdf:
-    timeStamp: 2019-11-01T05:50:38.505Z
+    timeStamp: 2019-11-02T02:52:08.549Z
     jobNames: []
-    hash: F8YtfbGtLP3XgB7AT169eqtHPNMiPgCQ1H2qHtoUqg0=
+    hash: c/xsv5U6LJj1DVUHm13f3J5OHZdOcVpgiVibLE0Cx2Q=
     type: PortableDocumentFormat
 rules:
   - name: ApplyOptions

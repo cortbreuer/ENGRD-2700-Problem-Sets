@@ -106,25 +106,49 @@ $$f_{X|Y} (x|\frac{1}{4}) = \frac{2 + x}{\frac{1}{2} + \frac{1}{32}} = \frac{2 +
 
 $$f_{X|Y} = \begin{cases} \frac{64 + 32x}{17} & 0 \leq x \leq \frac{1}{4} \\ 0 & \text{otherwise} \end{cases}$$
 
+\newpage
+
 \section*{Question 2}
+
+Lifetime X and Y of two batteries given by joint PDF $f_{X,Y}(x, y) = \begin{cases} 8e^{-4x}e^{-2y} & x, y \geq 0 \\ 0 & \text{otherwise} \end{cases}$
 
 \subsection*{Part A}
 
+$$P(X, Y \geq 2) = \int_2^{\infty} \int_2^{\infty} 8e^{-4x}e^{-2y} dx dy$$
+
+$$P(X, Y \geq 2) = \int_2^{\infty} -2e^{-4x}e^{-2y} \Big|_2^{\infty} dy = \int_2^{\infty} -2e^{-\infty}e^{-2y} + 2e^{-8}e^{-2y} dy$$
+
+$$P(X, Y \geq 2) = \int_2^{\infty} 2e^{-8}e^{-2y} dy = -e^{-8}e^{-2y} \Big|_2^{\infty}$$
+
+$$P(X, Y \geq 2) = -e^{-8}e^{-\infty} + e^{-8}e^{-4} = e^{-12} = 6.14 \cdot 10^{-6}$$
+
 \subsection*{Part B}
 
+$$f_X(x) = \int_0^{\infty} 8e^{-4x}e^{-2y} dy = -4e^{-4x}e^{-2y} \Big|_0^{\infty} = 4e^{-4x-4} \text{for } x \geq 0$$
+
+$$f_Y(y) = \int_0^{\infty} 8e^{-4x}e^{-2y} dx = -2e^{-4x}e^{-2y} \Big|_0^{\infty} = 2e^{-2y-8} \text{for } x \geq 0$$
+
 \subsection*{Part C}
+
+E[XY] =
 
 \subsection*{Part D}
 
 \subsection*{Part E}
 
+\newpage
+
 \section*{Question 3}
+
+$$\begin{array}{c|c|ccc}{} & {} & {s} & {} & {} \\ \hline f_{R, S(r, s)} & {0} & {1} & {2} \\ \hline 0 & {0} & {0.25} & {0.15} \\ {1} & {0.20} & {0.10} & {0.10} \\ {2} & {0.10} & {0.05} & {0.05} \\ \hline\end{array}$$
 
 \subsection*{Part A}
 
 \subsection*{Part B}
 
 \subsection*{Part C}
+
+\newpage
 
 \section*{Question 4}
 
@@ -144,6 +168,8 @@ $$f_{X|Y}(x|y) = \frac{y e^{-2y} e^{-yx}}{e^{-2y}} = y e^{-yx}$$
 
 $$f_{X|Y}(x|y) = \begin{cases} y e^{-yx} & x, y \geq 0 \\ 0 & \text{otherwise} \end{cases}$$
 
+\newpage
+
 \section*{Question 5}
 
 \begin{lstlisting}[language=R]
@@ -153,18 +179,59 @@ $$f_{X|Y}(x|y) = \begin{cases} y e^{-yx} & x, y \geq 0 \\ 0 & \text{otherwise} \
 \subsection*{Part A}
 
 \begin{lstlisting}[language=R]
-    ggplot(data = Bwages) + geom_histogram(mapping = aes(x = wage), binwidth = 3) + xlab("Wages") + ylab("Count")
+    ggplot(data = Bwages) + geom_histogram(mapping = aes(x = wage), binwidth = 3) + xlab("Wages") + ylab("Count") + ggtitle("Wage Histogram")
 \end{lstlisting}
 
 \begin{center}
-    \includegraphics[width=6in]{wageHistogram.png}
+    \includegraphics[width=5in]{wageHistogram.png}
 \end{center}
 
 \subsection*{Part B}
 
+\begin{center}
+    \includegraphics[width=5in]{QQPlot.png}
+\end{center}
+
+\begin{lstlisting}[language=R]
+    n = length(Bwages$wage)
+    qi = (1:n - 0.5)/n
+    mu = mean(Bwages$wage)
+    sigma = sd(Bwages$wage)
+
+    x = qnorm(qi, mu, sigma)
+    y = sort(Bwages$wage)
+    wages <- tibble(x, y)
+
+    ggplot(data = wages) + geom_point(mapping = aes(x = x, y = y), shape = 1) + geom_abline(intercept = 0, slope = 1) + xlab("Theoretical Quantiles") + ylab("Sample Quantiles") + ggtitle("Normal Q-Q Plot for Bwages")
+\end{lstlisting}
+
 \subsection*{Part C}
 
+The normal distribution looks to be a poor fit of the wage data provided. The long tails on both the left and right indicate that the normal distribution is especially poor at modeling edge points. This is likely due to the combined effect of wages never going negative even though the normal distribution does (seen on the axes) and on the right side especially high wages that do not follow the normal distribution well.
+
 \subsection*{Part D}
+
+Fit a lognormal distribution to Bwages, using $X \sim \text{Lognormal} (\mu, \sigma^2)$ with PDF of:
+
+$$f(x) = \frac{1}{x \sigma \sqrt{2 \pi}} e^{-(ln(x) - \mu)^2 / (2 \sigma^2)} \text{when } x > 0$$
+
+\begin{center}
+    \includegraphics[width=5in]{LogQQPlot.png}
+\end{center}
+
+\begin{lstlisting}[language=R]
+    meanlog <- 2.31
+    sdlog <- .41
+
+    n = length(Bwages$wage)
+    qi = (1:n - 0.5)/n
+
+    x = qlnorm(qi, meanlog, sdlog)
+    y = sort(Bwages$wage)
+    wages <- tibble(x, y)
+
+    ggplot(data = wages) + geom_point(mapping = aes(x = x, y = y), shape = 1) + geom_abline(intercept = 0, slope = 1, color = "#F8766D") + xlab("Theoretical Quantiles") + ylab("Sample Quantiles") + ggtitle("Lognormal Q-Q Plot for Bwages")
+\end{lstlisting}
 
 \subsection*{Part E}
 

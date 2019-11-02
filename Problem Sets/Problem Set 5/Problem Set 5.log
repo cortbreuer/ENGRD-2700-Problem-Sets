@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  1 NOV 2019 01:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  1 NOV 2019 22:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -353,27 +353,42 @@ nonnegative, or you can use `\delimiter <delimiter code>'.
 
 [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-] [2] (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+] [2] [3] [4] [5] (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlan
+g1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang2.sty
 File: lstlang2.sty 2015/06/04 1.6 listings language file
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang3.sty
 File: lstlang3.sty 2015/06/04 1.6 listings language file
 )
-<wageHistogram.png, id=17, 795.97375pt x 467.7475pt>
+<wageHistogram.png, id=26, 795.97375pt x 467.7475pt>
 File: wageHistogram.png Graphic file (type png)
 <use wageHistogram.png>
-Package pdftex.def Info: wageHistogram.png  used on input line 160.
-(pdftex.def)             Requested size: 433.62pt x 254.81383pt.
-[3 </Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/EN
-GRD 2700 Work/Problem Sets/Problem Set 5/wageHistogram.png>]
+Package pdftex.def Info: wageHistogram.png  used on input line 186.
+(pdftex.def)             Requested size: 361.34999pt x 212.3401pt.
+<QQPlot.png, id=28, 853.1875pt x 573.14125pt>
+File: QQPlot.png Graphic file (type png)
+<use QQPlot.png>
+Package pdftex.def Info: QQPlot.png  used on input line 192.
+(pdftex.def)             Requested size: 361.34999pt x 242.74661pt.
+[6 </Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/EN
+GRD 2700 Work/Problem Sets/Problem Set 5/wageHistogram.png> </Users/cortbreuer/
+Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 2700 Work/Problem 
+Sets/Problem Set 5/QQPlot.png>]
+<LogQQPlot.png, id=36, 853.1875pt x 573.14125pt>
+File: LogQQPlot.png Graphic file (type png)
+<use LogQQPlot.png>
+Package pdftex.def Info: LogQQPlot.png  used on input line 219.
+(pdftex.def)             Requested size: 361.34999pt x 242.74661pt.
+[7 </Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/EN
+GRD 2700 Work/Problem Sets/Problem Set 5/LogQQPlot.png>] [8]
 (/Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD
  2700 Work/Problem Sets/Problem Set 5/Problem Set 5.aux) ) 
 Here is how much of TeX's memory you used:
- 6510 strings out of 492649
- 87198 string characters out of 6129622
- 235077 words of memory out of 5000000
- 10293 multiletter control sequences out of 15000+600000
+ 6537 strings out of 492649
+ 87508 string characters out of 6129622
+ 288882 words of memory out of 5000000
+ 10318 multiletter control sequences out of 15000+600000
  7631 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,12n,74p,1033b,1879s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -388,10 +403,10 @@ dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on "Problem Set 5.pdf" (3 pages, 114103 bytes).
+Output written on "Problem Set 5.pdf" (8 pages, 200725 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 78 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
