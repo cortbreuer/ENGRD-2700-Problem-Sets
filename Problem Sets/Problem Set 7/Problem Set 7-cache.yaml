@@ -1,5 +1,5 @@
 version: 0.12.2
-filePath: Problem Set 5.tex
+filePath: Problem Set 7.tex
 options:
   $BIBINPUTS:
     - $ROOTDIR
@@ -71,7 +71,7 @@ options:
   $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
 files:
   dicy-instance.yaml-ParsedYAML:
-    timeStamp: 2019-10-31T19:12:52.214Z
+    timeStamp: 2019-11-22T03:08:40.833Z
     jobNames: []
     value:
       severity: info
@@ -79,16 +79,16 @@ files:
   dicy.yaml-ParsedYAML:
     jobNames: []
     type: ParsedYAML
-  Problem Set 5.yaml-ParsedYAML:
+  Problem Set 7.yaml-ParsedYAML:
     jobNames: []
     type: ParsedYAML
-  Problem Set 5.tex-ParsedLaTeXMagic:
-    timeStamp: 2019-10-31T19:12:52.262Z
+  Problem Set 7.tex-ParsedLaTeXMagic:
+    timeStamp: 2019-11-22T03:08:40.919Z
     jobNames: []
     value: {}
     type: ParsedLaTeXMagic
   /Users/cortbreuer/Library/Application Support/dicy/config.yaml-ParsedYAML:
-    timeStamp: 2019-10-31T19:12:52.258Z
+    timeStamp: 2019-11-22T03:08:40.912Z
     jobNames: []
     value:
       synctex: true
@@ -129,24 +129,24 @@ files:
       intermediatePostScript: false
       $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
     type: ParsedYAML
-  Problem Set 5.tex:
-    timeStamp: 2019-11-02T03:40:39.311Z
+  Problem Set 7.tex:
+    timeStamp: 2019-11-22T03:38:03.857Z
     jobNames: []
-    hash: 4BVxLzjBgONIexsQgRy1fo+dg/h40/Af0vrfkJ7Uo3g=
+    hash: sJOqgqTt9UmffCm2NhVJu5XzDi6SBdodBrF58inFnRk=
     type: LaTeX
     subType: article
   /Users/cortbreuer/Library/Application Support/dicy/config.yaml:
-    timeStamp: 2019-10-31T19:12:52.226Z
+    timeStamp: 2019-11-22T03:08:40.850Z
     jobNames: []
     type: YAML
   x.y-Nil:
     jobNames: []
     type: Nil
-  Problem Set 5.fls-ParsedFileListing:
+  Problem Set 7.fls-ParsedFileListing:
     jobNames: []
     type: ParsedFileListing
-  Problem Set 5.log-ParsedLaTeXLog:
-    timeStamp: 2019-11-02T03:39:22.885Z
+  Problem Set 7.log-ParsedLaTeXLog:
+    timeStamp: 2019-11-22T03:37:40.732Z
     jobNames: []
     value:
       messages:
@@ -156,7 +156,7 @@ files:
           source:
             file: /usr/local/texlive/2018/texmf-dist/tex/latex/datetime/datetime.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 29
               end: 29
@@ -166,7 +166,7 @@ files:
           source:
             file: /usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 31
               end: 31
@@ -176,7 +176,7 @@ files:
           source:
             file: /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fmtcount.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 34
               end: 34
@@ -186,7 +186,7 @@ files:
           source:
             file: /usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 36
               end: 36
@@ -196,7 +196,7 @@ files:
           source:
             file: /usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 38
               end: 38
@@ -206,7 +206,7 @@ files:
           source:
             file: /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fcprefix.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 47
               end: 47
@@ -217,7 +217,7 @@ files:
             file: >-
               /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 49
               end: 49
@@ -228,7 +228,7 @@ files:
             file: >-
               /usr/local/texlive/2018/texmf-dist/tex/latex/datetime/datetime-defaults.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 66
               end: 66
@@ -242,7 +242,7 @@ files:
               start: 308
               end: 308
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 80
               end: 81
@@ -256,7 +256,7 @@ files:
               start: 736
               end: 736
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 85
               end: 85
@@ -266,7 +266,7 @@ files:
           source:
             file: /usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 89
               end: 89
@@ -276,7 +276,7 @@ files:
           source:
             file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 91
               end: 91
@@ -286,7 +286,7 @@ files:
           source:
             file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 93
               end: 93
@@ -297,7 +297,7 @@ files:
           source:
             file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 94
               end: 94
@@ -307,7 +307,7 @@ files:
           source:
             file: /usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 96
               end: 96
@@ -319,7 +319,7 @@ files:
           source:
             file: /usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 111
               end: 112
@@ -329,7 +329,7 @@ files:
           source:
             file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 123
               end: 123
@@ -339,7 +339,7 @@ files:
           source:
             file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 127
               end: 127
@@ -349,7 +349,7 @@ files:
           source:
             file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 129
               end: 129
@@ -359,7 +359,7 @@ files:
           source:
             file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 132
               end: 132
@@ -373,7 +373,7 @@ files:
               start: 213
               end: 213
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 135
               end: 135
@@ -387,7 +387,7 @@ files:
               start: 375
               end: 375
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 138
               end: 138
@@ -401,7 +401,7 @@ files:
               start: 472
               end: 472
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 141
               end: 141
@@ -415,7 +415,7 @@ files:
               start: 475
               end: 475
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 142
               end: 142
@@ -429,7 +429,7 @@ files:
               start: 596
               end: 596
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 143
               end: 143
@@ -443,7 +443,7 @@ files:
               start: 712
               end: 712
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 147
               end: 147
@@ -457,7 +457,7 @@ files:
               start: 713
               end: 713
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 148
               end: 148
@@ -471,7 +471,7 @@ files:
               start: 2817
               end: 2817
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 169
               end: 169
@@ -485,7 +485,7 @@ files:
               start: 2818
               end: 2818
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 170
               end: 170
@@ -495,7 +495,7 @@ files:
           source:
             file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 172
               end: 172
@@ -505,7 +505,7 @@ files:
           source:
             file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 174
               end: 174
@@ -521,7 +521,7 @@ files:
               start: 106
               end: 106
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 177
               end: 178
@@ -531,7 +531,7 @@ files:
           source:
             file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 180
               end: 180
@@ -541,7 +541,7 @@ files:
           source:
             file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 182
               end: 182
@@ -551,7 +551,7 @@ files:
           source:
             file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 184
               end: 184
@@ -565,7 +565,7 @@ files:
               start: 99
               end: 99
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 188
               end: 188
@@ -573,9 +573,9 @@ files:
           severity: info
           text: listings 2015/06/04 1.6 (Carsten Heinz)
           source:
-            file: Problem Set 5.tex
+            file: Problem Set 7.tex
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 215
               end: 215
@@ -585,7 +585,7 @@ files:
           source:
             file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 217
               end: 217
@@ -599,7 +599,7 @@ files:
               start: 147
               end: 147
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 221
               end: 221
@@ -608,12 +608,12 @@ files:
           category: LaTeX Font
           text: Checking defaults for OML/cmm/m/it ... okay
           source:
-            file: Problem Set 5.tex
+            file: Problem Set 7.tex
             range:
               start: 48
               end: 48
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 227
               end: 228
@@ -622,12 +622,12 @@ files:
           category: LaTeX Font
           text: Checking defaults for T1/cmr/m/n ... okay
           source:
-            file: Problem Set 5.tex
+            file: Problem Set 7.tex
             range:
               start: 48
               end: 48
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 229
               end: 230
@@ -636,12 +636,12 @@ files:
           category: LaTeX Font
           text: Checking defaults for OT1/cmr/m/n ... okay
           source:
-            file: Problem Set 5.tex
+            file: Problem Set 7.tex
             range:
               start: 48
               end: 48
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 231
               end: 232
@@ -650,12 +650,12 @@ files:
           category: LaTeX Font
           text: Checking defaults for OMS/cmsy/m/n ... okay
           source:
-            file: Problem Set 5.tex
+            file: Problem Set 7.tex
             range:
               start: 48
               end: 48
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 233
               end: 234
@@ -664,12 +664,12 @@ files:
           category: LaTeX Font
           text: Checking defaults for OMX/cmex/m/n ... okay
           source:
-            file: Problem Set 5.tex
+            file: Problem Set 7.tex
             range:
               start: 48
               end: 48
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 235
               end: 236
@@ -678,12 +678,12 @@ files:
           category: LaTeX Font
           text: Checking defaults for U/cmr/m/n ... okay
           source:
-            file: Problem Set 5.tex
+            file: Problem Set 7.tex
             range:
               start: 48
               end: 48
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 237
               end: 238
@@ -694,7 +694,7 @@ files:
             file: >-
               /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 290
               end: 290
@@ -705,7 +705,7 @@ files:
             file: >-
               /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 292
               end: 292
@@ -715,7 +715,7 @@ files:
           source:
             file: /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 294
               end: 294
@@ -726,7 +726,7 @@ files:
             file: >-
               /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 296
               end: 296
@@ -737,7 +737,7 @@ files:
             file: >-
               /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 298
               end: 298
@@ -748,7 +748,7 @@ files:
             file: >-
               /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 300
               end: 300
@@ -759,7 +759,7 @@ files:
             file: >-
               /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 302
               end: 302
@@ -770,7 +770,7 @@ files:
             file: >-
               /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 304
               end: 304
@@ -781,7 +781,7 @@ files:
             file: >-
               /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 306
               end: 306
@@ -793,7 +793,7 @@ files:
             file: >-
               /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 307
               end: 307
@@ -808,7 +808,7 @@ files:
             file: >-
               /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 309
               end: 312
@@ -821,7 +821,7 @@ files:
             file: >-
               /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 314
               end: 315
@@ -833,7 +833,7 @@ files:
             file: >-
               /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 316
               end: 316
@@ -845,7 +845,7 @@ files:
             file: >-
               /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 317
               end: 317
@@ -857,7 +857,7 @@ files:
             file: >-
               /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 318
               end: 318
@@ -869,7 +869,7 @@ files:
             file: >-
               /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 319
               end: 319
@@ -884,7 +884,7 @@ files:
               start: 438
               end: 438
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 321
               end: 322
@@ -902,108 +902,81 @@ files:
               start: 456
               end: 456
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
               start: 323
               end: 326
+        - severity: warning
+          name: pdfTeX
+          category: LaTeX
+          text: File `icecream_temp.png' not found
+          source:
+            file: Problem Set 7.tex
+            range:
+              start: 55
+              end: 55
+          log:
+            file: Problem Set 7.log
+            range:
+              start: 340
+              end: 340
+        - severity: error
+          name: pdfTeX
+          text: 'File `icecream_temp.png'' not found: using draft setting'
+          log:
+            file: Problem Set 7.log
+            range:
+              start: 343
+              end: 345
+          source:
+            file: Problem Set 7.tex
+            range:
+              start: 55
+              end: 55
+          category: Package pdftex.def
         - severity: info
           name: pdfTeX
           category: LaTeX Font
           text: Try loading font information for U+msa
           source:
-            file: Problem Set 5.tex
+            file: Problem Set 7.tex
             range:
-              start: 58
-              end: 58
+              start: 110
+              end: 110
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
-              start: 332
-              end: 332
+              start: 359
+              end: 359
         - severity: info
           name: pdfTeX
           category: LaTeX Font
           text: Try loading font information for U+msb
           source:
-            file: Problem Set 5.tex
+            file: Problem Set 7.tex
             range:
-              start: 58
-              end: 58
+              start: 110
+              end: 110
           log:
-            file: Problem Set 5.log
+            file: Problem Set 7.log
             range:
-              start: 336
-              end: 336
-        - severity: error
-          name: pdfTeX
-          text: Missing delimiter (
-          log:
-            file: Problem Set 5.log
-            range:
-              start: 340
-              end: 341
-          source:
-            file: Problem Set 5.tex
-            range:
-              start: 58
-              end: 58
-        - severity: info
-          name: pdfTeX
-          category: Package pdftex.def
-          text: 'wageHistogram.png used Requested size: 361.34999pt x 212.3401pt.'
-          source:
-            file: ''' or `\{'' or'
-            range:
-              start: 217
-              end: 217
-          log:
-            file: Problem Set 5.log
-            range:
-              start: 367
-              end: 368
-        - severity: info
-          name: pdfTeX
-          category: Package pdftex.def
-          text: 'QQPlot.png used Requested size: 361.34999pt x 242.74661pt.'
-          source:
-            file: ''' or `\{'' or'
-            range:
-              start: 223
-              end: 223
-          log:
-            file: Problem Set 5.log
-            range:
-              start: 372
-              end: 373
-        - severity: info
-          name: pdfTeX
-          category: Package pdftex.def
-          text: 'LogQQPlot.png used Requested size: 361.34999pt x 242.74661pt.'
-          source:
-            file: ''' or `\{'' or'
-            range:
-              start: 250
-              end: 250
-          log:
-            file: Problem Set 5.log
-            range:
-              start: 381
-              end: 382
+              start: 363
+              end: 363
       inputs: []
       outputs:
-        - Problem Set 5.pdf
+        - Problem Set 7.pdf
       calls: []
     type: ParsedLaTeXLog
-  Problem Set 5.log:
-    timeStamp: 2019-11-02T03:39:34.327Z
+  Problem Set 7.log:
+    timeStamp: 2019-11-22T03:37:53.768Z
     jobNames: []
-    hash: FIdw8dvg2PuQ4ktzkG7o8txuxkU5H1LutItYH4G+KGs=
+    hash: kHhEDR4ckcKO+Hac+AS2/E3ZFZMtab23pDCBja1YAf0=
     type: LaTeXLog
     subType: pdfTeX
-  Problem Set 5.pdf:
-    timeStamp: 2019-11-02T03:40:40.330Z
+  Problem Set 7.pdf:
+    timeStamp: 2019-11-22T03:38:04.506Z
     jobNames: []
-    hash: 9uxAaDYUe84A9y08owgxy7RHFCaRH2knps3esdI5UEQ=
+    hash: VKMmzcDlVyexYEC+vbHSMH6iqI1dvULro5kIFLsjNfs=
     type: PortableDocumentFormat
 rules:
   - name: ApplyOptions
@@ -1013,9 +986,9 @@ rules:
     inputs:
       - file: dicy.yaml-ParsedYAML
         type: default
-      - file: Problem Set 5.yaml-ParsedYAML
+      - file: Problem Set 7.yaml-ParsedYAML
         type: default
-      - file: Problem Set 5.tex-ParsedLaTeXMagic
+      - file: Problem Set 7.tex-ParsedLaTeXMagic
         type: default
       - file: dicy-instance.yaml-ParsedYAML
         type: default
@@ -1043,9 +1016,9 @@ rules:
     inputs:
       - file: dicy.yaml-ParsedYAML
         type: default
-      - file: Problem Set 5.yaml-ParsedYAML
+      - file: Problem Set 7.yaml-ParsedYAML
         type: default
-      - file: Problem Set 5.tex-ParsedLaTeXMagic
+      - file: Problem Set 7.tex-ParsedLaTeXMagic
         type: default
       - file: dicy-instance.yaml-ParsedYAML
         type: default
@@ -1070,12 +1043,12 @@ rules:
     command: load
     phase: execute
     parameters:
-      - Problem Set 5.tex
+      - Problem Set 7.tex
     inputs:
-      - file: Problem Set 5.tex
+      - file: Problem Set 7.tex
         type: default
     outputs:
-      - file: Problem Set 5.tex-ParsedLaTeXMagic
+      - file: Problem Set 7.tex-ParsedLaTeXMagic
         type: default
   - name: AssignJobNames
     command: load
@@ -1093,16 +1066,16 @@ rules:
     command: build
     phase: execute
     parameters:
-      - Problem Set 5.tex
+      - Problem Set 7.tex
     inputs:
-      - file: Problem Set 5.tex
+      - file: Problem Set 7.tex
         type: default
-      - file: Problem Set 5.fls-ParsedFileListing
+      - file: Problem Set 7.fls-ParsedFileListing
         type: default
-      - file: Problem Set 5.log-ParsedLaTeXLog
+      - file: Problem Set 7.log-ParsedLaTeXLog
         type: default
     outputs:
-      - file: Problem Set 5.pdf
+      - file: Problem Set 7.pdf
         type: default
   - name: LogProducedTargets
     command: build
@@ -1114,9 +1087,9 @@ rules:
     command: build
     phase: finalize
     parameters:
-      - Problem Set 5.tex
+      - Problem Set 7.tex
     inputs:
-      - file: Problem Set 5.tex
+      - file: Problem Set 7.tex
         type: default
     outputs: []
   - name: FindLogFiles
@@ -1129,21 +1102,21 @@ rules:
     command: log
     phase: execute
     parameters:
-      - Problem Set 5.log-ParsedLaTeXLog
+      - Problem Set 7.log-ParsedLaTeXLog
     inputs:
-      - file: Problem Set 5.log-ParsedLaTeXLog
+      - file: Problem Set 7.log-ParsedLaTeXLog
         type: default
     outputs: []
   - name: ParseLaTeXLog
     command: log
     phase: execute
     parameters:
-      - Problem Set 5.log
+      - Problem Set 7.log
     inputs:
-      - file: Problem Set 5.log
+      - file: Problem Set 7.log
         type: default
     outputs:
-      - file: Problem Set 5.log-ParsedLaTeXLog
+      - file: Problem Set 7.log-ParsedLaTeXLog
         type: default
   - name: SaveCache
     command: save
@@ -1155,10 +1128,10 @@ rules:
     command: build
     phase: execute
     parameters:
-      - Problem Set 5.log
+      - Problem Set 7.log
     inputs:
-      - file: Problem Set 5.log
+      - file: Problem Set 7.log
         type: default
     outputs:
-      - file: Problem Set 5.log-ParsedLaTeXLog
+      - file: Problem Set 7.log-ParsedLaTeXLog
         type: default

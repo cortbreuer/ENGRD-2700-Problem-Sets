@@ -1,0 +1,87 @@
+\documentclass{article}    % Specifies the document style.
+\renewcommand{\baselinestretch}{1}      % Spacing
+\setlength{\oddsidemargin}{0in} \setlength{\evensidemargin}{0in} \setlength{\textwidth}{6.5in}
+\setlength{\topmargin}{-.2in} \setlength{\headsep}{0in} \setlength{\textheight}{9.5in}
+\pagestyle{empty}
+%
+\usepackage{color}
+\usepackage{placeins}
+\usepackage{amsmath,amsthm}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{url}
+
+
+\begin{document}           % End of preamble and beginning of text.
+	\begin{center}
+		
+		\textbf{\large{ENGRD 2700: Basic Engineering Probability and
+				Statistics\medskip \\ Fall 2019}}\bigskip
+		
+		\vskip 0.25em
+		
+		\textbf{\large{Homework 7}} 
+	\end{center}
+	
+	\vskip 1em
+	
+	\noindent Due \textbf{Friday Nov 22} at 11:59 pm. Submit to Gradescope by clicking the name of the assignment. See \url{https://people.orie.cornell.edu/yudong.chen/engrd2700_2019fa.html#homework} for detailed submission instructions. 
+	
+	\vskip 1em
+	
+	
+	The same stipulations from Homework 1 (e.g., independent work, computer code, etc.) still apply. \bigskip
+	
+	\vskip 1em
+	
+	
+	\begin{enumerate}
+		\item A sample of 100 service times at a call center has a sample mean of 9 minutes and a sample standard deviation of 6 minutes. Assume that the service times are independent and have a normal distribution.
+		\begin{enumerate}
+			\item Give a 95\% confidence interval for the mean service time.
+			
+			\item Approximately how many service times we would have to collect
+			to return a 95\% confidence interval whose width is at most 15 seconds (= 1/4 minutes)?
+		\end{enumerate}
+
+		\item Harry owns a bakery. The number of chocolate chips that he adds to his cookies is normally distributed with mean $\mu$ and variance $\sigma^2 = 25$, where $\mu$ is unknown. 
+		A customer buys a dozen of these cookies, and obtains the simple random sample
+		$$
+		31, \, 23, \, 42, \, 44, \, 28, \, 34, \, 19, \, 29, \, 30, \, 25, \, 28, \, 27
+		$$
+		\begin{enumerate}
+			\item Compute a 95\% confidence interval for $\mu$. 
+
+			\item  Compute 90\% and 99\% confidence intervals for $\mu$.
+			
+			\item  Suppose the customer wants a 95\% confidence interval that has a width of at most 2. How many cookies would he need to buy to achieve this?
+		\end{enumerate}
+		
+		\item Alice and Bob are running for state governor, and two polling agencies, Company X and Company Y, decide to gauge public opinion.
+		\begin{enumerate}
+			\item Company X interviews $453$ people, and finds that $55\%$ of individuals want to vote for Alice. Construct a $95\%$ confidence interval for $p$, the proportion of all voters in the state supporting Alice. 
+
+			\item  Company Y conducts its own independent study, and obtains the interval $[0.492,0.568]$ from a sample size of $378$. What confidence level did Company Y use?
+
+			\item Suppose, contrary to the information specified in part (b), that Company Y obtained the $90\%$ confidence interval $[0.509,0.591]$ instead. How many individuals did Company Y interview?
+		\end{enumerate}
+
+		\item The files \texttt{ithaca.csv} and \texttt{syracuse.csv} contain daily temperature data in Ithaca and Syracuse during the month of March. Import these datasets into R or RStudio.
+		\begin{enumerate}
+			\item  Let $\mu_i$ and $\mu_s$ denote the mean temperatures in both cities during the month of March. Construct a $97\%$ confidence interval for $\mu_i-\mu_s$. 
+
+			\item  Repeat part (a), assuming the temperature in Ithaca is independent of the temperature in Syracuse (which is not true in reality). How do your intervals compare?
+		\end{enumerate}
+		
+		\item Luigi is known far and wide for his meatball subs. Although he advertises that the subs weigh 400 g, Vinny, a regular, suspects that the subs weigh less. Vinny buys a sub each day for 81 consecutive days. He obtains the 95\% confidence interval $[393.08, \, 400.92]$ for the mean weight $\mu$ of a sub.
+		\begin{enumerate}
+			\item Find $\bar x$ and $s$, the mean and standard deviation of his sample.
+
+			\item  Approximately how many subs would Vinny need to buy in order to halve the width of his confidence interval?
+			
+			\item Compute 90\% and 99\% confidence intervals for $\mu$.
+		\end{enumerate}
+	\end{enumerate}
+	
+\end{document}
+
