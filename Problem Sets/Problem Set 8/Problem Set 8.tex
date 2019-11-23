@@ -49,7 +49,7 @@
 
 \vspace*{6pt}
 
-\noindent \textbf{\huge{Problem Set 7}}
+\noindent \textbf{\huge{Problem Set 8}}
 
 \bigskip
 
@@ -59,57 +59,21 @@
 
 \subsection*{Part A}
 
-N is large so use normal distribution.
-
-$$CI = \Big[ \bar{x} - t_{\alpha/2, n-1} \frac{S}{\sqrt{n}}, \bar{x} + t_{\alpha/2, n-1} \frac{S}{\sqrt{n}}\Big]$$
-
-$$\text{95\% Confidence Interval} = 9 \pm 1.96 \frac{6}{10} = [7.82, 10.18]$$
-
 \subsection*{Part B}
 
-N is large so use normal distribution.
+\subsection*{Part C}
 
-$$\text{95\% Confidence Interval } = \Big[ 8 - 1.96 \frac{6}{\sqrt{n}}, 8 + 1.96 \frac{6}{\sqrt{n}} \Big]$$
+\subsection*{Part D}
 
-$$\text{Width} = 8 + 1.96 \frac{6}{\sqrt{n}} - 8 + 1.96 \frac{6}{\sqrt{n}} = 2 \cdot 1.96 \frac{6}{\sqrt{n}}$$
-
-$$\frac{1}{4} = 3.92 \frac{6}{\sqrt{n}} \qquad \longrightarrow \qquad \sqrt{n} = 4 \cdot 3.92 \cdot 6$$
-
-$$\sqrt{n} = 94.08 \qquad \longrightarrow \qquad n = 8851.05 \approx 8852 \text{ service times}$$
+\subsection*{Part E}
 
 \newpage
 
 \section*{Question 2}
 
-Number of chocolate chips in cookies is normally distributed with unknown mean and $\sigma^2 = 25$. Sample of 12 cookies gives chip count of [31, 23, 42, 44, 28, 34, 19, 29, 30, 25, 28, 27].
-
 \subsection*{Part A}
 
-$$\mu = \frac{31 + 23 + 42 + 44 + 28 + 34 + 19 + 29 + 30 + 25 + 28 + 27}{12} = 30$$
-
-$$CI = \Big[ \bar{x} - z \frac{S}{\sqrt{n}}, \bar{x} + z \frac{S}{\sqrt{n}}\Big]$$
-
-$$\text{95\% Confidence Interval } = 30 \pm 1.96 \frac{5}{\sqrt{12}} = [27.17, 32.83]$$
-
 \subsection*{Part B}
-
-$$\bar{x} = 30 \qquad S = 5 \qquad z(90\%) = z(.05) = 1.645 \qquad z(99\%) = z(.005) = 2.576$$
-
-$$CI = \Big[ \bar{x} - z \frac{S}{\sqrt{n}}, \bar{x} + z \frac{S}{\sqrt{n}}\Big]$$
-
-$$\text{90\% Confidence Interval } = 30 \pm 1.645 \frac{5}{\sqrt{12}} = [27.63, 32.37]$$
-
-$$\text{99\% Confidence Interval } = 30 \pm 2.576 \frac{5}{\sqrt{12}} = [26.28, 33.72]$$
-
-\subsection*{Part C}
-
-$$\text{95\% Confidence Interval } = \Big[ 30 - 1.96 \frac{5}{\sqrt{n}}, 30 + 1.96 \frac{5}{\sqrt{n}} \Big]$$
-
-$$\text{Width } = 30 + 1.96 \frac{5}{\sqrt{n}} - 30 + 1.96 \frac{5}{\sqrt{n}} = 3.92 \frac{5}{\sqrt{n}}$$
-
-$$2 = 3.92 \frac{5}{\sqrt{n}} \qquad \longrightarrow \qquad \sqrt{n} = 1.96 \cdot 5$$
-
-$$n = (1.96 \cdot 5)^2 = 96.04 \approx 97 \text{ Cookies}$$
 
 \newpage
 
@@ -117,103 +81,24 @@ $$n = (1.96 \cdot 5)^2 = 96.04 \approx 97 \text{ Cookies}$$
 
 \subsection*{Part A}
 
-$$p = \bar{x} = .55 \qquad n = 453 \qquad z = 1.96$$
-
-$$\text{95\% Confidence Interval } = \bar{x} \pm z \sqrt{\frac{p(1-p)}{n}}$$
-
-$$\text{95\% Confidence Interval } = .55 \pm 1.96 \sqrt{\frac{.55(1-.55)}{453}} = [.504, .596]$$
-
 \subsection*{Part B}
 
-$$CI = [.492, .568] \text{ with } n = 378$$
-
-$$\bar{x} = p = \frac{.492 + .568}{2} = .53$$
-
-$$.492 = .53 - z \sqrt{\frac{.53(1-.53)}{378}} \qquad \longrightarrow \qquad z = 1.48$$
-
-\begin{lstlisting}[language=R]
-    CI <- pnorm(1.48) - pnorm(-1.48)
-\end{lstlisting}
-
-Confidence interval is 86.1\%.
-
 \subsection*{Part C}
-
-$$\bar{x} = p = \frac{.509 + .591}{2} = .55$$
-
-$$.509 = .55 - 1.645 \sqrt{\frac{.55(1-.55)}{n}}$$
-
-$$n = 398.42 \approx 399 \text{individuals}$$
 
 \newpage
 
 \section*{Question 4}
 
-\begin{lstlisting}[language=R]
-    library(tidyverse)
-    ithaca <- read_csv("ithaca.csv")
-    syracuse <- read_csv("syracuse.csv")
-\end{lstlisting}
-
 \subsection*{Part A}
 
-\begin{lstlisting}[language=R]
-    joint <- ithaca$maxtemp - syracuse$maxtemp
-    n <- length(joint)
-    mu <- mean(joint)
-    stDev <- sd(joint)
-    z <- qnorm(.985)
-    lowInterval <- mu - (z*stDev/sqrt(n))
-    highInterval <- mu + (z*stDev/sqrt(n))
-\end{lstlisting}
-
-$$\text{97\% Confidence Interval } = [-.54, 1.96]$$
-
 \subsection*{Part B}
-
-$$\text{Confidence Intervals of Independent Sets } = (\bar{x_i} - \bar{x_s}) \pm z \sqrt{\frac{s_i^2}{n_i} + \frac{s_s^2}{n_s}}$$
-
-\begin{lstlisting}[language=R]
-    n <- length(ithaca$maxtemp)
-    muI <- mean(ithaca$maxtemp)
-    muS <- mean(syracuse$maxtemp)
-    stDevI <- sd(ithaca$maxtemp)
-    stDevS <- sd(syracuse$maxtemp)
-    z <- qnorm(.985)
-    lowInterval <- (muI - muS) - (z*sqrt(((stDevI^2)/n) + ((stDevS^2)/n)))
-    highInterval <- (muI - muS) + (z*sqrt(((stDevI^2)/n) + ((stDevS^2)/n)))
-\end{lstlisting}
-
-$$\text{97\% Confidence Interval } = [-6.25, 7.67]$$
 
 \newpage
 
 \section*{Question 5}
 
-Expect that a sub weighs 400g, collect 81 samples and find 95\% confidence interval [393.08, 400.92] for mean sub weight.
-
 \subsection*{Part A}
 
-$$\bar{x} = \frac{393.08 + 400.92}{2} = 397$$
-
-$$CI = \bar{x} + t_{\alpha/2, n-1} \frac{S}{\sqrt{n}}$$
-
-$$400.92 = 397 + 1.96 \frac{S}{\sqrt{81}} \quad \longrightarrow \quad 2 = \frac{S}{9}$$
-
-$$S = 18$$
-
 \subsection*{Part B}
-
-Since $CI \propto n^{-1/2}$, the confidence interval is related to the inverse of the square root of the sample size, so to halve the confidence interval width the sample size would have to be increased to 324.
-
-\subsection*{Part C}
-
-$$\bar{x} = 397 \qquad S = 18 \qquad z(90\%) = z(.05) = 1.645 \qquad z(99\%) = z(.005) = 2.576$$
-
-$$CI = \Big[ \bar{x} - z \frac{S}{\sqrt{n}}, \bar{x} + z \frac{S}{\sqrt{n}}\Big]$$
-
-$$\text{90\% Confidence Interval } = 397 \pm 1.645 \frac{18}{9} = [393.71, 400.29]$$
-
-$$\text{99\% Confidence Interval } = 397 \pm 2.576 \frac{18}{9} = [391.85, 402.15]$$
 
 \end{document}
