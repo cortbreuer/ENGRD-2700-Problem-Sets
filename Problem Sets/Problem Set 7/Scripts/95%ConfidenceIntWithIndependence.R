@@ -1,0 +1,8 @@
+n <- length(ithaca$maxtemp)
+muI <- mean(ithaca$maxtemp)
+muS <- mean(syracuse$maxtemp)
+stDevI <- sd(ithaca$maxtemp)
+stDevS <- sd(syracuse$maxtemp)
+z <- qnorm(.985)
+lowInterval <- (muI - muS) - (z*sqrt(((stDevI^2)/n) + ((stDevS^2)/n)))
+highInterval <- (muI - muS) + (z*sqrt(((stDevI^2)/n) + ((stDevS^2)/n)))

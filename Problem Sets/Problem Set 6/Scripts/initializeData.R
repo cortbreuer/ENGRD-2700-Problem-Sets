@@ -1,0 +1,6 @@
+library(tidyverse)
+data <- read_csv("DataForSunglasses.csv")
+temp <- select(data, 'Temperature(Celsius)')
+sunglasses <- select(data, 'Sunglass Sales($)')
+icecream <- select(data, 'Ice Cream Sales($)')
+data <- tibble(temp, sunglasses, icecream)
