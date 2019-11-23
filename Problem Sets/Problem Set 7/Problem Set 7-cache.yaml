@@ -130,9 +130,9 @@ files:
       $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
     type: ParsedYAML
   Problem Set 7.tex:
-    timeStamp: 2019-11-22T03:38:03.857Z
+    timeStamp: 2019-11-23T02:37:32.854Z
     jobNames: []
-    hash: sJOqgqTt9UmffCm2NhVJu5XzDi6SBdodBrF58inFnRk=
+    hash: xreADGoydSmQVF4tuVO31qgeGccsdE5j460Aneoy7sw=
     type: LaTeX
     subType: article
   /Users/cortbreuer/Library/Application Support/dicy/config.yaml:
@@ -143,10 +143,122 @@ files:
     jobNames: []
     type: Nil
   Problem Set 7.fls-ParsedFileListing:
+    timeStamp: 2019-11-22T23:12:05.124Z
     jobNames: []
+    value:
+      messages: []
+      inputs:
+        - /usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map
+        - >-
+          /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+        - >-
+          /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+        - >-
+          /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+        - >-
+          /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+        - >-
+          /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+        - >-
+          /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+        - >-
+          /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+        - /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+        - /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+        - /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+        - /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+        - /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
+        - >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+        - >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+        - >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+        - >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
+        - >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+        - >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb
+        - >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+        - >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+        - >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+        - >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb
+        - /usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+        - >-
+          /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/keyval.tex
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+        - /usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+        - >-
+          /usr/local/texlive/2018/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/datetime/datetime.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fc-english.def
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+        - >-
+          /usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang2.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang3.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+        - >-
+          /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+        - /usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+        - /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
+        - /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+        - /usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
+        - /usr/local/texlive/2018/texmf.cnf
+        - Problem Set 7.aux
+        - Problem Set 7.tex
+      outputs:
+        - Problem Set 7.aux
+        - Problem Set 7.log
+        - Problem Set 7.pdf
+      calls: []
     type: ParsedFileListing
   Problem Set 7.log-ParsedLaTeXLog:
-    timeStamp: 2019-11-22T03:37:40.732Z
+    timeStamp: 2019-11-22T23:12:05.156Z
     jobNames: []
     value:
       messages:
@@ -906,34 +1018,6 @@ files:
             range:
               start: 323
               end: 326
-        - severity: warning
-          name: pdfTeX
-          category: LaTeX
-          text: File `icecream_temp.png' not found
-          source:
-            file: Problem Set 7.tex
-            range:
-              start: 55
-              end: 55
-          log:
-            file: Problem Set 7.log
-            range:
-              start: 340
-              end: 340
-        - severity: error
-          name: pdfTeX
-          text: 'File `icecream_temp.png'' not found: using draft setting'
-          log:
-            file: Problem Set 7.log
-            range:
-              start: 343
-              end: 345
-          source:
-            file: Problem Set 7.tex
-            range:
-              start: 55
-              end: 55
-          category: Package pdftex.def
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -941,13 +1025,13 @@ files:
           source:
             file: Problem Set 7.tex
             range:
-              start: 110
-              end: 110
+              start: 64
+              end: 64
           log:
             file: Problem Set 7.log
             range:
-              start: 359
-              end: 359
+              start: 332
+              end: 332
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -955,29 +1039,336 @@ files:
           source:
             file: Problem Set 7.tex
             range:
-              start: 110
-              end: 110
+              start: 64
+              end: 64
           log:
             file: Problem Set 7.log
             range:
-              start: 363
-              end: 363
+              start: 336
+              end: 336
       inputs: []
       outputs:
         - Problem Set 7.pdf
       calls: []
     type: ParsedLaTeXLog
   Problem Set 7.log:
-    timeStamp: 2019-11-22T03:37:53.768Z
+    timeStamp: 2019-11-23T02:37:34.246Z
     jobNames: []
-    hash: kHhEDR4ckcKO+Hac+AS2/E3ZFZMtab23pDCBja1YAf0=
+    hash: vnXTjYhQzyQ0FTtOq0QISCKCOASK4T2gMIMbMqf9PU8=
     type: LaTeXLog
     subType: pdfTeX
   Problem Set 7.pdf:
-    timeStamp: 2019-11-22T03:38:04.506Z
+    timeStamp: 2019-11-23T02:37:34.244Z
     jobNames: []
-    hash: VKMmzcDlVyexYEC+vbHSMH6iqI1dvULro5kIFLsjNfs=
+    hash: iWrNUg48dVWZxVYj2AEhrHp4v60qAVm9IEtn7aSPnxU=
     type: PortableDocumentFormat
+  Problem Set 7.aux:
+    timeStamp: 2019-11-23T02:37:34.193Z
+    jobNames: []
+    hash: M0WgdaIvs7vARWeh5WYO0CQNU/WIH0WKIjTc1Cp40zU=
+    type: LaTeXAuxilary
+  Problem Set 7.fls:
+    timeStamp: 2019-11-23T02:37:34.224Z
+    jobNames: []
+    hash: 5VMIvrJhia0j4+qhmbjmGwtnBWyTMBv5TaFjGykUVEM=
+    type: FileListing
+  Problem Set 7.synctex.gz:
+    timeStamp: 2019-11-23T02:37:34.246Z
+    jobNames: []
+    hash: 4OowPbP+Pb8U06jngj6doKAwWW448o9NIvk2/f/Aiks=
+    type: SyncTeX
+  Problem Set 7.aux-ParsedLaTeXAuxilary:
+    timeStamp: 2019-11-22T23:12:05.118Z
+    jobNames: []
+    value:
+      commands:
+        - relax
+    type: ParsedLaTeXAuxilary
+  /usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map:
+    timeStamp: 2017-11-27T23:19:31.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm:
+    timeStamp: 2016-11-25T18:31:38.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm:
+    timeStamp: 2016-11-25T18:31:38.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm:
+    timeStamp: 2016-11-25T18:31:38.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm:
+    timeStamp: 2016-11-25T18:31:38.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm:
+    timeStamp: 2016-11-25T18:31:38.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm:
+    timeStamp: 2016-11-25T18:31:38.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm:
+    timeStamp: 2016-11-25T18:31:38.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr8.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb:
+    timeStamp: 2016-11-25T18:32:13.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb:
+    timeStamp: 2016-11-25T18:32:13.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb:
+    timeStamp: 2016-11-25T18:32:13.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb:
+    timeStamp: 2016-11-25T18:32:13.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb:
+    timeStamp: 2016-11-25T18:32:13.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb:
+    timeStamp: 2016-11-25T18:32:13.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb:
+    timeStamp: 2016-11-25T18:32:13.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb:
+    timeStamp: 2016-11-25T18:32:13.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb:
+    timeStamp: 2016-11-25T18:32:13.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb:
+    timeStamp: 2016-11-25T18:32:13.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii:
+    timeStamp: 2016-11-25T18:33:26.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty:
+    timeStamp: 2016-11-25T18:33:35.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty:
+    timeStamp: 2016-11-25T18:33:35.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty:
+    timeStamp: 2016-11-25T18:33:35.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty:
+    timeStamp: 2017-03-26T21:48:50.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty:
+    timeStamp: 2016-11-25T18:33:35.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty:
+    timeStamp: 2016-11-25T18:33:35.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty:
+    timeStamp: 2016-11-25T18:33:35.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty:
+    timeStamp: 2016-11-25T18:33:35.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty:
+    timeStamp: 2016-11-25T18:33:35.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty:
+    timeStamp: 2018-03-30T21:19:41.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/keyval.tex:
+    timeStamp: 2016-11-25T18:33:39.000Z
+    jobNames: []
+    type: TeX
+  /usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex:
+    timeStamp: 2016-11-25T18:33:39.000Z
+    jobNames: []
+    type: TeX
+  /usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex:
+    timeStamp: 2016-11-25T18:33:39.000Z
+    jobNames: []
+    type: TeX
+  /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty:
+    timeStamp: 2016-11-25T18:33:40.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty:
+    timeStamp: 2016-11-25T18:33:40.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd:
+    timeStamp: 2016-11-25T18:33:40.000Z
+    jobNames: []
+    type: FontDescription
+  /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd:
+    timeStamp: 2016-11-25T18:33:40.000Z
+    jobNames: []
+    type: FontDescription
+  /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty:
+    timeStamp: 2018-04-07T20:51:30.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty:
+    timeStamp: 2018-04-07T20:51:30.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty:
+    timeStamp: 2018-04-07T20:51:30.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty:
+    timeStamp: 2018-04-07T20:51:30.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty:
+    timeStamp: 2018-04-07T20:51:30.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls:
+    timeStamp: 2018-04-06T21:33:45.000Z
+    jobNames: []
+    type: LaTeXClass
+  /usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty:
+    timeStamp: 2018-04-06T21:33:45.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo:
+    timeStamp: 2018-04-06T21:33:45.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/latex/datetime/datetime-defaults.sty:
+    timeStamp: 2016-11-25T18:33:46.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/datetime/datetime.sty:
+    timeStamp: 2016-11-25T18:33:46.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty:
+    timeStamp: 2018-02-11T22:50:58.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty:
+    timeStamp: 2017-06-30T22:24:08.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fc-english.def:
+    timeStamp: 2017-12-28T23:44:51.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fcnumparser.sty:
+    timeStamp: 2017-12-28T23:44:51.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fcprefix.sty:
+    timeStamp: 2017-12-28T23:44:51.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fmtcount.sty:
+    timeStamp: 2017-12-28T23:44:51.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty:
+    timeStamp: 2018-03-25T21:23:05.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg:
+    timeStamp: 2016-11-25T18:33:50.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg:
+    timeStamp: 2016-11-25T18:33:50.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def:
+    timeStamp: 2018-01-09T22:36:08.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty:
+    timeStamp: 2018-04-07T20:53:05.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty:
+    timeStamp: 2018-04-07T20:53:05.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty:
+    timeStamp: 2018-04-07T20:53:05.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty:
+    timeStamp: 2018-04-07T20:53:05.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg:
+    timeStamp: 2016-11-25T18:33:53.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg:
+    timeStamp: 2016-11-25T18:33:53.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.sty:
+    timeStamp: 2016-11-25T18:33:53.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty:
+    timeStamp: 2016-11-25T18:33:53.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang2.sty:
+    timeStamp: 2016-11-25T18:33:53.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang3.sty:
+    timeStamp: 2016-11-25T18:33:53.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty:
+    timeStamp: 2016-11-25T18:33:53.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty:
+    timeStamp: 2016-11-25T18:33:56.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty:
+    timeStamp: 2016-11-25T18:33:56.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty:
+    timeStamp: 2016-11-25T18:33:56.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty:
+    timeStamp: 2016-11-25T18:34:03.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf:
+    timeStamp: 2018-03-26T12:22:29.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map:
+    timeStamp: 2018-04-17T03:08:12.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt:
+    timeStamp: 2018-04-17T03:08:36.000Z
+    jobNames: []
+  /usr/local/texlive/2018/texmf.cnf:
+    timeStamp: 2018-04-17T03:08:03.000Z
+    jobNames: []
 rules:
   - name: ApplyOptions
     command: load
@@ -1074,9 +1465,200 @@ rules:
         type: default
       - file: Problem Set 7.log-ParsedLaTeXLog
         type: default
+      - file: Problem Set 7.aux
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/keyval.tex
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/datetime/datetime.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fc-english.def
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang2.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang3.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+        type: default
+      - file: >-
+          /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+        type: default
+      - file: /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
+        type: default
+      - file: /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+        type: default
+      - file: /usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
+        type: default
+      - file: /usr/local/texlive/2018/texmf.cnf
+        type: default
     outputs:
       - file: Problem Set 7.pdf
+        type: target
+      - file: Problem Set 7.aux
         type: default
+      - file: Problem Set 7.fls
+        type: default
+      - file: Problem Set 7.log
+        type: default
+      - file: Problem Set 7.synctex.gz
+        type: target
   - name: LogProducedTargets
     command: build
     phase: finalize
@@ -1134,4 +1716,26 @@ rules:
         type: default
     outputs:
       - file: Problem Set 7.log-ParsedLaTeXLog
+        type: default
+  - name: ParseLaTeXAuxilary
+    command: build
+    phase: execute
+    parameters:
+      - Problem Set 7.aux
+    inputs:
+      - file: Problem Set 7.aux
+        type: default
+    outputs:
+      - file: Problem Set 7.aux-ParsedLaTeXAuxilary
+        type: default
+  - name: ParseFileListing
+    command: build
+    phase: execute
+    parameters:
+      - Problem Set 7.fls
+    inputs:
+      - file: Problem Set 7.fls
+        type: default
+    outputs:
+      - file: Problem Set 7.fls-ParsedFileListing
         type: default

@@ -1,0 +1,168 @@
+\documentclass{article}    % Specifies the document style.
+\renewcommand{\baselinestretch}{1}      % Spacing
+\setlength{\oddsidemargin}{0in} \setlength{\evensidemargin}{0in} \setlength{\textwidth}{6.5in}
+\setlength{\topmargin}{-.2in} \setlength{\headsep}{0in} \setlength{\textheight}{9.5in}
+\pagestyle{empty}
+%
+\usepackage{color}
+\usepackage{amsmath,amsthm, mathtools}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{url}
+
+\newcommand{\answer}[1]{{\color{blue}#1}}
+\newcommand{\grade}[1]{\textcolor{red}{#1}}
+%\renewcommand{\grade}[1]{ }	%to remove grading scheme, just make this link active
+%\renewcommand{\answer}[1]{ } %%to remove answer , just make this link active
+
+\definecolor{darkgreen}{rgb}{0,.4,0}
+\newcommand{\yccomment}[1]{\textbf{\color{darkgreen} Yudong --- #1}}
+\renewcommand{\yccomment}[1]{ } %%to remove Yudong'scomment , just make this active
+
+
+\begin{document}           % End of preamble and beginning of text.
+	\begin{center}
+		
+		\textbf{\large{ENGRD 2700, Basic Engineering Probability and Statistics, Fall 2019}}
+		
+		\vskip 0.25em
+		
+		\textbf{\large{Homework 8}}
+	\end{center}
+	
+	\vskip 1em
+	
+	\noindent Due \textbf{Friday December 6} at 11:59 pm. Submit to Gradescope by clicking the name of the assignment. See \url{https://people.orie.cornell.edu/yudong.chen/engrd2700_2019fa.html#homework} for detailed submission instructions. 
+	
+	\vskip 1em
+	
+	
+	The same stipulations from Homework 1 (e.g., independent work, computer code, etc.) still apply. \bigskip
+	
+	\vskip 1em
+	
+	\begin{enumerate}[leftmargin=0.55cm]
+		\item For some reason, Harry has kept meticulous records of Harry's muffins, and found that they usually contain a number of blueberries that is normally distributed with mean $\mu_0 = 25$ and standard deviation $\sigma = 4$. However, recently  Jimmy suspects that Harry has been adding more blueberries than usual to his muffins. The last 12 muffins Jimmy bought contained the following numbers of blueberries:
+		$$
+		33 \quad 21 \quad 28 \quad 25 \quad 24 \quad 31 \quad 17 \quad 31 \quad 29 \quad 30 \quad 29 \quad 31
+		$$
+		Jimmy is considerate, and decides that he doesn't want to alarm Harry unless his findings are significant at the $\alpha = 0.05$ level.
+		\begin{enumerate}
+			\item Write down the (one-sided) hypothesis test being conducted above.
+			
+			\item Treating $ \sigma^2 $ as the true variance of the distribution, compute the test statistic associated with the above data.
+			
+			\item Does Jimmy reject $H_0$, the null hypothesis?
+			
+			\item If your answer to part (c) is ``yes'', how small would the sample mean $\bar x_{12}$ need to be for Jimmy not to reject $H_0$? Alternatively, if your answer to part (c) is ``no'', how large would $\bar x_{12}$ need to be for Jimmy to reject $H_0$?
+			
+			\item Repeat parts (b) and (c), but assume this time that Jimmy has no idea what $\sigma^2$ is.
+			
+		\end{enumerate}	
+		
+		\item Harriet suspects that the quarter in her pocket may not be a fair coin. She flips it 50 times, and to conduct a two-sided hypothesis test at the $\alpha = 0.025$ significance level. Heads appears $h = 28$ times. 
+		\begin{enumerate}
+			\item Does Harriet reject $H_0$, the null hypothesis that the coin is fair, for a 2-sided test?
+			
+			\item For what values of $h$ would Harriet reject $H_0$?
+			
+		\end{enumerate}
+		
+		\item According to the CDC, 17\% of school-age children in the United States are obese, while 33.8\% of adults in the U.S. are obese (having a Body Mass Index, or BMI, of at least 30).
+		\begin{enumerate}
+			\item In 2005, the Health Department in Marion County, Indiana measured the heights and weights of 90,147 school-age children, allowing exact determination of their BMIs. Among the children participating in the study, 22\%  were considered obese. Does this indicate that the true obesity rate for children in Marion County is different from the national average? Conduct a two-sided hypothesis test.
+			
+			\item The Marion County Health Department simultaneously conducted a telephone survey of 4784 adults. 25\% of participants reported as being obese. Does this indicate that the true adult obesity rate in Marion County is \underline{lower than} the national average? Conduct a \underline{one-sided} hypothesis test. \yccomment{\Large You should do a one-sided test here.}
+			
+			\vskip 0.25em
+			
+			\item What are the potential issues with the study above?
+			
+			\vskip 0.25em
+			
+		\end{enumerate}
+		
+		
+		% \item \grade{15 total} Let $X_1, \ldots, X_{25}$ be i.i.d. Normal$(\mu, \, 8^2)$ random variables. We want to perform the hypothesis test
+		% $$
+		%     H_0: \mu = 100 \qquad \qquad \qquad H_1: \mu < 100,
+		% $$
+		% at the $\alpha = 0.05$ significance level.
+		
+		% \begin{enumerate}
+		% 		\item \grade{1 pt} What is the probability of making a Type I error?
+		
+		% 			\answer{
+		% 			By definition, this probability is $\alpha = 0.05$.}
+		
+		
+		% 		\grade{All or nothing.}
+		
+		% 		\item \grade{3 pts} For what values of $\bar X_{25}$ would we reject $H_0$?
+		
+		% 		\answer{
+		% 			\begin{center}
+		% 				\includegraphics[scale=0.65]{q4b}
+		% 			\end{center}
+		% 		}
+		
+		% 		\grade{1 pt for setting up an expression to solve for the rejection region, 2 pts for finding the region}
+		
+		% 		\item \grade{4 pts} If the true mean is $\mu_1 = 95$, what is $\beta$, the probability of making a Type II error?
+		
+		% 			\answer{
+		% 			\begin{center}
+		% 				\includegraphics[scale=0.63]{q4c}
+		% 			\end{center}
+		% 		}
+		
+		% 		\grade{1 pt for setting up $\beta = P(\text{Fail to reject} \, | \, \text{True Mean = 95})$, 2 pts for standardizing, 1 pt for solving.}
+		
+		% 		\item \grade{2 pts} Suppose, as in part (c), that $\mu_1 = 95$. If we wanted to devise a test for which the Type I and Type II error rates are $\alpha = 0.01$ and $\beta = 0.05$, respectively, how many samples would we need to collect?
+		
+		% 			\answer{
+		% 			\begin{center}
+		% 				\includegraphics[scale=0.63]{q4d}
+		% 			\end{center}
+		% 		}
+		
+		% 		\grade{1 pt for citing the correct expression, 1 pt for final answer. Okay if answer rounded up.} 
+		
+		% 		\item \grade{5 pts} Now suppose, contrary to parts (c) and (d), that we do not know the value of $\mu_1$. Use R (or similar software) to plot the power function, $\beta(\mu_1)$, for values of $\mu_1$ ranging from 90 to 100. Attach any code you use to generate your plot.
+		
+		% 		\answer{
+		% 			See the file \texttt{hw9-solution.R}.
+		% 		}
+		
+		% 		\grade{1 pt for code, 2 pts for power function computation, 2 pts for plot}
+		% \end{enumerate}
+		
+		
+		
+		
+		\item Consider once again the temperature data \texttt{ithaca.csv} and \texttt{syracuse.csv} from Homework 7. We want to conduct the hypothesis test
+		$$
+		H_0: \mu_i = \mu_s \qquad \qquad H_1: \mu_i \neq \mu_s
+		$$
+		at the $\alpha = 0.05$ significance level, where $ \mu_i $ and $ \mu_s $ denote the mean temperatures in both cities during the month of March. Attach your code for the following questions.
+		\begin{enumerate}
+			\item If we make the (unrealistic) assumption that the two samples are independent, do we reject $H_0$?
+			
+			\item Repeat part (a), but relax the assumption that the two cities are independent. That is, we build a hypothesis test for paired, dependent data. (Now that this is only possible when the two samples contain the same number of observations for the same dates.)\\
+			
+		\end{enumerate}
+		
+		\item A certain NBA player had a field goal percentage (i.e., probability of making a shot) of $p_0 = 60\%$ before needing to take a season off to recover from an injury. 
+		
+		\begin{enumerate}
+			\item Since returning to the game from injury, the
+			player has made $ 13 $ out of $ n=20 $ shots. Is the player's new, post-injury field goal percentage higher than his old percentage $ p_0 $? Perform a suitable one-sided hypothesis test and state your conclusion, taking $\alpha = 0.05$. 
+			
+			\item Suppose that the true new field goal percentage is $ p $, where $ p\in(0.6,1) $. If we perform a one-sided test as above and want to achieve type-I error rate of $ 0.05$ and type-II error rate of $ 0.025 $, what is the number of shots $ n $ needed since returning from injury? Provide an approximate formula as a function of $ p $, and compute the values of $n$ for each of $p = 0.8, 0.7, 0.61$ (Notice
+			that if $ p $ is very close to $ 0.6 $ then you may need a very large number of shots.) 
+			
+		\end{enumerate}
+		
+	\end{enumerate}
+\end{document}
+
