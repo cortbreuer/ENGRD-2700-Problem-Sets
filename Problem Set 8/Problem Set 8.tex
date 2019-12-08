@@ -55,50 +55,187 @@
 
 \section*{Question 1}
 
-100 service times with a sample mean of 9 minutes and standard deviation of 6 minutes.
+Muffins containing blueberries normally distributed with $\mu_o = 25$ and $\sigma = 4$. Last twelve muffins contained $[33, 21, 28, 25, 24, 31, 17, 31, 29, 30, 29, 31]$ and looking for alpha of $\alpha = .05$.
 
 \subsection*{Part A}
 
+The hypothesis test consists of $H_o$ is $\mu = 25$ and $H_1$ is $\mu > 25$.
+
 \subsection*{Part B}
+
+$$T = \frac{\bar{x_n} - \mu_0}{\sigma / \sqrt{n}} = \frac{27.417 - 25}{4 / \sqrt{12}} = 2.093$$
 
 \subsection*{Part C}
 
+$$p = P \Big( Z > \frac{\bar{x_n} - \mu_0}{\sigma / \sqrt{n}} \Big) = P \Big( Z > 2.093 \Big) = .018$$
+
+Yes, since $.018 < .05$ Jimmy rejects the null hypothesis.
+
 \subsection*{Part D}
 
+$$Z_.05 = 1.645$$
+
+$$T < 1.645 \qquad \longrightarrow \qquad \frac{\bar{x_n} - 25}{4 / \sqrt{12}} < 1.645$$
+
+$$\bar{x_n} < \frac{4 \cdot 1.645}{\sqrt{12}} + 25 < 26.9$$
+
 \subsection*{Part E}
+
+$$S_n = 4.76$$
+
+$$T = \frac{\bar{x_n} - \mu_0}{S_n / \sqrt{n-1}} = \frac{27.417 - 25}{4.76 / \sqrt{11}} = 1.76$$
+
+$$p = P \Big( Z > \frac{\bar{x_n} - \mu_0}{S_n / \sqrt{n-1}} \Big) = P \Big( T > 1.76 \Big) = .0531$$
+
+\begin{lstlisting}[language=R]
+    p <- 1 - pt(1.75, df = 11)
+\end{lstlisting}
+
+\noindent Since $.0531 < .05$, Jimmy fails to reject the null hypothesis.
 
 \newpage
 
 \section*{Question 2}
 
+Coin that might not be fair, flipped 50 times, with 28 heads. Two-sided hypothesis test with $\alpha = .025$.
+
 \subsection*{Part A}
 
+$H_0$ is $p = .5$ and $H_1$ is $p \neq .5$
+
+$$\bar{x_n} = \frac{28}{50} = .56$$
+
+$$T = \frac{\bar{x_n} - \mu}{S_n / \sqrt{n}} = \frac{.56 - .5}{.5 / \sqrt{50}} = .849$$
+
+$$p = P(|Z| \geq T) = P(Z \geq .849) + P(Z \leq -.849) = .396$$
+
+\noindent Harriet fails to reject the null hypothesis since $.396 > .025$.
+
 \subsection*{Part B}
+
+$$z_{.0125} = 2.24$$
+
+$$T = \frac{\frac{h}{50} - \mu}{S_n / \sqrt{n}} = \frac{\frac{h}{50} - .5}{.5 / \sqrt{50}}$$
+
+$$T \geq 2.24 \qquad \longrightarrow \qquad \frac{\frac{h}{50} - .5}{.5 / \sqrt{50}} \geq 2.24$$
+
+$$h \geq 50 \Big( \frac{2.24 \cdot .5}{\sqrt{50}} + .5 \Big) \leq 32.9 \leq 33$$
+
+$$T \geq -2.24 \qquad \longrightarrow \qquad \frac{\frac{h}{50} - .5}{.5 / \sqrt{50}} \leq -2.24$$
+
+$$h \geq 50 \Big( \frac{-2.24 \cdot .5}{\sqrt{50}} + .5 \Big) \geq 17.1 \geq 18$$
+
+\noindent Harriet would reject the null hypothesis for $h \geq 18$ and $h \leq 33$.
 
 \newpage
 
 \section*{Question 3}
 
+17\% of US children are obese and 33.8\% of US adults are obese.
+
 \subsection*{Part A}
+
+Marion County measured 90,147 children's heights and weights, finding 22\% were obese. Use two-sided hypothesis test.\\
+
+$H_0$ is $p = .17$ and $H_1$ is $p \neq .17$
+
+$$T = \frac{.22 - .17}{\sqrt{(.17)(1 - .17)} / \sqrt{90147}} = 39.97$$
+
+$$p\text{-value} = P(T < -39.97) + P(T > 39.97) = 2.43 \cdot 10^{-349}$$
+
+\noindent Since $2.43 \cdot 10^{-349} < .05$, we reject the null hypothesis, suggesting that the Marion child obesity rate is different from the national average.
 
 \subsection*{Part B}
 
+$H_0$ is $p = .338$ and $H_1$ is $p < .338$\\
+
+$$T = \frac{.25 - .338}{\sqrt{(.338)(1 - .338)} / \sqrt{4784}} = -12.87$$
+
+$$p\text{-value} = P(T < -12.87) = 3.32 \cdot 10^{-38}$$
+
+\noindent Since $3.32 \cdot 10^{-38} < .05$, we reject the null hypothesis, suggesting that the Marion adult obesity rate is lower than the national average.
+
 \subsection*{Part C}
+
+Since the adult survey was conducted over the phone instead of consisting of actual measurement survey participants could have lied about whether they were obese. The selection and willingness of individuals could also have affected the outcome since people who are willing to participate could be inherently more likely to be obese or not obese.
 
 \newpage
 
 \section*{Question 4}
 
+Temperature data for Ithaca and Syracuse provided. Looking at hypothesis test where $H_0$ is $\mu_i = \mu_s$ and $H_1$ is $\mu_i \neq \mu_s$ with $\alpha = .05$.
+
 \subsection*{Part A}
 
+Use $T = \frac{\mu_i - \mu_s}{\sqrt{\frac{\sigma^2_i}{n}} + \sqrt{\frac{\sigma^2_s}{n}}}$
+
+\begin{lstlisting}[language=R]
+    ithacaTemp <- read_csv("Data/ithaca.csv")
+    syracuseTemp <- read_csv("Data/syracuse.csv")
+
+    n <- length(ithacaTemp$maxtemp)
+    mu_i <- mean(ithacaTemp$maxtemp)
+    mu_s <- mean(syracuseTemp$maxtemp)
+    sd_i <- sd(ithacaTemp$maxtemp)
+    sd_s <- sd(syracuseTemp$maxtemp)
+
+    T <- (mu_i - mu_s)/(sqrt(sd_i^2 / n) + sqrt(sd_s^2 / n))
+    p <- pnorm(-T) + 1 - pnorm(T)
+\end{lstlisting}
+
+\noindent Since $.875 > .05$ we fail to reject the null hypothesis.
+
 \subsection*{Part B}
+
+\begin{lstlisting}[language=R]
+    deltaTemp <- ithacaTemp$maxtemp - syracuseTemp$maxtemp
+
+    n <- length(deltaTemp)
+    mu <- mean(deltaTemp)
+    sd <- sd(deltaTemp)
+
+    T <- mu / (sd / sqrt(n))
+    p <- pnorm(-T) + 1 - pnorm(T)
+\end{lstlisting}
+
+\noindent Since $.218 > .05$ we fail to reject the null hypothesis.
 
 \newpage
 
 \section*{Question 5}
 
+Athlete with goal percentage of $p_0 = 60\%$.
+
 \subsection*{Part A}
 
+Athlete takes a season off and makes 13 of 20 shots after coming back. One-sided hypothesis test with $\alpha = .05$.\\
+
+\noindent $H_0$ is $p = .6$ and $H_1$ is $p > .6$.
+
+$$p = \frac{13}{20} = .65$$
+
+$$T = \frac{.65 - .6}{\sqrt{(.65)(1 - .65)} / \sqrt{20}} = .469$$
+
+$$p\text{-value} = P(T > .469) = .32$$
+
+\noindent $.32 > .1$ so we fail to reject the null hypothesis.
+
 \subsection*{Part B}
+
+New field goal percentage of $p \in (.6, 1)$.\\
+
+\noindent Type-1 Error of $z_{.05} = 1.645$\\
+
+\noindent Type-2 Error of $z_{.025} = .96$
+
+$$n = \Big[ \frac{\sigma (z_{.05} + z_{.025})}{\mu_0 - \mu_1} \Big]^2$$
+
+$$n = \Big[ \frac{\sqrt{(.65)(1 - .65)}(1.645 + .96)}{\mu - .6} \Big]^2 = \Big[ \frac{1.243}{\mu -.6}\Big]^2$$
+
+$$n(p = .8) = \Big[ \frac{1.243}{.8 -.6}\Big]^2 = 38.6 \approx 39 \text{ shots}$$
+
+$$n(p = .7) = \Big[ \frac{1.243}{.7 -.6}\Big]^2 = 154.5 \approx 155 \text{ shots}$$
+
+$$n(p = .61) = \Big[ \frac{1.243}{.61 -.6}\Big]^2 = 15450.5 \approx 15451 \text{ shots}$$
 
 \end{document}

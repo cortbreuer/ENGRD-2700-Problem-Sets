@@ -1,8 +1,8 @@
-PWD /Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 2700 Work/Problem Sets/Problem Set 8
+PWD /Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/Problem Sets/Problem Set 8
 INPUT /usr/local/texlive/2018/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 2700 Work/Problem Sets/Problem Set 8/Problem Set 8.tex
+INPUT /Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/Problem Sets/Problem Set 8/Problem Set 8.tex
 OUTPUT Problem Set 8.log
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
@@ -71,8 +71,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 2700 Work/Problem Sets/Problem Set 8/Problem Set 8.aux
-INPUT /Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 2700 Work/Problem Sets/Problem Set 8/Problem Set 8.aux
+INPUT /Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/Problem Sets/Problem Set 8/Problem Set 8.aux
+INPUT /Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/Problem Sets/Problem Set 8/Problem Set 8.aux
 OUTPUT Problem Set 8.aux
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fc-english.def
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/fmtcount/fc-english.def
@@ -105,10 +105,40 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang2.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang2.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang3.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang3.sty
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
 OUTPUT Problem Set 8.pdf
 INPUT /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT /Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/ENGRD 2700 Work/Problem Sets/Problem Set 8/Problem Set 8.aux
+INPUT /Users/cortbreuer/Desktop/Storage/Cornell/Sophomore Fall 2019/ENGRD 2700/Problem Sets/Problem Set 8/Problem Set 8.aux
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb
