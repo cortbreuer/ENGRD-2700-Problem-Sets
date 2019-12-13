@@ -109,6 +109,40 @@ $$p = P(T_2 < -2.11) + P(T_2 > 2.11) = .169$$
 
 \subsection*{Part A}
 
+\begin{lstlisting}[language=R]
+    quartet <- read.csv("Data/Quartet.csv")
+
+    Fit_1 = lm(quartet$y1 ~ quartet$x1)
+    Fit_2 = lm(quartet$y2 ~ quartet$x2)
+    Fit_3 = lm(quartet$y3 ~ quartet$x3)
+    Fit_4 = lm(quartet$y4 ~ quartet$x4)
+\end{lstlisting}
+
+\noindent The four fit lines are:
+
+\noindent Series 1: $y = 3.0001 + .5001x$
+
+\noindent Series 2: $y = 3.001 + .5000x$
+
+\noindent Series 3: $y = 3.0025 + .4997x$
+
+\noindent Series 4: $y = 3.0017 + .4999x$
+
 \subsection*{Part B}
+
+\begin{lstlisting}[language=R]
+    summary(Fit_1)
+    summary(Fit_2)
+    summary(Fit_3)
+    summary(Fit_4)
+\end{lstlisting}
+
+\noindent Series 1: $R^2 = .6665$
+
+\noindent Series 2: $R^2 = .6662$
+
+\noindent Series 3: $R^2 = .6663$
+
+\noindent Series 4: $R^2 = .6667$
 
 \end{document}

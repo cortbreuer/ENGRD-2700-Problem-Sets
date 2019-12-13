@@ -130,9 +130,9 @@ files:
       $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
     type: ParsedYAML
   Problem Set 9.tex:
-    timeStamp: 2019-12-13T21:15:49.136Z
+    timeStamp: 2019-12-13T21:59:20.153Z
     jobNames: []
-    hash: hghmoRAcNTI+bwvlqnHKry++H6oNIeO5Q4ITGmNbhxk=
+    hash: hN6VGY+2d0RR7Wo4w6M/HzCRd7/YMwe0cr2H0Mpnwpo=
     type: LaTeX
     subType: article
   /Users/cortbreuer/Library/Application Support/dicy/config.yaml:
@@ -1052,30 +1052,30 @@ files:
       calls: []
     type: ParsedLaTeXLog
   Problem Set 9.aux:
-    timeStamp: 2019-12-13T21:15:49.798Z
+    timeStamp: 2019-12-13T21:59:20.800Z
     jobNames: []
     hash: M0WgdaIvs7vARWeh5WYO0CQNU/WIH0WKIjTc1Cp40zU=
     type: LaTeXAuxilary
   Problem Set 9.fls:
-    timeStamp: 2019-12-13T21:15:49.823Z
+    timeStamp: 2019-12-13T21:59:20.825Z
     jobNames: []
     hash: iwJDGaDTzjWuyqSUfJIujF14fm36oj7P2pWGbCdp0dE=
     type: FileListing
   Problem Set 9.log:
-    timeStamp: 2019-12-13T21:15:49.839Z
+    timeStamp: 2019-12-13T21:59:20.845Z
     jobNames: []
-    hash: sC1TWrQUl3a8rynOWfZ7in1YekD0cFWKvSdnwlrNzYA=
+    hash: 5Z0cHARP6Qg+WaaBKd8ueam9uMt4+99+OkpF4V/9d0k=
     type: LaTeXLog
     subType: pdfTeX
   Problem Set 9.synctex.gz:
-    timeStamp: 2019-12-13T21:15:49.839Z
+    timeStamp: 2019-12-13T21:59:20.845Z
     jobNames: []
-    hash: Q/jL7QHfRAf2luQZXPronis8V+7bSKJPneWOoJ2w7vo=
+    hash: voJeojnXlmXBaVfH4x+4x3cfyhWtjxBG2+T6IPO+dwI=
     type: SyncTeX
   Problem Set 9.pdf:
-    timeStamp: 2019-12-13T21:15:49.838Z
+    timeStamp: 2019-12-13T21:59:20.844Z
     jobNames: []
-    hash: Ro/xvlFt0RvM3t9ZMQIPv8K2lcddA7QSHELs/kqpFZ4=
+    hash: rVprAKRwmfb5KRiyVKdCJb8JN2NLYI2GJVpu3dGbRpI=
     type: PortableDocumentFormat
   Problem Set 9.aux-ParsedLaTeXAuxilary:
     timeStamp: 2019-12-05T21:04:14.526Z
